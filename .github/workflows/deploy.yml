@@ -1,0 +1,45 @@
+name: Deploy Hugo Blog via SSH
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.111.3'
+          extended: true
+
+      - name: Build Hugo site
+        run: hugo --minify
+
+      - name: Archive public folder
+        run: tar czf public.tar.gz -C public .
+
+      - name: Deploy via SSH
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_KEY }}
+          source: "public.tar.gz"
+          target: "/var/www/pq3.ru/html"
+          strip_components: 0
+
+      - name: Unpack on server (via SSH)
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_KEY }}
+          script: |
+            tar xzf /var/www/pq3.ru/html/public.tar.gz -C /var/www/pq3.ru/html
+            rm /var/www/pq3.ru/html/public.tar.gz
