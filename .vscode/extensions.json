@@ -1,5 +1,7 @@
 {
     "recommendations": [
-        "tamasfe.even-better-toml"
+        "tamasfe.even-better-toml",
+        "zaaack.markdown-editor",
+        "eliostruyf.vscode-front-matter"
     ]
 }
