@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Cognitive-Bias on [Mind Cloud]</title>
+    <link>http://localhost:1313/tags/cognitive-bias/</link>
+    <description>Recent content in Cognitive-Bias on [Mind Cloud]</description>
+    <generator>Hugo -- 0.147.7</generator>
+    <language>en</language>
+    <copyright>2015-2025 Oleg Y. Danilkiff</copyright>
+    <lastBuildDate>Thu, 09 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/cognitive-bias/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Anti-patterns of Distributed Reasoning</title>
+      <link>http://localhost:1313/posts/b.-reasoning-systems-for-collective-intelligence/05-reasoning-systems-for-collective-intelligence/anti-patterns-of-distributed-reasoning/</link>
+      <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/b.-reasoning-systems-for-collective-intelligence/05-reasoning-systems-for-collective-intelligence/anti-patterns-of-distributed-reasoning/</guid>
+      <description>&lt;h2 id=&#34;-context&#34;&gt;🎯 Context&lt;/h2&gt;
+&lt;p&gt;Distributed reasoning sounds like a dream — until it turns into distributed confusion.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Scaling thinking&lt;/strong&gt; requires not just enabling reasoning — but &lt;em&gt;guarding it&lt;/em&gt; against the failure modes that collective systems naturally fall into.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-core-anti-patterns-of-distributed-reasoning&#34;&gt;🧨 Core Anti-patterns of Distributed Reasoning&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;1. Fragmented Context Propagation&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Different parts of the team operate with divergent assumptions.&lt;/li&gt;
+&lt;li&gt;Symptoms: endless alignment meetings, inconsistent designs, duplicated mistakes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;2. Premature Convergence&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Teams rush to consensus without exploring alternative options.&lt;/li&gt;
+&lt;li&gt;Symptoms: brittle architectures, cultural resistance to dissent.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;3. Hidden Ownership of Reasoning&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

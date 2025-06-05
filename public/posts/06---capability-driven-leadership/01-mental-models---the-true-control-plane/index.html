@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Mental Models Are Infrastructure | [Mind Cloud]</title>
+<meta name="keywords" content="">
+<meta name="description" content="
+&ldquo;The map is not the territory
+&ndash; but sometimes it’s the bridge.&rdquo;
+&ndash; Alfred Korzybski revisited
+Cognitive Stack
+
+Context: This is a higher-order reflection article designed to reframe how mental models work as infrastructure for engineers, architects, and strategic leaders.
+As engineers and technical leaders, we often treat infrastructure as code, hardware, networks, and pipelines. But some of the most critical infrastructure isn&rsquo;t material at all — it&rsquo;s mental. Mental models shape how we think, what we notice, and how we act. They define defaults, constraints, and routes — exactly like physical infrastructure.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/posts/06---capability-driven-leadership/01-mental-models---the-true-control-plane/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.8fe10233a706bc87f2e08b3cf97b8bd4c0a80f10675a143675d59212121037c0.css" integrity="sha256-j&#43;ECM6cGvIfy4Is8&#43;XuL1MCoDxBnWhQ2ddWSEhIQN8A=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/06---capability-driven-leadership/01-mental-models---the-true-control-plane/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="[Mind Cloud] (Alt + H)">[Mind Cloud]</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/" title="index">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/" title="Credits">
+                    <span>Credits</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/" title="Documentation">
+                    <span>Documentation</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/" title="Contact">
+                    <span>Contact</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/sergeyklay/gohugo-theme-ed/" title="GitHub Project">
+                    <span>GitHub Project</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Mental Models Are Infrastructure
+    </h1>
+    <div class="post-meta"><span title='2025-05-30 00:00:00 +0000 UTC'>May 30, 2025</span>
+
+</div>
+  </header> 
+  <div class="post-content"><blockquote>
+<p>&ldquo;<a href="https://en.wikipedia.org/wiki/Map%E2%80%93territory_relation">The map is not the territory</a>
+&ndash; but sometimes it’s the bridge.&rdquo;
+&ndash; <a href="https://en.wikipedia.org/wiki/Alfred_Korzybski">Alfred Korzybski</a> revisited</p></blockquote>
+<h2 id="cognitive-stack">Cognitive Stack<a hidden class="anchor" aria-hidden="true" href="#cognitive-stack">#</a></h2>
+<blockquote>
+<p>Context: This is a higher-order reflection article designed to reframe how mental models work as infrastructure for engineers, architects, and strategic leaders.</p></blockquote>
+<p>As engineers and technical leaders, we often treat infrastructure as code, hardware, networks, and pipelines. But some of the most critical infrastructure isn&rsquo;t material at all — it&rsquo;s <strong>mental</strong>. Mental models shape how we think, what we notice, and how we act. They define <em>defaults</em>, <em>constraints</em>, and <em>routes</em> — exactly like physical infrastructure.</p>
+<p>If we ignore this, we become blind to the most fragile and powerful layer of our system: the one inside our heads.</p>
+<h2 id="mental-models-the-true-control-plane">Mental Models: The True Control Plane<a hidden class="anchor" aria-hidden="true" href="#mental-models-the-true-control-plane">#</a></h2>
+<p>Your team’s mental models — about latency, risk, architecture, user needs — are <strong>the real control plane</strong>. They drive:</p>
+<ul>
+<li>How incidents are diagnosed</li>
+<li>What designs are considered &ldquo;simple&rdquo;</li>
+<li>How tradeoffs are understood</li>
+<li>How growth, scale, or resilience are <em>conceptualized</em></li>
+</ul>
+<p>You can’t fix bad architecture without fixing the model behind it.
+You can’t enable team autonomy unless they share models of responsibility.
+You can’t reason about the future if your mental infrastructure is outdated.</p>
+<hr>
+<h2 id="why-it-matters-for-engineering-strategy">Why It Matters for Engineering Strategy<a hidden class="anchor" aria-hidden="true" href="#why-it-matters-for-engineering-strategy">#</a></h2>
+<p>When teams fail, we often patch the process. We rewrite documentation.
+But we don’t check: <em>Did people model the problem differently?</em>
+<em>Was the failure a result of conflicting cognitive infrastructure?</em></p>
+<p>Examples:</p>
+<ul>
+<li>One engineer thinks “latency” means API response time. Another thinks it means perceptual lag.</li>
+<li>One architect models “security” as perimeter defense. Another as data lifecycle.</li>
+<li>One leader treats “platform” as internal UX. Another as deployment velocity.</li>
+</ul>
+<p>These are not alignment issues. These are <strong>infrastructure mismatches</strong>.</p>
+<hr>
+<h2 id="the-infrastructure-stack--now-cognitive">The Infrastructure Stack — Now Cognitive<a hidden class="anchor" aria-hidden="true" href="#the-infrastructure-stack--now-cognitive">#</a></h2>
+<p>We already model infrastructure in layers:</p>
+<ul>
+<li>Physical &ndash; hardware, network</li>
+<li>Logical &ndash; protocols, services</li>
+<li>Software &ndash; applications, interfaces</li>
+</ul>
+<p>Now add:</p>
+<ul>
+<li>Cognitive &ndash; models, metaphors, frames</li>
+<li>Cultural &ndash; defaults, norms, safety</li>
+</ul>
+<p>Just like physical infrastructure, cognitive infrastructure needs:</p>
+<ul>
+<li><strong>Maintenance</strong> &ndash; reviewing outdated assumptions</li>
+<li><strong>Monitoring</strong> &ndash; surfacing implicit models in retros</li>
+<li><strong>Versioning</strong> &ndash; upgrading shared language as the org evolves</li>
+</ul>
+<hr>
+<h2 id="how-to-treat-mental-models-as-infrastructure">How to Treat Mental Models as Infrastructure<a hidden class="anchor" aria-hidden="true" href="#how-to-treat-mental-models-as-infrastructure">#</a></h2>
+<ol>
+<li>
+<p><strong>Expose the model</strong></p>
+<p>In architecture reviews or strategy docs, describe the assumptions <em>explicitly</em>.</p>
+</li>
+<li>
+<p><strong>Detect collisions early</strong></p>
+<p>Use design walkthroughs and incident reviews to surface cognitive mismatches.</p>
+</li>
+<li>
+<p><strong>Build shared libraries</strong></p>
+<p>Collect team models (as diagrams, analogies, or mental shortcuts) in a knowledge base.</p>
+</li>
+<li>
+<p><strong>Model shifts intentionally</strong></p>
+<p>If the org is moving from “project” to “product,” name the mental shift and what changes.</p>
+</li>
+</ol>
+<hr>
+<h2 id="reasoning-trail">Reasoning Trail<a hidden class="anchor" aria-hidden="true" href="#reasoning-trail">#</a></h2>
+<ul>
+<li>Emerged from articles on <strong>trustworthiness</strong> and <strong>resilience</strong>, where differing mental models led to costly coordination failures.</li>
+<li>Connects directly to &ldquo;Cognitive Load as Architectural Risk&rdquo; and &ldquo;Designing for Causal Clarity&rdquo;</li>
+<li>Related to <em>team maturity</em>, <em>role clarity</em>, and <em>reasoning-first architecture</em></li>
+</ul>
+<hr>
+<h2 id="final-note">Final Note<a hidden class="anchor" aria-hidden="true" href="#final-note">#</a></h2>
+<p>Infrastructure isn’t just code and cables.
+It’s the way we <em>think</em> about code and cables.
+If your systems are failing, check your servers — but also check your models.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>© 2015-2025 Oleg Y. Danilkiff</span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

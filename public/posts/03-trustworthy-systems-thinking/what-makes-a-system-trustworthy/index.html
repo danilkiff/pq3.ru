@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>What Makes a System Trustworthy? | [Mind Cloud]</title>
+<meta name="keywords" content="">
+<meta name="description" content="
+In engineering, trust is not a feeling.
+It&rsquo;s a measurable property of how systems behave under uncertainty.
+
+A system is trustworthy when it remains predictable, transparent, and improvable — even as the environment around it changes.
+
+🧠 The Three Pillars of Trustworthiness
+
+  
+      
+          Pillar
+          Definition
+          Why It Matters
+      
+  
+  
+      
+          Predictability
+          The system behaves within expected boundaries, even under stress.
+          Enables informed risk-taking.
+      
+      
+          Transparency
+          Internal processes and assumptions are visible and understandable.
+          Reduces the cost of diagnosing and evolving the system.
+      
+      
+          Improvability
+          The system can be safely changed without breaking its trust contract.
+          Allows adaptation without collapse.
+      
+  
+
+
+🚨 Why &ldquo;Working&rdquo; ≠ &ldquo;Trustworthy&rdquo;
+A system that &ldquo;works&rdquo; today may:">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/posts/03-trustworthy-systems-thinking/what-makes-a-system-trustworthy/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.8fe10233a706bc87f2e08b3cf97b8bd4c0a80f10675a143675d59212121037c0.css" integrity="sha256-j&#43;ECM6cGvIfy4Is8&#43;XuL1MCoDxBnWhQ2ddWSEhIQN8A=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/03-trustworthy-systems-thinking/what-makes-a-system-trustworthy/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="[Mind Cloud] (Alt + H)">[Mind Cloud]</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/" title="index">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/" title="Credits">
+                    <span>Credits</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/" title="Documentation">
+                    <span>Documentation</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/" title="Contact">
+                    <span>Contact</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/sergeyklay/gohugo-theme-ed/" title="GitHub Project">
+                    <span>GitHub Project</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      What Makes a System Trustworthy?
+    </h1>
+    <div class="post-meta"><span title='2016-04-01 00:00:00 +0000 UTC'>April 1, 2016</span>
+
+</div>
+  </header> 
+  <div class="post-content"><h1></h1>
+<p>In engineering, <strong>trust</strong> is not a feeling.<br>
+It&rsquo;s a measurable property of how systems behave under uncertainty.</p>
+<blockquote>
+<p>A system is trustworthy when it remains predictable, transparent, and improvable — even as the environment around it changes.</p></blockquote>
+<hr>
+<h2 id="-the-three-pillars-of-trustworthiness">🧠 The Three Pillars of Trustworthiness<a hidden class="anchor" aria-hidden="true" href="#-the-three-pillars-of-trustworthiness">#</a></h2>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: center">Pillar</th>
+          <th style="text-align: left">Definition</th>
+          <th style="text-align: left">Why It Matters</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center"><strong>Predictability</strong></td>
+          <td style="text-align: left">The system behaves within expected boundaries, even under stress.</td>
+          <td style="text-align: left">Enables informed risk-taking.</td>
+      </tr>
+      <tr>
+          <td style="text-align: center"><strong>Transparency</strong></td>
+          <td style="text-align: left">Internal processes and assumptions are visible and understandable.</td>
+          <td style="text-align: left">Reduces the cost of diagnosing and evolving the system.</td>
+      </tr>
+      <tr>
+          <td style="text-align: center"><strong>Improvability</strong></td>
+          <td style="text-align: left">The system can be safely changed without breaking its trust contract.</td>
+          <td style="text-align: left">Allows adaptation without collapse.</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="-why-working--trustworthy">🚨 Why &ldquo;Working&rdquo; ≠ &ldquo;Trustworthy&rdquo;<a hidden class="anchor" aria-hidden="true" href="#-why-working--trustworthy">#</a></h2>
+<p>A system that &ldquo;works&rdquo; today may:</p>
+<ul>
+<li>Mask hidden fragilities</li>
+<li>Depend on constant vigilance or heroism</li>
+<li>Collapse unpredictably under new conditions</li>
+</ul>
+<p>Trustworthiness means <strong>systemic safety</strong>, not <strong>momentary success</strong>.</p>
+<hr>
+<h2 id="-trustworthiness-vs-robustness">🔬 Trustworthiness vs. Robustness<a hidden class="anchor" aria-hidden="true" href="#-trustworthiness-vs-robustness">#</a></h2>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Aspect</th>
+          <th style="text-align: left">Robustness</th>
+          <th style="text-align: left">Trustworthiness</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Focus</td>
+          <td style="text-align: left">Surviving known stressors</td>
+          <td style="text-align: left">Handling unknown, evolving conditions</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Assumption</td>
+          <td style="text-align: left">Environment is bounded</td>
+          <td style="text-align: left">Environment is fluid</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Failure Mode</td>
+          <td style="text-align: left">Overengineered and rigid</td>
+          <td style="text-align: left">Self-correcting and reflective</td>
+      </tr>
+  </tbody>
+</table>
+<p>Robustness protects <strong>against</strong> change.<br>
+Trustworthiness thrives <strong>through</strong> change.</p>
+<hr>
+<h2 id="-building-for-trustworthiness">🛠 Building for Trustworthiness<a hidden class="anchor" aria-hidden="true" href="#-building-for-trustworthiness">#</a></h2>
+<h3 id="1-assumption-management">1. <strong>Assumption Management</strong><a hidden class="anchor" aria-hidden="true" href="#1-assumption-management">#</a></h3>
+<ul>
+<li>Make assumptions explicit.</li>
+<li>Monitor for assumption drift over time.</li>
+</ul>
+<h3 id="2-early-and-continuous-reflection">2. <strong>Early and Continuous Reflection</strong><a hidden class="anchor" aria-hidden="true" href="#2-early-and-continuous-reflection">#</a></h3>
+<ul>
+<li>Not just postmortems after incidents, but reflection during normal operation.</li>
+</ul>
+<h3 id="3-architectural-integrity">3. <strong>Architectural Integrity</strong><a hidden class="anchor" aria-hidden="true" href="#3-architectural-integrity">#</a></h3>
+<ul>
+<li>Small, clear contracts between components.</li>
+<li>Minimized hidden coupling.</li>
+<li>Clear evolutionary pathways.</li>
+</ul>
+<h3 id="4-cultural-reinforcement">4. <strong>Cultural Reinforcement</strong><a hidden class="anchor" aria-hidden="true" href="#4-cultural-reinforcement">#</a></h3>
+<ul>
+<li>Normalize skepticism of &ldquo;working as intended.&rdquo;</li>
+<li>Celebrate discovery of hidden risks, not just heroics.</li>
+</ul>
+<hr>
+<h2 id="-reasoning-trail">🧭 Reasoning Trail<a hidden class="anchor" aria-hidden="true" href="#-reasoning-trail">#</a></h2>
+<p><strong>Origin:</strong><br>
+Synthesized from resilience engineering, system safety research, cognitive systems theory, and organizational trust frameworks.</p>
+<p>(Connected to: <em>Decision Feedback Loops</em>, <em>Systemic Decision Debt</em>, <em>Architectural Integrity Manifesto</em>.)</p>
+<p><strong>Trigger context:</strong></p>
+<ul>
+<li>High-availability systems that failed despite &ldquo;passing all tests&rdquo;</li>
+<li>Organizational breakdowns where &ldquo;trustworthy&rdquo; processes collapsed under new pressures</li>
+</ul>
+<p><strong>Core insight:</strong><br>
+→ <em>Trustworthiness is not an add-on feature. It&rsquo;s an emergent property of how a system thinks about itself.</em></p>
+<p><strong>Related artifacts:</strong></p>
+<ul>
+<li><code>Capability Mapping for Resilient Organizations</code></li>
+<li><code>Reasoning Debt Risk Models</code></li>
+</ul>
+<p><strong>Likely evolution:</strong></p>
+<ul>
+<li>Embedded &ldquo;Trustworthiness Contracts&rdquo; in architecture reviews</li>
+<li>Organizational trust audits beyond compliance checklists</li>
+</ul>
+<hr>
+<p>A system you can trust is a system that can survive learning about itself.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>© 2015-2025 Oleg Y. Danilkiff</span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

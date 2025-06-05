@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Reasoning-Architecture on [Mind Cloud]</title>
+    <link>http://localhost:1313/tags/reasoning-architecture/</link>
+    <description>Recent content in Reasoning-Architecture on [Mind Cloud]</description>
+    <generator>Hugo -- 0.147.7</generator>
+    <language>en</language>
+    <copyright>2015-2025 Oleg Y. Danilkiff</copyright>
+    <lastBuildDate>Tue, 07 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/reasoning-architecture/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building Reasoning Architectures in Teams</title>
+      <link>http://localhost:1313/posts/b.-reasoning-systems-for-collective-intelligence/05-reasoning-systems-for-collective-intelligence/building-reasoning-architectures-in-teams/</link>
+      <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/b.-reasoning-systems-for-collective-intelligence/05-reasoning-systems-for-collective-intelligence/building-reasoning-architectures-in-teams/</guid>
+      <description>&lt;h2 id=&#34;-context&#34;&gt;🎯 Context&lt;/h2&gt;
+&lt;p&gt;As teams grow, the cost of fragmented reasoning compounds.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Good decision-making doesn’t scale automatically with headcount.&lt;/strong&gt;&lt;br&gt;
+It requires intentional design: creating &lt;em&gt;reasoning architectures&lt;/em&gt; that support shared, transparent, and evolvable thinking.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-what-is-a-reasoning-architecture&#34;&gt;🧩 What is a Reasoning Architecture?&lt;/h2&gt;
+&lt;p&gt;A &lt;strong&gt;reasoning architecture&lt;/strong&gt; is the &lt;em&gt;meta-structure&lt;/em&gt; by which:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Decisions are framed.&lt;/li&gt;
+&lt;li&gt;Trade-offs are surfaced.&lt;/li&gt;
+&lt;li&gt;Assumptions are challenged.&lt;/li&gt;
+&lt;li&gt;Context is preserved.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;📍 &lt;em&gt;Critical Insight&lt;/em&gt;:&lt;br&gt;
+If you don&amp;rsquo;t design how your team thinks, the environment will design it for you — usually poorly.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

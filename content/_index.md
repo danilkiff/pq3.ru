@@ -10,7 +10,7 @@ Every post is a trail: not just what works, but why it works, when it breaks, an
 
 No hype, no productivity hacks, no "top ten" lists. Just real-world insights, critical questions, and explicit reasoning for engineers building systems that last.
 
-## See also
+## See also :heart:
 
 - [Why this blog exists?]({{< relref "why.md" >}})
 - [About myself]({{< relref "about.md" >}})

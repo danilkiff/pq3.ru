@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Arhitectural Integrity Manifesto | [Mind Cloud]</title>
+<meta name="keywords" content="">
+<meta name="description" content="In many engineering organizations, “architecture” has become a polite word for PowerPoint.
+But systems don’t run on slides — they run on assumptions, decisions, and consequences.
+This post outlines what architectural integrity really means when you are accountable for the system, but have limited influence over what goes into it.
+It&rsquo;s a personal and cultural statement. It&rsquo;s also a warning.
+
+🧱 What Architectural Integrity Actually Is
+Architectural integrity is not about control.
+It&rsquo;s about maintaining coherence between system constraints, decisions, and responsibility.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/posts/a.-reasoning-for-trust-and-change/01-architectural-integrity/architectural-integrity-manifesto/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.8fe10233a706bc87f2e08b3cf97b8bd4c0a80f10675a143675d59212121037c0.css" integrity="sha256-j&#43;ECM6cGvIfy4Is8&#43;XuL1MCoDxBnWhQ2ddWSEhIQN8A=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/a.-reasoning-for-trust-and-change/01-architectural-integrity/architectural-integrity-manifesto/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="[Mind Cloud] (Alt + H)">[Mind Cloud]</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/" title="index">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/" title="Credits">
+                    <span>Credits</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/" title="Documentation">
+                    <span>Documentation</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/" title="Contact">
+                    <span>Contact</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/sergeyklay/gohugo-theme-ed/" title="GitHub Project">
+                    <span>GitHub Project</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Arhitectural Integrity Manifesto
+    </h1>
+    <div class="post-meta"><span title='2016-02-01 00:00:00 +0000 UTC'>February 1, 2016</span>
+
+</div>
+  </header> 
+  <div class="post-content"><p>In many engineering organizations, “architecture” has become a polite word for PowerPoint.<br>
+But systems don’t run on slides — they run on assumptions, decisions, and consequences.</p>
+<p>This post outlines what architectural integrity really means when you are accountable for the system, but have limited influence over what goes into it.<br>
+It&rsquo;s a personal and cultural statement. It&rsquo;s also a warning.</p>
+<hr>
+<h2 id="-what-architectural-integrity-actually-is">🧱 What Architectural Integrity Actually Is<a hidden class="anchor" aria-hidden="true" href="#-what-architectural-integrity-actually-is">#</a></h2>
+<p>Architectural integrity is not about control.<br>
+It&rsquo;s about maintaining <strong>coherence between system constraints, decisions, and responsibility</strong>.</p>
+<p>It means:</p>
+<ul>
+<li>Being able to trace trade-offs and assumptions</li>
+<li>Ensuring designs aren’t compromised by unmanaged change</li>
+<li>Saying no to demands that violate systemic boundaries</li>
+</ul>
+<blockquote>
+<p>You can’t “do architecture” if your job is only to support any decision that’s already made.</p></blockquote>
+<hr>
+<h2 id="-common-anti-patterns">🚨 Common Anti-Patterns<a hidden class="anchor" aria-hidden="true" href="#-common-anti-patterns">#</a></h2>
+<h3 id="1-architecture-as-a-service">1. Architecture as a Service<a hidden class="anchor" aria-hidden="true" href="#1-architecture-as-a-service">#</a></h3>
+<p>Architects treated like internal consultants:<br>
+&ldquo;Here&rsquo;s what we plan to do, validate it.&rdquo;<br>
+No space to shape early ideas, no ownership of risk.</p>
+<h3 id="2-invisible-technical-debt">2. Invisible Technical Debt<a hidden class="anchor" aria-hidden="true" href="#2-invisible-technical-debt">#</a></h3>
+<p>Key trade-offs aren&rsquo;t documented or discussed.<br>
+Things get built fast, but fracture later.</p>
+<h3 id="3-just-ship-it-overrides">3. “Just ship it” overrides<a hidden class="anchor" aria-hidden="true" href="#3-just-ship-it-overrides">#</a></h3>
+<p>When business needs dominate without technical framing,<br>
+architecture becomes <strong>reactive glue</strong>, not proactive scaffolding.</p>
+<hr>
+<h2 id="-principles-of-integrity">🧭 Principles of Integrity<a hidden class="anchor" aria-hidden="true" href="#-principles-of-integrity">#</a></h2>
+<ol>
+<li>
+<p><strong>You must be allowed to say no.</strong><br>
+If you&rsquo;re responsible for long-term impact, you need the power to veto unsafe decisions.</p>
+</li>
+<li>
+<p><strong>All compromises must be visible.</strong><br>
+Every trade-off is a bet. Document it. Trace it. Validate it over time.</p>
+</li>
+<li>
+<p><strong>Responsibility implies participation.</strong><br>
+You cannot be accountable for something you had no say in shaping.</p>
+</li>
+</ol>
+<hr>
+<h2 id="-what-this-means-in-practice">🛠 What This Means in Practice<a hidden class="anchor" aria-hidden="true" href="#-what-this-means-in-practice">#</a></h2>
+<ul>
+<li>Maintain living ADRs (architecture decision records)</li>
+<li>Demand traceability between business constraints and system decisions</li>
+<li>Refuse to ship unreviewed technical debt masked as &ldquo;agile delivery&rdquo;</li>
+<li>Don’t let roles be confused: <strong>architect ≠ ticket finisher</strong></li>
+</ul>
+<blockquote>
+<p>Integrity is not perfection — it&rsquo;s the discipline of being honest about what you&rsquo;re building and why.</p></blockquote>
+<hr>
+<h2 id="-for-ctos-and-leads">🤝 For CTOs and Leads<a hidden class="anchor" aria-hidden="true" href="#-for-ctos-and-leads">#</a></h2>
+<p>If you’re in a leadership position:</p>
+<ul>
+<li>Protect the space where architectural reasoning happens</li>
+<li>Don’t overload architects with delivery tasks that erase their system view</li>
+<li>Push back when systemic risk is downplayed or externalized</li>
+</ul>
+<blockquote>
+<p>If you punish resistance, you disable foresight.</p></blockquote>
+<hr>
+<h2 id="-reasoning-trail">🧭 Reasoning Trail<a hidden class="anchor" aria-hidden="true" href="#-reasoning-trail">#</a></h2>
+<p><strong>Origin:</strong><br>
+Developed through firsthand experience of system design in constrained organizations (see: <em>Feature Drift &amp; Responsibility Transfer</em>, <em>Architectural Risk Drift</em>).</p>
+<p><strong>Trigger context:</strong></p>
+<ul>
+<li>Team delivering complex features with no upstream architecture alignment</li>
+<li>Architect forced into reactive roles, patching design flaws post-hoc</li>
+<li>Lack of veto power despite high accountability</li>
+</ul>
+<p><strong>Key insight:</strong><br>
+→ <em>Architectural integrity isn’t about authority — it’s about being structurally allowed to be responsible.</em></p>
+<p><strong>Related artifacts:</strong></p>
+<ul>
+<li><code>Architectural Risk Drift &amp; Role Safety Protocol</code></li>
+<li><code>Reflection Protocol: When Delegation Is Not Abdication</code></li>
+<li><code>Capability Map: Trustworthy Systems</code></li>
+<li><code>CTO Thinking Paradox</code></li>
+</ul>
+<p><strong>Likely evolution:</strong><br>
+This manifesto will connect to:</p>
+<ul>
+<li>Patterns of architectural influence without authority</li>
+<li>The role of cultural contracts in preserving system-level reasoning</li>
+<li>Real-world failure stories of suppressed architectural voices</li>
+</ul>
+<hr>
+<p>If you hold the responsibility, you must hold the voice.<br>
+If not — you’re not designing. You’re ghostwriting entropy.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>© 2015-2025 Oleg Y. Danilkiff</span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

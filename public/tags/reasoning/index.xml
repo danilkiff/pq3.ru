@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Reasoning on [Mind Cloud]</title>
+    <link>http://localhost:1313/tags/reasoning/</link>
+    <description>Recent content in Reasoning on [Mind Cloud]</description>
+    <generator>Hugo -- 0.147.7</generator>
+    <language>en</language>
+    <copyright>2015-2025 Oleg Y. Danilkiff</copyright>
+    <lastBuildDate>Mon, 06 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/reasoning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>From Solo Reasoning to Collective Intelligence</title>
+      <link>http://localhost:1313/posts/b.-reasoning-systems-for-collective-intelligence/05-reasoning-systems-for-collective-intelligence/from-solo-reasoning-to-collective-intelligence/</link>
+      <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/b.-reasoning-systems-for-collective-intelligence/05-reasoning-systems-for-collective-intelligence/from-solo-reasoning-to-collective-intelligence/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Why scaling engineering requires scaling thinking first.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;-context&#34;&gt;🎯 Context&lt;/h2&gt;
+&lt;p&gt;In the early stages of engineering growth, most reasoning happens inside a few heads.&lt;br&gt;
+This works — until it doesn’t.&lt;/p&gt;
+&lt;p&gt;As systems become more complex, &lt;strong&gt;solo reasoning&lt;/strong&gt; becomes a bottleneck.&lt;br&gt;
+Scaling code without scaling reasoning &lt;strong&gt;builds technical debt not just in software, but in thought itself&lt;/strong&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-why-solo-reasoning-breaks&#34;&gt;🧠 Why Solo Reasoning Breaks&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Solo Strengths&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Solo Limitations&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Fast, intuitive decision loops&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Limited context capture&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Flexible trade-offs&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Poor external validation&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Deep personal ownership&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Hidden biases and memory bottlenecks&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;📍 &lt;em&gt;Critical Insight&lt;/em&gt;:&lt;br&gt;
+Solo reasoning optimizes for speed over depth.&lt;br&gt;
+At scale, depth becomes non-negotiable.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Reflecting on Architectural Integrity, Systemic Decision-Making, and Resilient Evolution</title>
+      <link>http://localhost:1313/posts/a.-reasoning-for-trust-and-change/summary/</link>
+      <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/a.-reasoning-for-trust-and-change/summary/</guid>
+      <description>&lt;h2 id=&#34;-1-purpose&#34;&gt;🎯 1. Purpose&lt;/h2&gt;
+&lt;p&gt;This review consolidates the reasoning developed across the first three major thinking blocks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Architectural Integrity&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Systemic Decision-Making&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Resilient Evolution&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Success here means establishing a solid platform of interconnected principles that enable consistent, scalable leadership reasoning — the groundwork for next-level R&amp;amp;D and CTO capabilities.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-2-summary-of-each-block&#34;&gt;📚 2. Summary of Each Block&lt;/h2&gt;
+&lt;h3 id=&#34;-architectural-integrity&#34;&gt;🧱 Architectural Integrity&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Thesis:&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Systems without architectural integrity collapse under complexity faster than they evolve.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Key insights:&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mini-Review: Trustworthy Systems Thinking</title>
+      <link>http://localhost:1313/posts/03-trustworthy-systems-thinking/review/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/03-trustworthy-systems-thinking/review/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Unpacking the layer of reasoning dedicated to designing and maintaining trustworthy systems.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;-1-purpose&#34;&gt;🎯 1. Purpose&lt;/h2&gt;
+&lt;p&gt;This mini-review isolates &lt;strong&gt;Trustworthy Systems Thinking&lt;/strong&gt; as a distinct reasoning layer because trust is not just an output of good engineering — it is a &lt;strong&gt;first-class design constraint&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Without explicitly engineering for trust:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Architectural integrity weakens.&lt;/li&gt;
+&lt;li&gt;Decision-making loses grounding.&lt;/li&gt;
+&lt;li&gt;System evolution becomes chaotic.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;📍 &lt;em&gt;Critical Insight&lt;/em&gt;: Trust is a design constraint, not a late-stage evaluation.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Reasoning-Systems on [Mind Cloud]</title>
+    <link>http://localhost:1313/tags/reasoning-systems/</link>
+    <description>Recent content in Reasoning-Systems on [Mind Cloud]</description>
+    <generator>Hugo -- 0.147.7</generator>
+    <language>en</language>
+    <copyright>2015-2025 Oleg Y. Danilkiff</copyright>
+    <lastBuildDate>Thu, 09 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/reasoning-systems/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Anti-patterns of Distributed Reasoning</title>
+      <link>http://localhost:1313/posts/b.-reasoning-systems-for-collective-intelligence/05-reasoning-systems-for-collective-intelligence/anti-patterns-of-distributed-reasoning/</link>
+      <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/b.-reasoning-systems-for-collective-intelligence/05-reasoning-systems-for-collective-intelligence/anti-patterns-of-distributed-reasoning/</guid>
+      <description>&lt;h2 id=&#34;-context&#34;&gt;🎯 Context&lt;/h2&gt;
+&lt;p&gt;Distributed reasoning sounds like a dream — until it turns into distributed confusion.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Scaling thinking&lt;/strong&gt; requires not just enabling reasoning — but &lt;em&gt;guarding it&lt;/em&gt; against the failure modes that collective systems naturally fall into.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-core-anti-patterns-of-distributed-reasoning&#34;&gt;🧨 Core Anti-patterns of Distributed Reasoning&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;1. Fragmented Context Propagation&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Different parts of the team operate with divergent assumptions.&lt;/li&gt;
+&lt;li&gt;Symptoms: endless alignment meetings, inconsistent designs, duplicated mistakes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;2. Premature Convergence&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Teams rush to consensus without exploring alternative options.&lt;/li&gt;
+&lt;li&gt;Symptoms: brittle architectures, cultural resistance to dissent.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;3. Hidden Ownership of Reasoning&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pattern Language for Collective Learning</title>
+      <link>http://localhost:1313/posts/b.-reasoning-systems-for-collective-intelligence/05-reasoning-systems-for-collective-intelligence/pattern-language-for-collective-learning/</link>
+      <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/b.-reasoning-systems-for-collective-intelligence/05-reasoning-systems-for-collective-intelligence/pattern-language-for-collective-learning/</guid>
+      <description>&lt;h2 id=&#34;-context&#34;&gt;🎯 Context&lt;/h2&gt;
+&lt;p&gt;Scaling reasoning isn&amp;rsquo;t just about tools or ceremonies.&lt;br&gt;
+It’s about embedding &lt;strong&gt;learning patterns&lt;/strong&gt; directly into how a team operates.&lt;/p&gt;
+&lt;p&gt;A &lt;strong&gt;pattern language for collective learning&lt;/strong&gt; makes adaptation, correction, and exploration &lt;em&gt;natural&lt;/em&gt;, not exceptional.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-why-patterns-matter&#34;&gt;🧩 Why Patterns Matter&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Without Patterns&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;With Patterns&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Learning is ad-hoc&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Learning is systematic&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Success is anecdotal&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Success is reproducible&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Failure is hidden&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Failure is inspectable&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;📍 &lt;em&gt;Critical Insight&lt;/em&gt;:&lt;br&gt;
+Patterns transform reasoning from &amp;ldquo;event-driven&amp;rdquo; to &amp;ldquo;system-driven.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

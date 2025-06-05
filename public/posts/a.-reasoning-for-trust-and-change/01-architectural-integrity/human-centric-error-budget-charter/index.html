@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Human-Centric Error Budget Charter | [Mind Cloud]</title>
+<meta name="keywords" content="">
+<meta name="description" content="
+Systems fail.
+People make mistakes.
+Organizations burn out trying to prevent both.
+The goal of a Human-Centric Error Budget is simple:
+
+Treat system reliability and human resilience as coupled constraints.
+You don’t just budget failure for machines.
+You budget recovery — and dignity — for people.
+
+⚙️ Traditional Error Budgets (Short Version)
+Classic SRE error budgets define:
+
+Acceptable downtime per quarter/year
+Breach = slowing or halting feature launches
+
+Good for:">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/posts/a.-reasoning-for-trust-and-change/01-architectural-integrity/human-centric-error-budget-charter/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.8fe10233a706bc87f2e08b3cf97b8bd4c0a80f10675a143675d59212121037c0.css" integrity="sha256-j&#43;ECM6cGvIfy4Is8&#43;XuL1MCoDxBnWhQ2ddWSEhIQN8A=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/a.-reasoning-for-trust-and-change/01-architectural-integrity/human-centric-error-budget-charter/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="[Mind Cloud] (Alt + H)">[Mind Cloud]</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/" title="index">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/" title="Credits">
+                    <span>Credits</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/" title="Documentation">
+                    <span>Documentation</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/" title="Contact">
+                    <span>Contact</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/sergeyklay/gohugo-theme-ed/" title="GitHub Project">
+                    <span>GitHub Project</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Human-Centric Error Budget Charter
+    </h1>
+    <div class="post-meta"><span title='2016-04-01 00:00:00 +0000 UTC'>April 1, 2016</span>
+
+</div>
+  </header> 
+  <div class="post-content"><h1></h1>
+<p>Systems fail.<br>
+People make mistakes.<br>
+Organizations burn out trying to prevent both.</p>
+<p>The goal of a Human-Centric Error Budget is simple:</p>
+<blockquote>
+<p><strong>Treat system reliability and human resilience as coupled constraints.</strong></p></blockquote>
+<p>You don’t just budget failure for machines.<br>
+You budget recovery — and dignity — for people.</p>
+<hr>
+<h2 id="-traditional-error-budgets-short-version">⚙️ Traditional Error Budgets (Short Version)<a hidden class="anchor" aria-hidden="true" href="#-traditional-error-budgets-short-version">#</a></h2>
+<p>Classic SRE error budgets define:</p>
+<ul>
+<li>Acceptable downtime per quarter/year</li>
+<li>Breach = slowing or halting feature launches</li>
+</ul>
+<p>Good for:</p>
+<ul>
+<li>Technical risk management</li>
+<li>Balancing velocity vs reliability</li>
+</ul>
+<p>Bad for:</p>
+<ul>
+<li>Understanding cognitive load</li>
+<li>Supporting healthy team dynamics</li>
+</ul>
+<hr>
+<h2 id="-why-human-centric">🧠 Why Human-Centric?<a hidden class="anchor" aria-hidden="true" href="#-why-human-centric">#</a></h2>
+<p>Because technical failures almost always intersect with human factors:</p>
+<ul>
+<li>Alert fatigue</li>
+<li>Context switching</li>
+<li>Incomplete handoffs</li>
+<li>Psychological safety erosion</li>
+</ul>
+<p>Ignoring the human surface area of system reliability guarantees builds invisible debt — until you pay it all at once.</p>
+<hr>
+<h2 id="-charter-principles">🛡 Charter Principles<a hidden class="anchor" aria-hidden="true" href="#-charter-principles">#</a></h2>
+<h3 id="1-failure-tolerance-extends-to-people">1. <strong>Failure tolerance extends to people.</strong><a hidden class="anchor" aria-hidden="true" href="#1-failure-tolerance-extends-to-people">#</a></h3>
+<p>If your system can tolerate N failures per month,<br>
+your people should be allowed N mistakes without punitive consequences.</p>
+<hr>
+<h3 id="2-error-budgets-allocate-recovery-time">2. <strong>Error budgets allocate recovery time.</strong><a hidden class="anchor" aria-hidden="true" href="#2-error-budgets-allocate-recovery-time">#</a></h3>
+<p>Not just for services — for humans, too.</p>
+<ul>
+<li>Learning cycles</li>
+<li>Retrospective deep-dives</li>
+<li>Psychological decompression after major incidents</li>
+</ul>
+<hr>
+<h3 id="3-feedback-loops-are-rights-not-just-obligations">3. <strong>Feedback loops are rights, not just obligations.</strong><a hidden class="anchor" aria-hidden="true" href="#3-feedback-loops-are-rights-not-just-obligations">#</a></h3>
+<p>Anyone involved in an incident has the right to:</p>
+<ul>
+<li>Challenge unclear responsibility boundaries</li>
+<li>Ask for post-incident coaching</li>
+<li>Trigger protocol improvements</li>
+</ul>
+<hr>
+<h3 id="4-error-signals-trigger-team-support-not-just-system-escalation">4. <strong>Error signals trigger team support, not just system escalation.</strong><a hidden class="anchor" aria-hidden="true" href="#4-error-signals-trigger-team-support-not-just-system-escalation">#</a></h3>
+<p>If error rates spike, look at human workload, cognitive pressure, and safety cues — not just logs and traces.</p>
+<hr>
+<h2 id="-human-centric-metrics-to-track">📈 Human-Centric Metrics to Track<a hidden class="anchor" aria-hidden="true" href="#-human-centric-metrics-to-track">#</a></h2>
+<ul>
+<li><strong>Post-incident cognitive load reports</strong></li>
+<li><strong>Recovery time per role</strong> (not just system MTTR)</li>
+<li><strong>Psychological safety pulses</strong> after major incidents</li>
+<li><strong>Rotation fatigue indexes</strong> for on-call schedules</li>
+</ul>
+<hr>
+<h2 id="-tactical-moves">🔥 Tactical Moves<a hidden class="anchor" aria-hidden="true" href="#-tactical-moves">#</a></h2>
+<ul>
+<li>Introduce <strong>soft landings</strong> for critical failures (e.g., relay engineers, post-mortem buddies)</li>
+<li>Schedule <strong>resilience calibration weeks</strong> — slow features, sharpen fundamentals</li>
+<li>Embed <strong>human failure modes</strong> into incident simulations and tabletop exercises</li>
+</ul>
+<hr>
+<h2 id="-reasoning-trail">🧭 Reasoning Trail<a hidden class="anchor" aria-hidden="true" href="#-reasoning-trail">#</a></h2>
+<p><strong>Origin:</strong><br>
+Born from convergence of SRE operational debt, incident analysis, and team burnout signals (see: <em>Shift Handover Protocols</em>, <em>Resilience Engineering Threads</em>).</p>
+<p><strong>Trigger context:</strong></p>
+<ul>
+<li>Incident resolution degrading after prolonged shift rotations</li>
+<li>Teams reluctant to own on-call because of cultural blame patterns</li>
+<li>Post-incident fatigue unacknowledged as reliability erosion factor</li>
+</ul>
+<p><strong>Core insight:</strong><br>
+→ <em>If you only budget for system failure, you eventually lose both system and team.</em></p>
+<p><strong>Related artifacts:</strong></p>
+<ul>
+<li><code>Resilience Engineering Playbook</code></li>
+<li><code>Organizational Trust Maintenance Protocols</code></li>
+<li><code>Architectural Risk Drift &amp; Role Safety Protocol</code></li>
+</ul>
+<p><strong>Likely evolution:</strong></p>
+<ul>
+<li>Tight integration with leadership retrospectives and talent management</li>
+<li>Future design of <strong>Team-Level SLA Frameworks</strong></li>
+</ul>
+<hr>
+<p>Systems don&rsquo;t just need to heal.<br>
+Teams do too.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>© 2015-2025 Oleg Y. Danilkiff</span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
