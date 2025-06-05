@@ -111,7 +111,7 @@ refLinksErrorLevel = 'WARNING'
 
   [params.services]
     [params.services.googleTagManager]
-      id = '...'
+      id = 'GTM-MTL65HW3'
 
 [languages]
   [languages.en]

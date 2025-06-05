@@ -13,5 +13,4 @@ No hype, no productivity hacks, no "top ten" lists. Just real-world insights, cr
 ## See also
 
 - [Why this blog exists?]({{< relref "why.md" >}})
-- [About myself]({{< relref "about.md" >}})
-- [What's happening now]({{< relref "now.md" >}})
+- [About me]({{< relref "about.md" >}})
