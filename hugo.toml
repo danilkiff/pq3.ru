@@ -18,6 +18,9 @@ enableRobotsTXT = true
 # resolve, it will be logged with this log level.
 refLinksErrorLevel = 'WARNING'
 
+env = 'production'
+googleAnalytics = 'G-ZQB6HQ5E1F'
+
 [params]
   # Site description. Used in meta description
   description = 'Ed is a Hugo theme designed for textual editors based on minimal computing principles, and focused on legibility and flexibility.'
