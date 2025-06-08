@@ -77,7 +77,7 @@ If you’re in a leadership position:
 
 ---
 
-## Reasoning Trail
+## Reasoning trail
 
 **Origin:** 
 
@@ -93,7 +93,7 @@ Developed through firsthand experience of system design in constrained organizat
 
 **Related artifacts:**  
 
-- Architectural risk drift & role safety protocol
+- [Architectural risk drift & role safety protocol]({{< relref "drift.md"  >}})
 - Reflection protocol: when delegation is not abdication
 - Capability map: trustworthy systems
 - CTO thinking paradox
