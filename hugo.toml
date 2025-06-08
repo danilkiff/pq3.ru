@@ -13,6 +13,11 @@ copyright = '© 2015-2025 Oleg Y. Danilkiff'
 title = "[Mind Cloud]"
 
 enableRobotsTXT = true
+enableGitInfo = true
+
+# https://github.com/ikatyang/emoji-cheat-sheet
+# shortcode `:heart:` = ❤️
+enableEmoji = true
 
 # When using ref or relref to resolve page links and a link cannot
 # resolve, it will be logged with this log level.
@@ -21,53 +26,39 @@ refLinksErrorLevel = 'WARNING'
 googleAnalytics = 'GTM-MTL65HW3'
 
 [params]
-  env = 'production'
-  googleAnalytics = 'GTM-MTL65HW3'
-  
   # Site description. Used in meta description
-  description = 'Ed is a Hugo theme designed for textual editors based on minimal computing principles, and focused on legibility and flexibility.'
+  description = 'Advanced systems thinking for CTOs and engineering leaders: actionable frameworks for architecture, reliability, team capabilities, and organizational growth.'
 
   # SEO keywords. Used in 'meta name="keywords"' tag.
   # May be overridden by .Keywords or .Tags in front matter.
-  keywords = ['hugo', 'ed', 'hugo theme', 'minimal', 'responsive', 'clean']
+  keywords = ['systems thinking', 'engineering leadership', 'software architecture', 'reliability engineering', 'organizational learning', 'team capabilities', 'collective intelligence', 'devops culture', 'technical debt', 'reasoning frameworks', 'resilience', 'IT strategy', 'capability drift', 'postmortem analysis', 'platform engineering', 'incident management', 'knowledge transfer', 'engineering management', 'technical excellence', 'engineering culture']
 
   # Used in site header
-  tagline = 'Resilience by Design. Reasoning by Default.'
+  tagline = 'Resilience by design. Reasoning by default.'
 
   # Custom footer text on left sidebar. Use HTMl if needed.
   # "&copy;" and "{year}" will be replaced by © and the current year.
   footer = 'Built with <a href="https://github.com/sergeyklay/gohugo-theme-ed" target="_blank" rel="noopener noreferrer">Ed</a>. Distributed under an MIT license.'
 
-  # Colour scheme. Options: red, orange, magenta, cyan, blue, brown
-  colorScheme = ''
-
-  # Sections to be displayed in:
-  # - main page
-  # - RSS feeds
-  # - search index
-  # - ...
-  mainSections = ['posts', 'longreads', 'books']
-
   # Posts date format, for example: 2006-01-02
-  dateFormat = ':date_long'
-  dateFormatToc = '2006.01.02'
+  dateFormat = '2006-01-02'
+  dateFormatToc = '2006-01-02'
 
   # Show "Read more" button in list if true
   readmore = true
 
   # RSS/Atom feed size
   feedSize = 25
-
-  recentPostsSize = 10
+  recentPostsSize = 9999
 
 
   # Site icons, relative to ./static
   [params.assets]
     # favicon.ico for legacy browsers
-    favicon = ''
+    favicon = 'favicon.ico'
 
     # A single SVG icon with a light/dark version for modern browsers
-    svgicon = ''
+    svgicon = 'favicon.svg'
 
     # 180×180 PNG image for Apple devices
     apple_touch_icon = ''
@@ -81,22 +72,6 @@ googleAnalytics = 'GTM-MTL65HW3'
     # The site.Title  will be used if empty.
     publisher = 'Oleg Y. Danilkiff'
 
-  showAuthor = true
-  [params.author]
-    name = 'Oleg Y. Danilkiff'
-    email = 'contact@serghei.pl'
-    github = 'sergeyklay'
-    twitter = 'egreps'
-    location = 'Wrocław, Poland'
-
-  [params.social]
-    # Array of Facebook Page Admin IDs for Domain Insights
-    facebookAdminIds = []
-    # Facebook Page ID
-    facebookId = ''
-    # Twitter username for the website
-    twitter = 'egreps'
-
   # Configure search engine
   [params.search]
     # Maximum length (in words) of each text blurb. You can change this
@@ -108,22 +83,6 @@ googleAnalytics = 'GTM-MTL65HW3'
     #
     # For more see: https://lunrjs.com/guides/language_support.html
     languages = ['en', 'es']
-
-  [params.privacy]
-    [params.privacy.googleTagManager]
-      disable = false
-      respectDoNotTrack = true
-
-  [params.services]
-    [params.services.googleTagManager]
-      id = 'GTM-MTL65HW3'
-
-[languages]
-  [languages.en]
-    languageCode = 'en'
-    languageDirection = 'ltr'
-    languageName = 'English'
-    weight = 1
 
 # For more see https://gohugo.io/content-management/menus/
 [menus]
@@ -139,23 +98,6 @@ googleAnalytics = 'GTM-MTL65HW3'
     pageRef = '/search'
     weight = 5
 
-
-  [[menus.feeds]]
-    identifier = 'rss'
-    name = 'RSS 2.0'
-    url = '/rss.xml'
-    weight = 1
-  [[menus.feeds]]
-    identifier = 'atom'
-    name = 'Atom'
-    url = '/atom.xml'
-    weight = 2
-  [[menus.feeds]]
-    identifier = 'json'
-    name = 'Json Feed'
-    url = '/feed.json'
-    weight = 3
-
 [pagination]
   pagerSize = 10
 
@@ -164,79 +106,6 @@ googleAnalytics = 'GTM-MTL65HW3'
 [taxonomies]
   tag = 'tags'
   category = 'categories'
-
-[outputs]
-  home = ['html', 'rss', 'manifest', 'atom', 'jsonfeed', 'json', 'humanstxt']
-  page= ['html']
-  rss = ['rss']
-  section = ['html', 'rss', 'atom', 'jsonfeed']
-  taxonomy = ['html', 'rss']
-  term = ['html', 'rss']
-
-[outputFormats]
-  # For more see: https://validator.w3.org/feed/docs/atom.html#whatIsAtom
-  [outputFormats.atom]
-    name = 'atom'
-    # The correct header Content-Type header for an Atom feed is
-    # application/atom+xml. However, Chromium does not handle it
-    # correctly (see https://code.google.com/p/chromium/issues/detail?id=104358).
-    #
-    # The most compatible header is 'text/xml; charset=utf-8', which
-    # will cause the feed to be parsed correctly by most clients.
-    # Note that you should be encoding your feed in UTF-8.
-    mediaType = 'text/xml'
-    # generated file = <baseName>.<mediaType.'text/xml'.suffixes[0]> = atom.xml
-    baseName = 'atom'
-    rel = 'alternate'
-    isPlainText = false
-    isHTML = false
-    noUgly = true
-
-  # For more see: https://www.jsonfeed.org/
-  [outputFormats.jsonfeed]
-    name = 'jsonfeed'
-    mediaType = 'application/feed+json'
-    baseName = 'feed'
-    rel = 'alternate'
-    isPlainText = true
-    isHTML = false
-    noUgly = false
-
-  [outputFormats.manifest]
-    # The .webmanifest extension is specified in the Media type registration
-    # section of the specification (the response of the manifest file should
-    # return Content-Type: application/manifest+json).
-    #
-    # For more see: https://w3c.github.io/manifest/#media-type-registration=
-    name = 'manifest'
-    mediaType = 'application/manifest+json'
-    baseName = 'manifest'
-    rel = 'manifest'
-    isPlainText = true
-    isHTML = false
-    noUgly = false
-    notAlternative = false
-
-  # For more see: https://gohugo.io/templates/output-formats/
-  [outputFormats.humanstxt]
-    name = 'humanstxt'
-    mediaType = 'text/plain'
-    baseName = 'humans'
-    rel = 'author'
-    isPlainText = true
-    isHTML = false
-    noUgly = true
-    notAlternative = true
-
-  [outputFormats.rss]
-    baseName = 'rss'
-    mediaType = 'application/rss+xml'
-
-[mediaTypes]
-  [mediaTypes.'text/xml']
-    suffixes = ['xml']
-  [mediaTypes.'application/feed+json']
-    suffixes = ['json']
 
 # Sitemap config
 [sitemap]
