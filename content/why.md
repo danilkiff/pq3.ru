@@ -1,6 +1,6 @@
 ---
 date: '2015-03-01'
-lastmod: '2025-06-02'
+lastmod: '2025-06-09'
 title: 'Why This Blog Exists'
 ---
 
@@ -43,19 +43,12 @@ There’s no public graph view (yet). No WYSIWYG builder. No growth hacks. Just 
 
 ## What’s here — and what’s not
 
-**You’ll find**:
-
-- Architectural trade-offs
-- Cultural anti-patterns
-- R&D process diagnostics
-- Meta-practices for thinking, scaling, leading
-
-**You won’t find**:
-
-- Personal updates
-- Productivity porn
-- "Top 10" lists
-- Career advice tweets turned into blogs
+| You’ll find                                   |  You won’t find                         | 
+|-----------------------------------------------|-----------------------------------------|
+| Architectural trade-offs                      |  Personal updates                       |
+| Cultural anti-patterns                        |  Productivity porn                      |
+| R&D process diagnostics                       |  "Top 10" lists                         |
+| Meta-practices for thinking, scaling, leading |  Career advice tweets turned into blogs |
 
 ---
 
@@ -63,10 +56,4 @@ There’s no public graph view (yet). No WYSIWYG builder. No growth hacks. Just 
 
 If you’re an engineer on the path to strategic thinking, a staff+ IC, an R&D lead, or an early-stage CTO — this space is designed for you.
 
-But mostly, this is for **those who ask not just _what works_, but _why it works_ — and _what breaks it_**.
-
----
-
-**If something here resonates, build on it. If something breaks, trace the reasoning.**
-That’s the point.
-
+But mostly, this is for those who ask not just what works, but **why it works — and what breaks it**. If something here resonates, build on it. If something breaks, trace the reasoning. That’s the point.
