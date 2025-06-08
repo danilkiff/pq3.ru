@@ -81,7 +81,7 @@ If you’re in a leadership position:
 
 **Origin:** 
 
-Developed through firsthand experience of system design in constrained organizations (see: *Feature drift & responsibility transfer*, *Architectural risk drift*).
+Developed through firsthand experience of system design in constrained organizations (see: *Feature drift & responsibility transfer*, [Architectural risk drift & role safety protocol]({{< relref "drift.md"  >}})).
 
 **Trigger context:**
 
@@ -96,7 +96,7 @@ Developed through firsthand experience of system design in constrained organizat
 - [Architectural risk drift & role safety protocol]({{< relref "drift.md"  >}})
 - Reflection protocol: when delegation is not abdication
 - Capability map: trustworthy systems
-- CTO thinking paradox
+- [CTO thinking paradox]({{< relref "paradox.md" >}})
 
 **Likely evolution:**  
 
@@ -108,5 +108,4 @@ This manifesto will connect to:
 
 ---
 
-If you hold the responsibility, you must hold the voice.  
-If not — you’re not designing. You’re ghostwriting entropy.
+If you hold the responsibility, you must hold the voice. If not — you’re not designing. You’re ghostwriting entropy.

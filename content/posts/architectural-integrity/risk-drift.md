@@ -79,7 +79,7 @@ This protocol isn’t bureaucracy. It’s a safety harness for autonomous teams.
 
 **Origin:**  
 
-Formulated in response to repeated architectural compromises without consultation, despite accountability being assigned after the fact (see: [Architectural Integrity Manifesto]({{< relref "manifesto.md">}}), *Feature Drift*).
+Formulated in response to repeated architectural compromises without consultation, despite accountability being assigned after the fact (see: [Architectural integrity manifesto]({{< relref "manifesto.md">}}), *Feature Drift*).
 
 **Trigger context:**
 
@@ -91,7 +91,7 @@ Formulated in response to repeated architectural compromises without consultatio
 
 **Related artifacts:**
 
-- CTO thinking paradox
+- [CTO thinking paradox]({{< relref "paradox.md" >}})
 - Decision record: when master system is no longer trustworthy
 - Human-centric error budget charter
 
