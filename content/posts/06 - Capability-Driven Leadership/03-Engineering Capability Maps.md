@@ -70,7 +70,27 @@ This allows you to build a Risk Overlay on top of the capability map:
 
 ---
 
-### Capability Evolution: A System, Not a List
+### Risk Overlay: From Binary to Systemic
+
+Single-pair heuristics (e.g., “high-value + low-maturity = strategic risk”) fail in real systems.   Instead, map each capability across five axes: value, maturity, maintenance, ownership clarity, exposure. 
+
+- Value: Business significance of the capability (1–3).
+- Maturity: Organizational reliability (1–3; the lower, the riskier).
+- Maintenance: Ongoing cost and fragility (1–3).
+- Ownership Clarity: How clearly responsibility is defined (1–3; 1 = clear).
+- Exposure: Consequence surface if the capability fails (1–3).
+
+Compute a compound risk score:
+
+`Risk Score = Value × Exposure × Maintenance × (4 – Maturity) × Ownership Clarity`
+
+Build a heatmap. Prioritize what has high value, high exposure, and high maintenance — especially if ownership is unclear and maturity is low.  
+
+This surfaces not just technical debt, but unmanaged systemic risk.  Review your map each quarter: capability risks shift as the org evolves.
+
+---
+
+### Capability Evolution: Graph, Not List
 
 Treat capabilities like a graph, not a list. Mature capabilities enable others. Immature ones block the rest.
 
@@ -79,6 +99,10 @@ Treat capabilities like a graph, not a list. Mature capabilities enable others. 
 - "Infrastructure-as-code" is a prerequisite for "zero-downtime deploys"
 
 > The most dangerous capability to ignore is the one that gates ten others.
+
+Use the risk overlay to identify not just “enablers” but “blockers with high risk”.
+
+**Example**: “Immutable deployment” is a blocker and a risk concentration if it’s low-maturity, high-value, and ownerless.
 
 ---
 
@@ -125,7 +149,9 @@ It extends ideas discussed in:
 - Overlay maturity and risk levels.
 - Trace which capabilities are enablers, blockers, or orphans.
 - Then choose one to evolve — deliberately.
+- Visualize your capability risk heatmap.
+- Revisit scores quarterly: risk is not static.
 
 
 > Capabilities aren't just what we do.
-They're who we become — as engineers, teams, and systems.
+> They're who we become — as engineers, teams, and systems.
