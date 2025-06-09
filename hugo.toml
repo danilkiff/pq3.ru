@@ -91,13 +91,12 @@ enableEmoji = true
     pageRef = '/books'   # path to the page
     weight = 2              # order of the menu item
 
-  
+  [[menus.main]]            # sections in the website sidebar
+    identifier = 'search'  # menu item id
+    name = 'Search'       # menu item display title
+    pageRef = '/search'   # path to the page
+    weight = 3              # order of the menu item
 
-# We have just the default tags taxonomy, and remove the categories
-# taxonomy for site as not used.
-[taxonomies]
-  tag = 'tags'
-  category = 'categories'
 
 # Sitemap config
 [sitemap]
@@ -127,3 +126,5 @@ enableEmoji = true
   [[module.imports]]
     path = 'github.com/adityatelange/hugo-PaperMod'
 
+[outputs]
+  home = ["HTML", "JSON"]
