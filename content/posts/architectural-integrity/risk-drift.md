@@ -95,7 +95,7 @@ Formulated in response to repeated architectural compromises without consultatio
 
 - [CTO thinking paradox]({{< relref "paradox.md" >}})
 - [Decision record: when master system is no longer trustworthy]({{< relref "fail.md" >}})
-- Human-centric error budget charter
+- [Human-centric error budget charter]({{< relref "error-budget.md" >}})
 
 **Likely evolution:**
 
