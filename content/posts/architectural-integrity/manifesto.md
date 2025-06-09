@@ -98,7 +98,7 @@ Developed through firsthand experience of system design in constrained organizat
 **Related artifacts:**  
 
 - [Architectural risk drift]({{< relref "risk-drift.md" >}})
-- Reflection protocol: when delegation is not abdication
+- [Reflection protocol: when delegation is not abdication]({{< relref "reflection-protocol.md" >}})
 - Capability map: trustworthy systems
 - [CTO thinking paradox]({{< relref "paradox.md" >}})
 
