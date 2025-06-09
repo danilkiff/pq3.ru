@@ -81,7 +81,11 @@ If you’re in a leadership position:
 
 **Origin:** 
 
-Developed through firsthand experience of system design in constrained organizations (see: *Feature drift & responsibility transfer*, [Architectural risk drift & role safety protocol]({{< relref "drift.md"  >}})).
+Developed through firsthand experience of system design in constrained organizations 
+(see: 
+  [Feature drift & responsibility transfer]({{< relref "feature-drift.md" >}}), 
+  [Architectural risk drift & role safety protocol]({{< relref "drift.md"  >}})
+).
 
 **Trigger context:**
 
