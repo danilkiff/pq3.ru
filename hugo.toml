@@ -78,11 +78,18 @@ enableEmoji = true
 
 # For more see https://gohugo.io/content-management/menus/
 [menus]
-  [[menus.main]]        # sections in the website sidebar
-    identifier = 'home' # menu item id
-    name = 'Home'       # menu item display title
-    pageRef = '/'       # path to the page
-    weight = 1          # order of the menu item
+  [[menus.main]]            # sections in the website sidebar
+    identifier = 'arhive'  # menu item id
+    name = 'Archive'       # menu item display title
+    pageRef = '/archive'   # path to the page
+    weight = 1              # order of the menu item
+  
+  [[menus.main]]            # sections in the website sidebar
+    identifier = 'tags'  # menu item id
+    name = 'Tags'       # menu item display title
+    pageRef = '/tags'   # path to the page
+    weight = 2              # order of the menu item
+
   
 
 # We have just the default tags taxonomy, and remove the categories

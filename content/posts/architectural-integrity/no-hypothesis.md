@@ -1,6 +1,7 @@
 ---
 title: '[NOTE] Organizational blind spot: no hypothesis culture'
 date: 2023-06-01
+summary: 'Organizations without hypothesis validation ship untested features, prioritize speed over value, and accumulate cognitive debt, undermining product quality and team motivation.'
 ---
 
 ## Purpose

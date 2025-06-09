@@ -1,6 +1,7 @@
 ---
 date: '2017-02-01'
 title: 'Feature drift & responsibility transfer'
+summary: 'Feature drift occurs when implementation diverges from intent and responsibility is retroactively reassigned; alignment and traceability are required to prevent blame cycles.'
 ---
 
 You planned a feature. You scoped it. You reviewed it. Two months later, the feature is still shipping — but what’s being built no longer resembles the original intent.

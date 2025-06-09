@@ -1,6 +1,7 @@
 ---
 date: '2016-11-01'
 title: 'Arhitectural integrity manifesto'
+summary: 'Architectural integrity means traceable decisions, visible trade-offs, and real responsibility—not just supporting pre-made choices or patching technical debt'
 ---
 
 In many engineering organizations, “architecture" has become a polite word for PowerPoint.  

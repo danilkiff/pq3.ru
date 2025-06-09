@@ -1,6 +1,7 @@
 ---
 date: '2017-10-01'
 title: 'Trustworthy systems thinking: building for inevitable drift'
+summary: 'Trustworthy systems are designed for inevitable drift: explicit trust boundaries, layered safeguards, and adaptability enable resilience to changing contexts, interfaces, and dependencies.'
 ---
 
 All systems drift.

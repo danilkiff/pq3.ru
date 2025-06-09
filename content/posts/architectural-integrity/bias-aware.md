@@ -1,6 +1,7 @@
 ---
 date: '2017-06-01'
 title: 'Bias-aware prioritization framework'
+summary: 'Prioritization is often biased. Use bias checks, data integrity scoring, and time-delay to avoid noisy inputs and false signals in product decision-making.'
 ---
 
 Product teams often believe they’re making data-driven decisions. But most prioritization is shaped more by **bias** than by logic.

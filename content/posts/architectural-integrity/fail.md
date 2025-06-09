@@ -1,6 +1,7 @@
 ---
 date: '2017-03-01'
 title: 'Decision record: when master system is no longer trustworthy'
+summary: 'When a master system becomes unreliable, treat its data as semi-trusted, enforce validation, and shift to explicit contract and risk management for all integrations.'
 ---
 
 Master systems are supposed to be the **source of truth**. But what happens when the truth shifts under your feet?

@@ -1,6 +1,7 @@
 ---
 date: '2016-12-01'
 title: 'Architectural risk drift & role safety protocol'
+summary: 'Architectural risk drift occurs when changes shift risk boundaries without updating models or roles; role safety protocols ensure traceability, ownership, and proactive risk governance.'
 ---
 
 In theory, everyone respects system boundaries.  

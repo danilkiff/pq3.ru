@@ -1,6 +1,7 @@
 ---
 date: '2017-09-01'
 title: 'Cultural postmortem: feature drift & responsibility transfer'
+summary: 'Feature drift and blame cycles stem from cultural misalignment and lack of safe challenge. Early alignment, visible risk, and critique without blame prevent systemic drift.'
 ---
 
 When features miss expectations, the instinct is to blame design flaws, development velocity, or unclear requirements.
