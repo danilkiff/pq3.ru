@@ -80,9 +80,9 @@ enableEmoji = true
 [menus]
   
   [[menus.main]]            # sections in the website sidebar
-    identifier = 'tags'  # menu item id
-    name = 'Tags'       # menu item display title
-    pageRef = '/tags'   # path to the page
+    identifier = 'categories'  # menu item id
+    name = 'Categories'       # menu item display title
+    pageRef = '/categories'   # path to the page
     weight = 1              # order of the menu item
   
   [[menus.main]]            # sections in the website sidebar
