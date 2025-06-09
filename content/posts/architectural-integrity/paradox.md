@@ -1,7 +1,18 @@
 ---
-date: '2017-01-05'
-title: 'The CTO thinking paradox: depth vs tempo'
-summary: 'CTOs must balance strategic depth with fast decision tempo; real impact comes from holding context and asking better questions, not just quick responses.'
+date: 2017-01-05
+title: "The CTO thinking paradox: depth vs tempo"
+summary: CTOs must balance strategic depth with fast decision tempo; real impact comes from holding context and asking better questions, not just quick responses.
+categories:
+    - Leadership
+tags:
+    - CTO
+    - leadership
+    - tempo
+    - strategic depth
+    - decision-making
+    - cognition
+    - async
+    - management
 ---
 
 In modern tech organizations, the faster you answer — the smarter you look. But CTO-level leadership isn’t about having answers. It’s about asking better questions, holding the context, and **thinking beyond the cycle time of meetings**.

@@ -1,7 +1,17 @@
 ---
-date: '2016-11-01'
-title: 'Arhitectural integrity manifesto'
-summary: 'Architectural integrity means traceable decisions, visible trade-offs, and real responsibility—not just supporting pre-made choices or patching technical debt'
+date: 2016-11-01
+title: Arhitectural integrity manifesto
+summary: Architectural integrity means traceable decisions, visible trade-offs, and real responsibility—not just supporting pre-made choices or patching technical debt
+categories:
+  - Architecture
+tags:
+  - ADR
+  - architectural integrity
+  - decision traceability
+  - responsibility
+  - system boundaries
+  - system constraints
+  - technical debt
 ---
 
 In many engineering organizations, “architecture" has become a polite word for PowerPoint.  

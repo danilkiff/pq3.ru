@@ -1,7 +1,18 @@
 ---
-date: '2017-04-01'
-title: 'R&D prioritization stack'
-summary: 'R&D prioritization must weigh risk, learning, irreversibility, bias, and alignment—not just value—to avoid costly mistakes and guide high-stakes architectural decisions.'
+date: 2017-04-01
+title: R&D prioritization stack
+summary: R&D prioritization must weigh risk, learning, irreversibility, bias, and alignment—not just value—to avoid costly mistakes and guide high-stakes architectural decisions.
+categories:
+    - Prioritization
+tags:
+    - R&D
+    - prioritization
+    - hypothesis
+    - irreversibility
+    - architecture
+    - bias
+    - alignment
+    - learning
 ---
 
 In R&D environments, prioritization is not just about value and effort — it’s about **risk**, **learning**, and **strategic irreversibility**.

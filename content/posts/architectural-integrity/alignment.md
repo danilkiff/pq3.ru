@@ -1,7 +1,19 @@
 ---
-title: 'CR alignment metrics'
+title: CR alignment metrics
 date: 2017-01-04
-summary: 'Defines CR workflow statuses to enable TFA, TTS, TTM, LT metrics—clarifying bottlenecks, readiness, and delivery discipline in product engineering.'
+summary: Defines CR workflow statuses to enable TFA, TTS, TTM, LT metrics—clarifying bottlenecks, readiness, and delivery discipline in product engineering.
+categories:
+    - Process
+tags:
+    - change request
+    - workflow
+    - metrics
+    - TFA
+    - TTS
+    - TTM
+    - LT
+    - ticket statuses
+    - product maturity
 ---
 
 ## Purpose

@@ -1,7 +1,17 @@
 ---
-date: '2017-05-01'
-title: 'Human-centric error budget charter'
-summary: 'Treat system reliability and human resilience as coupled constraints - budget for both machine failures and human recovery to prevent burnout and hidden operational debt'
+date: 2017-05-01
+title: Human-centric error budget charter
+summary: Treat system reliability and human resilience as coupled constraints - budget for both machine failures and human recovery to prevent burnout and hidden operational debt
+categories:
+    - Reliability
+tags:
+    - SRE
+    - error budget
+    - cognitive load
+    - resilience
+    - team dynamics
+    - incident response
+    - burnout
 ---
 
 Systems fail. People make mistakes. Organizations burn out trying to prevent both.

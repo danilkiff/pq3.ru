@@ -1,7 +1,16 @@
 ---
-date: '2017-07-01'
-title: 'Resilience feedback loop design: strengthening system awareness'
-summary: 'Resilient systems depend on strong feedback loops — timely, actionable, and cumulative — so learning outpaces failure and system awareness drives real adaptation.'
+date: 2017-07-01
+title: "Resilience feedback loop design: strengthening system awareness"
+summary: Resilient systems depend on strong feedback loops — timely, actionable, and cumulative — so learning outpaces failure and system awareness drives real adaptation.
+categories:
+    - Reliability
+tags:
+    - feedback loop
+    - resilience
+    - incident response
+    - system awareness
+    - postmortem
+    - learning
 ---
 
 You can't build resilient systems without **feedback**. But not all feedback is equal.

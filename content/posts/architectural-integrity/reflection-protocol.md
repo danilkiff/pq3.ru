@@ -1,7 +1,16 @@
 ---
-title: '[NOTE] Reflection protocol: when delegation is not abdication'
+title: "[NOTE] Reflection protocol: when delegation is not abdication"
 date: 2024-11-01
-summary: 'Strategic delegation means retaining understanding and accountability when using AI or expert input; abdication occurs when decisions are outsourced without comprehension.'
+summary: Strategic delegation means retaining understanding and accountability when using AI or expert input; abdication occurs when decisions are outsourced without comprehension.
+categories:
+    - Leadership
+tags:
+    - delegation
+    - accountability
+    - cognitive abdication
+    - AI
+    - decision-making
+    - leadership practices
 ---
 
 ## Purpose

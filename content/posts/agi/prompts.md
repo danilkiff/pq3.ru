@@ -1,7 +1,9 @@
 ---
-title: 'AGI: prompt it properly'
+title: "AGI: prompt it properly"
 date: 2025-06-01
-summary: 'Defines ethical use of AGI: state objectives, set roles, provide structure, demand reasoning, and never offload judgment—power requires understanding and responsibility.'
+summary: "Defines ethical use of AGI: state objectives, set roles, provide structure, demand reasoning, and never offload judgment—power requires understanding and responsibility."
+tags:
+    - ai
 ---
 
 ## What
