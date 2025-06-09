@@ -1,7 +1,7 @@
 ---
 date: '2015-03-01'
 lastmod: '2025-06-09'
-title: 'Why This Blog Exists'
+title: 'Why this blog exists'
 ---
 
 This blog wasn’t born as a writing experiment or a showcase — it emerged as an interface to thinking.
