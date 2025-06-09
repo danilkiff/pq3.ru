@@ -1,7 +1,6 @@
 ---
 date: '2015-03-01'
 lastmod: '2025-06-02'
-title: 'index'
 ---
 
 This blog isn’t a portfolio or a personal log. It’s an external thinking system—a living map of architectural trade-offs, cultural anti-patterns, and systemic reasoning.
