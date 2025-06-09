@@ -1,10 +1,10 @@
 FROM ubuntu:22.04
 
 ARG HUGO_VERSION=0.147.7
-ARG ARCH=arm64
 ARG GO_VERSION=1.22.4
 
-RUN apt-get update \
+RUN ARCH=$(dpkg --print-architecture) \
+  && apt-get update \
   && apt-get install -y curl ca-certificates libsass1 git \
   && curl -LO https://go.dev/dl/go${GO_VERSION}.linux-${ARCH}.tar.gz \
   && tar -C /usr/local -xzf go${GO_VERSION}.linux-${ARCH}.tar.gz \
