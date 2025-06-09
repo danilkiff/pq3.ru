@@ -98,7 +98,7 @@ Rooted in case studies of product misfires, leadership breakdowns, and technical
 
 - [Human-centric error budget charter]({{< relref "error-budget.md" >}})
 - [Capability-based ownership]({{< relref "ownership.md" >}})
-- `Alignment Time Metrics`
+- [CR Alignment metrics]({{< relref "alignment.md" >}})
 
 **Likely evolution:** 
 

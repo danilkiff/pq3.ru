@@ -95,7 +95,7 @@ Synthesized from real-world product and architecture conflicts in which engineer
 
 **Likely evolution:** 
 
-- This will be extended into `Ticket Status Design for Alignment Tracking`  
+- This will be extended into [CR Alignment metrics]({{< relref "alignment.md" >}})
 - Influences future models of `Strategic Feedback Compression`
 
 ---
