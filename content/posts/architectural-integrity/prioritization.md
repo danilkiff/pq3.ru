@@ -60,7 +60,7 @@ Track **non-obvious costs** — not just engineering effort.
 
 - Are we reacting to a distortion in perception?
 
-Reinforces the *Bias-Aware Prioritization Framework*. Check for over-weighted complaints, single-point anecdotes, or political noise.
+Reinforces the [Bias-aware prioritization framework]({{< relref "bias-aware.md" >}}). 
 
 **Strategic alignment**
 
@@ -87,7 +87,10 @@ Draws from Capability Mapping and Portfolio Thinking. Every prioritized item sho
 
 **Origin:**
 
-Arises from misfit between classic prioritization models and R&D reality (see: *Bias-aware Prioritization Framework*, *No Hypothesis Culture*).
+Arises from misfit between classic prioritization models and R&D reality (see: 
+[Bias-aware prioritization framework]({{< relref "bias-aware.md" >}}), 
+[Organizational blind spot: no hypothesis culture]({{< relref "no-hypothesis.md" >}})
+).
 
 **Trigger context:**
 

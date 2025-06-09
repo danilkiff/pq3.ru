@@ -107,7 +107,7 @@ Born from convergence of SRE operational debt, incident analysis, and team burno
 
 - `Resilience Engineering Playbook`  
 - `Organizational Trust Maintenance Protocols`  
-- [Architectural Risk Drift & Role Safety Protocol]({{< relref "risk-drift.md" >}})
+- [Architectural risk drift]({{< relref "risk-drift.md" >}})
 
 **Likely evolution:**
 

@@ -99,7 +99,7 @@ Formulated in response to repeated architectural compromises without consultatio
 
 **Likely evolution:**
 
-- Will shape role alignment models in *Capability-based ownership design*
+- Will shape role alignment models in [Capability-based ownership]({{< relref "ownership.md" >}})
 - Applies to incident command structures and resilience reviews
 
 ---

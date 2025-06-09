@@ -71,7 +71,7 @@ This isn’t just an operational issue — it’s a strategic one.
 
 Developed after repeated production incidents traced to silent contract drift in master systems (see: 
 *Cross-Domain Cookie Hygiene*, 
-[Architectural Risk Drift]({{< relref "risk-drift.md" >}})
+[Architectural risk drift]({{< relref "risk-drift.md" >}})
 ).
 
 **Trigger context:**
