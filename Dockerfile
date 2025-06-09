@@ -1,7 +1,7 @@
 FROM ubuntu:22.04
 
 ARG HUGO_VERSION=0.147.7
-ARG GO_VERSION=1.22.4
+ARG GO_VERSION=1.23.0
 
 RUN ARCH=$(dpkg --print-architecture) \
   && apt-get update \
