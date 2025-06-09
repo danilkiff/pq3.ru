@@ -89,6 +89,12 @@ enableEmoji = true
     name = 'Tags'       # menu item display title
     pageRef = '/tags'   # path to the page
     weight = 2              # order of the menu item
+  
+  [[menus.main]]            # sections in the website sidebar
+    identifier = 'books'  # menu item id
+    name = 'Books'       # menu item display title
+    pageRef = '/books'   # path to the page
+    weight = 3              # order of the menu item
 
   
 
