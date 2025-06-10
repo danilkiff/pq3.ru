@@ -28,6 +28,10 @@ enableEmoji = true
   dateFormat = '2006-01-02'
   dateFormatToc = '2006-01-02'
 
+  [params.analytics]
+    [params.analytics.google]
+      # google = "G-VC9JS9GC9V"
+      SiteVerificationTag = 'VtV5IsvUEPT7LVHWDrDr6KpOVd_SzHh_EK2ET5asO7I'
 
   # Site icons, relative to ./static
   [params.assets]
