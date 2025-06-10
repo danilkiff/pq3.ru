@@ -6,7 +6,7 @@ title: 'Why this blog exists'
 
 This blog wasn’t born as a writing experiment or a showcase — it emerged as an interface to thinking.
 
-I’m an R&D Engineering & Infrastructure Lead on a trajectory toward a CTO role. Along the way, I’ve learned something critical: engineering leadership isn’t primarily about scaling teams, systems, or delivery. It’s about scaling **reasoning**.
+I’m an R&D Engineering & Infrastructure Lead. Along the way, I’ve learned something critical: engineering leadership isn’t primarily about scaling teams, systems, or delivery. It’s about scaling **reasoning**.
 
 This blog is not a journal, a portfolio, or a garden of half-thoughts. It’s an **externalized thinking system** — a living graph of architectural decisions, trade-off models, and cultural reflections.
 

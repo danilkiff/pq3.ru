@@ -1,7 +1,7 @@
 baseURL = "https://pq3.ru/"
 
 copyright = '© 2015-2025 Oleg Y. Danilkiff'
-title = "[Mind Cloud]"
+title = "pq3"
 
 enableRobotsTXT = true
 enableGitInfo = true
@@ -15,7 +15,7 @@ enableEmoji = true
   ShowReadingTime = true
   
   # Site description. Used in meta description
-  description = 'Advanced systems thinking for CTOs and engineering leaders: actionable frameworks for architecture, reliability, team capabilities, and organizational growth.'
+  description = 'Advanced systems thinking for engineering leaders: actionable frameworks for architecture, reliability, team capabilities, and organizational growth.'
 
   # SEO keywords. Used in 'meta name="keywords"' tag.
   # May be overridden by .Keywords or .Tags in front matter.
