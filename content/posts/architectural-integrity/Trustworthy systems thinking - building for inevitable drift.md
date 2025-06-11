@@ -115,9 +115,7 @@ Trustworthy systems shift the design stance from:
 
 **Origin:**  
 
-Synthesized from patterns in incident handling, system degradation, and architecture evolution over multi-year timeframes (see: 
- [Decision record: when master system is no longer trustworthy]({{< relref "fail.md" >}}), 
- [Architectural risk drift]({{< relref "risk-drift.md" >}})).
+Synthesized from patterns in incident handling, system degradation, and architecture evolution over multi-year timeframes (see:  [[Decision record - when master system is no longer trustworthy]], [[Architectural risk drift & role safety protocol]]).
 
 **Trigger context:**  
 
@@ -129,9 +127,9 @@ Synthesized from patterns in incident handling, system degradation, and architec
 
 **Related artifacts:**
 
-- `Capability Map: System Resilience Patterns`  
-- `Dynamic SLA Framework for Evolving Systems`  
-- `Resilience Engineering Playbook: Feedback Strengths`
+- Capability map: system resilience patterns  
+- Dynamic SLA framework for evolving systems
+- Resilience engineering playbook: feedback strengths
 
 **Likely evolution:**
 

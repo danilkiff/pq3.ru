@@ -1,21 +1,25 @@
 ---
-title: "[NOTE] Organizational blind spot: no hypothesis culture"
+title: "Organizational blind spot: no hypothesis culture"
 date: 2023-06-01
 summary: Organizations without hypothesis validation ship untested features, prioritize speed over value, and accumulate cognitive debt, undermining product quality and team motivation.
 categories:
-    - Process
+  - Process
 tags:
-    - hypothesis
-    - product discovery
-    - cognitive debt
-    - feature validation
-    - metrics
-    - backlog
+  - hypothesis
+  - product
+  - discovery
+  - cognitive
+  - debt
+  - feature
+  - validation
+  - metrics
+  - backlog
 ---
 
 ## Purpose
 
-Expose the risks, hidden costs, and systemic causes when product decisions are made **without validating hypotheses**. 
+Expose the risks, hidden costs, and systemic causes when product decisions are made **without validating hypotheses**.
+
 This is a tool for internal reflection and a starting point for cultural transformation in product organizations.
 
 ---

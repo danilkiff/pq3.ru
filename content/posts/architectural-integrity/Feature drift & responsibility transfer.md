@@ -85,10 +85,7 @@ No one is “responsible” without decision-making input
 
 **Origin:**  
 
-Synthesized from real-world product and architecture conflicts in which engineers executed tasks that diverged from initial vision (see: 
-[CTO thinking paradox]({{<relref "paradox.md">}}), 
-[Architectural integrity manifesto]({{<relref "manifesto.md">}})
-).
+Synthesized from real-world product and architecture conflicts in which engineers executed tasks that diverged from initial vision (see: [[The CTO thinking paradox - depth vs tempo]], [[Architectural integrity manifesto]]).
 
 **Trigger context:**
 
@@ -100,13 +97,13 @@ Synthesized from real-world product and architecture conflicts in which engineer
 
 **Related artifacts:** 
 
-- [Architectural risk drift]({{< relref "risk-drift.md" >}})
-- `Thinking Rituals for Incident Coordination`  
-- `Capability Map: Feature Delivery System`
+- [[Architectural risk drift & role safety protocol]]
+- **TBD:** Thinking rituals for incident coordination
+- **TBD:** Capability map: feature delivery system
 
 **Likely evolution:** 
 
-- This will be extended into [CR Alignment metrics]({{< relref "alignment.md" >}})
+- This will be extended into [[CR alignment metrics]]
 - Influences future models of `Strategic Feedback Compression`
 
 ---

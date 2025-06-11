@@ -98,10 +98,7 @@ Formalize it in capability contracts, not just API docs.
 
 **Origin:**  
 
-Synthesized from large-scale system resilience failures and fragmented incident ownership patterns (see: 
-[Architectural risk drift]({{< relref "risk-drift.md" >}}), 
-[Human-centric error budget charter]({{< relref "error-budget.md" >}})
-).
+Synthesized from large-scale system resilience failures and fragmented incident ownership patterns (see: [[Architectural risk drift & role safety protocol]], [[Human-centric error budget charter]]).
 
 **Trigger context:**  
 
@@ -113,9 +110,9 @@ Synthesized from large-scale system resilience failures and fragmented incident 
 
 **Related artifacts:**  
 
-- `Trustworthy Systems Thinking`  
-- `Resilience Engineering Playbook`  
-- `Strategic SLA and Capability Mapping`
+- **TBD:** Trustworthy Systems Thinking
+- **TBD:** Resilience Engineering Playbook
+- **TBD:** Strategic SLA and Capability Mapping
 
 **Likely evolution:** 
 

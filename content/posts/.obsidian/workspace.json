@@ -1,0 +1,183 @@
+{
+  "main": {
+    "id": "d5cfc2ece38aa697",
+    "type": "split",
+    "children": [
+      {
+        "id": "fa583c913a6b6664",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e744ada02fa54940",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b67568232829461d",
+    "type": "split",
+    "children": [
+      {
+        "id": "2d83146e49448115",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bf6684e9531b1223",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "fdb6e3812b9194d8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "6c92399c2235fc54",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "24d710e42c4189e5",
+    "type": "split",
+    "children": [
+      {
+        "id": "4c3ced160fb89b6c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6d6256fb8c0d1dc6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "2372b593476289b4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "8e6a4df54ff99f6e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d34ff7fb79035d3d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "e744ada02fa54940",
+  "lastOpenFiles": [
+    "agi/Prompt AGI properly.md",
+    "architectural-integrity/The CTO thinking paradox - depth vs tempo.md",
+    "architectural-integrity/Trustworthy systems thinking - building for inevitable drift.md",
+    "architectural-integrity/Architectural risk drift & role safety protocol.md",
+    "architectural-integrity/Resilience feedback loop design - strengthening system awareness.md",
+    "architectural-integrity/Reflection protocol - when delegation is not abdication.md",
+    "architectural-integrity/R&D prioritization stack.md",
+    "architectural-integrity/Cultural postmortem - feature drift & responsibility transfer.md",
+    "architectural-integrity/Capability-based ownership model - avoiding responsibility fog.md",
+    "architectural-integrity/Organizational blind spot - no hypothesis culture.md",
+    "architectural-integrity/Arhitectural integrity manifesto.md",
+    "architectural-integrity/Human-centric error budget charter.md",
+    "architectural-integrity/Feature drift & responsibility transfer.md",
+    "architectural-integrity/Decision record - when master system is no longer trustworthy.md",
+    "architectural-integrity/CR alignment metrics.md",
+    "architectural-integrity/Bias-aware prioritization framework.md"
+  ]
+}

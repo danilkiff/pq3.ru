@@ -90,9 +90,7 @@ This protocol isn’t bureaucracy. It’s a safety harness for autonomous teams.
 
 **Origin:**  
 
-Formulated in response to repeated architectural compromises without consultation, despite accountability being assigned after the fact (see: 
-[Architectural integrity manifesto]({{< relref "manifesto.md">}}), 
-[Feature Drift]({{< relref "feature-drift.md" >}})).
+Formulated in response to repeated architectural compromises without consultation, despite accountability being assigned after the fact (see:  [[Architectural integrity manifesto]], [[Feature drift & responsibility transfer]]).
 
 **Trigger context:**
 
@@ -104,13 +102,13 @@ Formulated in response to repeated architectural compromises without consultatio
 
 **Related artifacts:**
 
-- [CTO thinking paradox]({{< relref "paradox.md" >}})
-- [Decision record: when master system is no longer trustworthy]({{< relref "fail.md" >}})
-- [Human-centric error budget charter]({{< relref "error-budget.md" >}})
+- [[The CTO thinking paradox - depth vs tempo]]
+- [[Decision record - when master system is no longer trustworthy]]
+- [[Human-centric error budget charter]]
 
 **Likely evolution:**
 
-- Will shape role alignment models in [Capability-based ownership]({{< relref "ownership.md" >}})
+- Will shape role alignment models in [[Capability-based ownership model - avoiding responsibility fog]]
 - Applies to incident command structures and resilience reviews
 
 ---

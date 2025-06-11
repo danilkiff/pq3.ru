@@ -94,9 +94,9 @@ Developed after repeated production incidents traced to silent contract drift in
 
 **Related artifacts:** 
 
-- [Human-centric error budget charter]({{< relref "error-budget.md" >}})
-- `Capability Map: Resilience Surface`  
-- `Strategic Risk Mapping in System Design`
+- [[Human-centric error budget charter]]
+- **TBD**: Capability map: resilience surface  
+- **TBD**: Strategic risk mapping in system design
 
 **Likely evolution:**
 

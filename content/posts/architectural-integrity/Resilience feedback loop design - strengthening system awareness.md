@@ -89,9 +89,7 @@ Track team-level signals like:
 
 **Origin:**  
 
-Based on patterns from distributed incident resolution, organizational drift, and failure learning debt (see: 
-[Human-centric error budget charter]({{< relref "error-budget.md" >}}), 
-*Handoff-Incident Protocol*).
+Based on patterns from distributed incident resolution, organizational drift, and failure learning debt (see:  [[Human-centric error budget charter]],  `Handoff-Incident Protocol`).
 
 **Trigger context:**  
 
@@ -103,9 +101,9 @@ Based on patterns from distributed incident resolution, organizational drift, an
 
 **Related artifacts:**  
 
-- [Capability-based ownership]({{< relref "ownership.md" >}})
-- `Trustworthy systems design`  
-- `Shift handoff playbook`
+- [[Capability-based ownership model - avoiding responsibility fog]]
+- **TBD:** Trustworthy systems design
+- **TBD:** Shift handoff playbook
 
 **Likely evolution:**
 

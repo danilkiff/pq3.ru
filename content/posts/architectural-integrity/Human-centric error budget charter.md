@@ -116,14 +116,14 @@ Born from convergence of SRE operational debt, incident analysis, and team burno
 
 **Related artifacts:**
 
-- `Resilience Engineering Playbook`  
-- `Organizational Trust Maintenance Protocols`  
-- [Architectural risk drift]({{< relref "risk-drift.md" >}})
+- [[Architectural risk drift & role safety protocol]]
+- **TBD:** Resilience Engineering Playbook
+- **TBD:** Organizational Trust Maintenance Protocols
 
 **Likely evolution:**
 
 - Tight integration with leadership retrospectives and talent management  
-- Future design of **Team-Level SLA Frameworks**
+- Future design of `Team-level SLA frameworks`
 
 ---
 

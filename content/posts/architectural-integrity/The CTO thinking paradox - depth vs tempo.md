@@ -93,10 +93,10 @@ This concept emerged from R&D leadership friction between architectural scale th
 
 **Related artifacts:** 
 
-- [Reflection protocol: when delegation is not abdication]({{< relref "reflection-protocol.md" >}})
-- [Architectural integrity manifesto]({{< relref "manifesto.md" >}})
-- Thinking rituals for incident response
-- [R&D prioritization stack]({{< relref "prioritization.md" >}})
+- [[Reflection protocol - when delegation is not abdication]]
+- [[Architectural integrity manifesto]]
+- [[R&D prioritization stack]]
+- **TBD:** Thinking rituals for incident response
 
 **Likely evolution:** 
 

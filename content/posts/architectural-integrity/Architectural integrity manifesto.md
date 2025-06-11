@@ -1,17 +1,22 @@
 ---
 date: 2016-11-01
-title: Arhitectural integrity manifesto
+title: Architectural integrity manifesto
 summary: Architectural integrity means traceable decisions, visible trade-offs, and real responsibility—not just supporting pre-made choices or patching technical debt
 categories:
   - Architecture
 tags:
   - ADR
-  - architectural integrity
-  - decision traceability
+  - architectural
+  - integrity
+  - decision
+  - traceability
   - responsibility
-  - system boundaries
-  - system constraints
-  - technical debt
+  - system
+  - boundaries
+  - system
+  - constraints
+  - technical
+  - debt
 ---
 
 In many engineering organizations, “architecture" has become a polite word for PowerPoint.  
@@ -93,10 +98,7 @@ If you’re in a leadership position:
 **Origin:** 
 
 Developed through firsthand experience of system design in constrained organizations 
-(see: 
-  [Feature drift & responsibility transfer]({{< relref "feature-drift.md" >}}), 
-  [Architectural risk drift]({{< relref "risk-drift.md" >}})
-).
+(see: [[Feature drift & responsibility transfer]], [[Architectural risk drift & role safety protocol]]).
 
 **Trigger context:**
 
@@ -108,10 +110,10 @@ Developed through firsthand experience of system design in constrained organizat
 
 **Related artifacts:**  
 
-- [Architectural risk drift]({{< relref "risk-drift.md" >}})
-- [Reflection protocol: when delegation is not abdication]({{< relref "reflection-protocol.md" >}})
-- Capability map: trustworthy systems
-- [CTO thinking paradox]({{< relref "paradox.md" >}})
+- [[Architectural risk drift & role safety protocol]]
+- [[Reflection protocol - when delegation is not abdication]]
+- [[The CTO thinking paradox - depth vs tempo]]
+- **TBD:** Capability map: trustworthy systems
 
 **Likely evolution:**  
 

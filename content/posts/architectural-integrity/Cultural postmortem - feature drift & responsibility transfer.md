@@ -91,11 +91,7 @@ Normalize challenging assumptions during alignment phases without reputational r
 
 **Origin:**  
 
-Rooted in case studies of product misfires, leadership breakdowns, and technical debt emergence 
-(see: 
-[Feature drift & responsibility transfer]({{< relref "feature-drift.md" >}}),
-[Architectural risk drift]({{< relref "risk-drift.md" >}})
-).
+Rooted in case studies of product misfires, leadership breakdowns, and technical debt emergence (see:  [[Feature drift & responsibility transfer]], [[Architectural risk drift & role safety protocol]]).
 
 **Trigger context:**  
 
@@ -107,9 +103,9 @@ Rooted in case studies of product misfires, leadership breakdowns, and technical
 
 **Related artifacts:**  
 
-- [Human-centric error budget charter]({{< relref "error-budget.md" >}})
-- [Capability-based ownership]({{< relref "ownership.md" >}})
-- [CR Alignment metrics]({{< relref "alignment.md" >}})
+- [[Human-centric error budget charter]]
+- [[Capability-based ownership model - avoiding responsibility fog]]
+- [[CR alignment metrics]]
 
 **Likely evolution:** 
 

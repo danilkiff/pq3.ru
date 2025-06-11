@@ -3,16 +3,15 @@ date: 2017-04-01
 title: R&D prioritization stack
 summary: R&D prioritization must weigh risk, learning, irreversibility, bias, and alignment—not just value—to avoid costly mistakes and guide high-stakes architectural decisions.
 categories:
-    - Prioritization
+  - Prioritization
 tags:
-    - R&D
-    - prioritization
-    - hypothesis
-    - irreversibility
-    - architecture
-    - bias
-    - alignment
-    - learning
+  - prioritization
+  - hypothesis
+  - irreversibility
+  - architecture
+  - bias
+  - alignment
+  - learning
 ---
 
 In R&D environments, prioritization is not just about value and effort — it’s about **risk**, **learning**, and **strategic irreversibility**.
@@ -72,7 +71,7 @@ Track **non-obvious costs** — not just engineering effort.
 
 - Are we reacting to a distortion in perception?
 
-Reinforces the [Bias-aware prioritization framework]({{< relref "bias-aware.md" >}}). 
+Reinforces the [[Bias-aware prioritization framework]]. 
 
 **Strategic alignment**
 
@@ -99,10 +98,7 @@ Draws from Capability Mapping and Portfolio Thinking. Every prioritized item sho
 
 **Origin:**
 
-Arises from misfit between classic prioritization models and R&D reality (see: 
-[Bias-aware prioritization framework]({{< relref "bias-aware.md" >}}), 
-[Organizational blind spot: no hypothesis culture]({{< relref "no-hypothesis.md" >}})
-).
+Arises from misfit between classic prioritization models and R&D reality (see: [[Bias-aware prioritization framework]], [[Organizational blind spot - no hypothesis culture]]).
 
 **Trigger context:**
 
@@ -114,13 +110,13 @@ Arises from misfit between classic prioritization models and R&D reality (see:
 
 **Related artifacts:**
 
-- [Feature Drift & Responsibility Transfer]({{< relref "feature-drift.md" >}})
-- `Thinking Rituals for Strategic Decomposition`  
-- `Organizational Capability Map`
+- [[Feature drift & responsibility transfer]]
+- **TBD:** Thinking Rituals for Strategic Decomposition
+- **TBD:** Organizational Capability Map
 
 **Likely evolution:**
 
-- Will integrate with future models of **Dynamic Strategy Loop**  
+- Will integrate with future models of `Dynamic Strategy Loop`  
 - Could serve as an input for `Architectural Investment Reviews`
 
 ---

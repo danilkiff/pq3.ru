@@ -3,17 +3,18 @@ date: 2017-06-01
 title: Bias-aware prioritization framework
 summary: Prioritization is often biased. Use bias checks, data integrity scoring, and time-delay to avoid noisy inputs and false signals in product decision-making.
 categories:
-    - Prioritization
+  - Prioritization
 tags:
-    - bias
-    - prioritization
-    - cognitive bias
-    - R&D
-    - decision frameworks
-    - feedback
-    - RICE
-    - MoSCoW
-    - Kano
+  - bias
+  - prioritization
+  - cognitive
+  - bias
+  - decision
+  - frameworks
+  - feedback
+  - RICE
+  - MoSCoW
+  - Kano
 ---
 
 Product teams often believe they’re making data-driven decisions. But most prioritization is shaped more by **bias** than by logic.
@@ -55,8 +56,7 @@ We only hear from users who stayed. The ones we lost never file tickets.
 
 **Surface the distortions**
 
-Every item under consideration should have a **bias check**:  
-> “Where might we be fooling ourselves?”
+Every item under consideration should have a **bias check**:  *“Where might we be fooling ourselves?”*
 
 **Differentiate signal types**
 
@@ -100,9 +100,7 @@ Examples:
 
 **Origin:**
 
-Grew out of frustration with request-driven prioritization lacking validation (see: 
-[Organizational blind spot: no hypothesis culture]({{< relref "no-hypothesis.md" >}}), 
-[R&D prioritization stack]({{< relref "prioritization.md" >}})).
+Grew out of frustration with request-driven prioritization lacking validation (see: [[Organizational blind spot - no hypothesis culture]], [[R&D prioritization stack]]).
 
 **Trigger context:**
 
@@ -114,9 +112,9 @@ Grew out of frustration with request-driven prioritization lacking validation (s
 
 **Related artifacts:**
 
-- [R&D prioritization stack]({{< relref "prioritization.md" >}})
-- `Thinking Traps in Incident Review`  
-- [Feature drift & responsibility transfer]({{< relref "feature-drift.md" >}})
+- [[R&D prioritization stack]]
+- [[Feature drift & responsibility transfer]]
+- **TBD:** Thinking Traps in Incident Review  
 
 **Likely evolution:**
 
