@@ -29,23 +29,23 @@ Misrouted decisions **rot organizational resilience**.
 
 ## How to classify decisions for routing
 
-### 1. **Reversibility**
+### 1. Reversibility
 
-| Type | Route |
-|------|-------|
-| Easily reversible | Empower to local decision-makers |
-| Hard to reverse / high blast radius | Escalate or require review |
+| Type                                | Route                            |
+| ----------------------------------- | -------------------------------- |
+| Easily reversible                   | Empower to local decision-makers |
+| Hard to reverse / high blast radius | Escalate or require review       |
 
 ---
 
-### 2. **Scope of Impact**
+### 2. Scope of Impact
 
 - **Narrow, isolated** → Empower
 - **Cross-domain, systemic** → Escalate for alignment
 
 ---
 
-### 3. **Ambiguity of Success Criteria**
+### 3. Ambiguity of Success Criteria
 
 - **Clear metrics** → Empower
 - **Unclear value or priorities** → Escalate for clarification

@@ -1,6 +1,6 @@
 ---
-date: '2016-04-01'
-title: 'Reasoning debt: the invisible risk behind system fragility'
+date: 2025-04-01
+title: "Reasoning debt: the invisible risk behind system fragility"
 ---
 
 Systems don't just inherit **technical debt**. They inherit **reasoning debt** — the cumulative burden of poor, rushed, or unexamined thinking. Before architectures fail, reasoning fails.
@@ -45,7 +45,7 @@ It manifests not just in bugs, but in **system design, team behavior, and leader
 
 ## Managing reasoning debt
 
-### 1. **Implement thinking hygiene**
+### 1. Implement thinking hygiene
 
 - Frame decisions as hypotheses.
 - Document critical assumptions explicitly.
@@ -53,14 +53,14 @@ It manifests not just in bugs, but in **system design, team behavior, and leader
 
 ---
 
-### 2. **Create reasoning trails**
+### 2. Create reasoning trails
 
 - Capture the **why** behind decisions, not just the what.
 - Link architectural artifacts to rationale and risk contexts.
 
 ---
 
-### 3. **Institutionalize intellectual humility**
+### 3. Institutionalize intellectual humility
 
 - Normalize saying "I don't know" or "This could be wrong."
 - Reward detection of flawed assumptions, not just "winning" arguments.

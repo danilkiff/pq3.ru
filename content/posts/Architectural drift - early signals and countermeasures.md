@@ -4,14 +4,13 @@ title: 'Architectural drift: early signals and countermeasures'
 ---
 
 ## Why it matters
-Architecture doesn’t collapse overnight.  
-It drifts — slowly, silently, dangerously — until systems become brittle, unscalable, and nearly impossible to evolve.  
-By the time collapse is obvious, recovery is expensive or infeasible.  
-Detecting and addressing **architectural drift early** is one of the highest-leverage acts of technical leadership.
+
+Architecture doesn’t collapse overnight.  It drifts — slowly, silently, dangerously — until systems become brittle, unscalable, and nearly impossible to evolve.  By the time collapse is obvious, recovery is expensive or infeasible.  Detecting and addressing **architectural drift early** is one of the highest-leverage acts of technical leadership.
 
 ---
 
 ## Core idea
+
 Architectural drift is the gradual deviation of the implemented system from its intended design principles, constraints, and goals.  
 It emerges naturally due to scaling, team evolution, deadline pressure, and misunderstood requirements.  
 **Without early detection and course correction, drift solidifies into architectural debt.**

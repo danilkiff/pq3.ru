@@ -6,8 +6,6 @@ title: 'Strategy through capabilities: CTO’s operating model'
 
 > "Don’t start with strategy. Start with capability. Strategy is just a consistent pattern of decision-making once capability is understood."
 
----
-
 ## Why capabilities first?
 
 Most CTOs are taught to begin with strategy — market fit, technical advantage, product vision. But in high-responsibility roles, strategy is rarely a blank canvas. Legacy systems, team maturity, and organizational inertia constrain what can be achieved.

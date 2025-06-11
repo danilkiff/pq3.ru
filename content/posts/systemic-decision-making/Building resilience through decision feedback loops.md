@@ -3,11 +3,9 @@ date: '2016-04-01'
 title: 'Building resilience through decision feedback loops'
 ---
 
-Most engineering cultures obsess over **incident response**.  
-Fewer invest in **decision response**.
+Most engineering cultures obsess over *incident* response. Fewer invest in *decision* response.
 
-> Resilient systems aren't built by eliminating mistakes.  
-> They're built by learning **faster** and **earlier** from decision outcomes.
+Resilient systems aren't built by eliminating mistakes.  They're built by learning **faster** and **earlier** from decision outcomes.
 
 ---
 
@@ -45,21 +43,21 @@ The faster the loop, the more resilient the system.
 
 ## How to seed decision feedback loops
 
-### 1. **Make decision hypotheses explicit**
+### 1. Make decision hypotheses explicit
 Before action:
 - What are we assuming?
 - What would falsify this assumption?
 
 ---
 
-### 2. **Instrument decision outcomes**
+### 2. Instrument decision outcomes
 After implementation:
 - Track not just *feature success*, but *assumption survival*.
 - Collect incident patterns linked to decision context.
 
 ---
 
-### 3. **Normalize post-decision reviews**
+### 3. Normalize post-decision reviews
 - No witch-hunts.
 - Focus on *structure of reasoning*, not personal judgment.
 - Tag new heuristics born from each learning cycle.
@@ -88,8 +86,7 @@ Sourced from studying resilience practices across high-reliability organizations
 - Product teams stuck repeating the same scaling mistakes  
 - Engineering cultures where mistakes were hidden, not metabolized
 
-**Core insight:**  
-→ *Resilience isn't redundancy. It's reflexivity.*
+> **Core insight:**  Resilience isn't redundancy. It's reflexivity.
 
 **Related artifacts:**  
 - `Resilience Engineering Playbook`  

@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f53981cba4beb659",
+        "id": "d595acb2e17e4d39",
         "type": "tabs",
         "children": [
           {
-            "id": "ce06ad49567b38e5",
+            "id": "60e42fe05261a1d4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "About me.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "About me"
             }
           }
         ]
@@ -74,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 325.5
   },
   "right": {
     "id": "0f75354f8908f50a",
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "posts/Architectural Drift - Early Signals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Architectural Drift - Early Signals"
             }
           },
           {
@@ -108,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "posts/Architectural Drift - Early Signals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Architectural Drift - Early Signals"
             }
           },
           {
@@ -136,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "posts/Architectural Drift - Early Signals.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Architectural Drift - Early Signals"
             }
           }
         ]
@@ -161,37 +168,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ce06ad49567b38e5",
+  "active": "60e42fe05261a1d4",
   "lastOpenFiles": [
+    "posts/Two ways to solve a problem - speed vs. incubation.md",
+    "posts/The human error budget - designing for fallibility.md",
+    "posts/Relay role patterns for incident handoffs.md",
+    "posts/Mapping the zone of proximal development for team growth.md",
+    "posts/Designing resilient organizational memory.md",
+    "posts/Cognitive resilience in incident response.md",
+    "posts/Architectural drift - early signals and countermeasures.md",
+    "posts/capability-driven-leadership/From process to capability. Mapping the invisible work.md",
+    "posts/capability-driven-leadership/Engineering capability maps. Structure, maturity, and risk.md",
+    "posts/capability-driven-leadership/Designing for capability growth.md",
+    "posts/capability-driven-leadership/Capability drift. The hidden risk in long-lived systems.md",
+    "posts/systems-thinking/What makes a system trustworthy.md",
+    "posts/systems-thinking/Trust decay - how systems erode themselves.md",
+    "posts/systems-thinking/Organizational trustworthiness - beyond SLA and uptime.md",
+    "posts/systems-thinking/Engineering for predictable failure.md",
+    "posts/systems-thinking/Capability mapping for trustworthy systems.md",
     "posts/systemic-decision-making/index.md",
-    "posts/Two Ways to Solve a Problem.md",
-    "posts/The Human Error Budget.md",
-    "posts/Relay Role Patterns for Incident Handoffs.md",
-    "posts/Mapping ZPD for Sustainable Team Growth.md",
-    "posts/Designing Resilient Organizational Memory.md",
-    "posts/Cognitive Resilience in Incident Response.md",
-    "posts/Architectural Drift - Early Signals.md",
-    "posts/collective-intelligence/Pattern Language for Collective Learning.md",
-    "posts/collective-intelligence/From Solo Reasoning to Collective Intelligence.md",
-    "posts/collective-intelligence/Collective Reasoning as a Capability.md",
-    "posts/collective-intelligence/Building Reasoning Architectures in Teams.md",
-    "posts/collective-intelligence/Anti-patterns of Distributed Reasoning.md",
+    "posts/systemic-decision-making/The fragile triangle - urgency, clarity, and consensus.md",
+    "posts/systemic-decision-making/Reasoning debt - the invisible risk behind system fragility.md",
+    "posts/systemic-decision-making/Escalation vs empowerment - the decision routing dilemma.md",
+    "posts/systemic-decision-making/Decision hygiene for technical leaders.md",
+    "posts/systemic-decision-making/Building resilience through decision feedback loops.md",
+    "posts/systemic-decision-making/Architectural compromise ledger.md",
+    "posts/systemic-decision-making/Alignment time. The hidden cost in product development.md",
+    "posts/resilient-evolution/Trustworthy systems are slow to rot, not slow to change.md",
+    "posts/resilient-evolution/Versioning the organization.md",
     "posts/collective-intelligence",
-    "posts/capability-driven-leadership/06-Strategy Through Capabilities.md",
-    "posts/capability-driven-leadership/05-Designing for Capability Growth.md",
-    "posts/capability-driven-leadership/04-Capability Drift.md",
-    "posts/capability-driven-leadership/03-Engineering Capability Maps.md",
-    "posts/capability-driven-leadership/02-From Process to Capability.md",
-    "posts/capability-driven-leadership/01-Mental Models - The True Control Plane.md",
-    "posts/capability-driven-leadership/01-Drive Engineering Maturity.md",
     "posts/capability-driven-leadership",
-    "posts/systems-thinking/What Makes a System Trustworthy.md",
-    "posts/systems-thinking/Trust Decay - How Systems Erode Themselves.md",
-    "posts/systems-thinking/Organizational Trustworthiness.md",
-    "posts/systems-thinking/Engineering for Predictable Failure.md",
-    "posts/systems-thinking/Capability Mapping for Trustworthy Systems.md",
     "posts/systems-thinking",
-    "posts/resilient-evolution/Versioning the Organization.md",
     "posts/resilient-evolution",
     "posts/resolient-evolution",
     "posts/systemic-decision-making",

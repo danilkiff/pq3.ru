@@ -3,7 +3,6 @@ date: '2025-01-10'
 title: 'Strategic layer: collective reasoning as a capability'
 tags: ['collective-intelligence', 'reasoning-capability', 'engineering-strategy', 'CTO-growth']
 ---
-
 ## Context
 
 Most teams think of **communication** as an operational necessity.  

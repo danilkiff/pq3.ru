@@ -3,8 +3,7 @@ date: '2016-04-01'
 title: 'What makes a system trustworthy?'
 ---
 
-In engineering, **trust** is not a feeling. It's a measurable property of how systems behave under uncertainty.
-A system is trustworthy when it remains predictable, transparent, and improvable — even as the environment around it changes.
+In engineering, **trust** is not a feeling. It's a measurable property of how systems behave under uncertainty. A system is trustworthy when it remains predictable, transparent, and improvable — even as the environment around it changes.
 
 ---
 

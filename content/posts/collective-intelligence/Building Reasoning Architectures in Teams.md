@@ -1,7 +1,11 @@
 ---
-date: '2025-01-07'
-title: 'Building Reasoning Architectures in Teams'
-tags: [reasoning-architecture, collective-intelligence, engineering-process, CTO-growth]
+date: 2025-01-07
+title: Building reasoning architectures in teams
+tags:
+  - reasoning-architecture
+  - collective-intelligence
+  - engineering-process
+  - CTO-growth
 ---
 
 ## Context

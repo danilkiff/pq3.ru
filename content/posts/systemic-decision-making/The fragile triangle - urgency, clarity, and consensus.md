@@ -4,14 +4,10 @@ title: 'The fragile triangle: urgency, clarity, and consensus'
 ---
 
 Most technical decisions under stress collapse for one of three reasons:
-
 1. Not enough **urgency** — things drift.
 2. Not enough **clarity** — things fragment.
 3. Not enough **consensus** — things stall or break down after the fact.
-
-> These are the three sides of the **decision triangle**.  
-> You need at least two.  
-> All three? That’s rare. That’s craft.
+These are the three sides of the **decision triangle**. You need at least two. All three? That’s rare. That’s craft.
 
 ---
 

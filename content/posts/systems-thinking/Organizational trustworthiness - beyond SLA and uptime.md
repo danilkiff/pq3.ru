@@ -1,6 +1,6 @@
 ---
-date: '2016-04-01'
-title: 'Organizational trustworthiness: beyond sla and uptime'
+date: 2016-04-01
+title: "Organizational trustworthiness: beyond SLA and uptime"
 ---
 
 Trust in systems doesn't start with servers. It starts with people — and the **promises they keep**.

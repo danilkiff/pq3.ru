@@ -3,10 +3,7 @@ date: '2016-04-01'
 title: 'Decision hygiene for technical leaders'
 ---
 
-In complex engineering environments, good decision-making isn't just a nice-to-have — it's the invisible architecture that holds everything together.
-
-Yet most technical failures don't stem from bad intentions or lack of skill.  
-They stem from **poor decision hygiene**.
+In complex engineering environments, good decision-making isn't just a nice-to-have — it's the invisible architecture that holds everything together. Yet most technical failures don't stem from bad intentions or lack of skill.  They stem from **poor decision hygiene**.
 
 ---
 
@@ -20,8 +17,7 @@ Decision hygiene means designing your thinking process to:
 - Make trade-offs explicit  
 - Preserve optionality until necessary
 
-It’s not about making the perfect decision every time.  
-It’s about **making systemic fragility less likely**.
+It’s not about making the perfect decision every time.  It’s about **making systemic fragility less likely**.
 
 ---
 
@@ -37,7 +33,7 @@ It’s about **making systemic fragility less likely**.
 
 ## Decision hygiene practices
 
-### 1. **Context before options**
+### 1. Context before options
 Always frame the decision environment:
 - Constraints (real, not assumed)
 - Risks (surface, hidden, systemic)
@@ -45,22 +41,20 @@ Always frame the decision environment:
 
 ---
 
-### 2. **Premortems, not just postmortems**
-Before committing to a path, ask:
-> "How could this go wrong?"
-
+### 2. Premortems, not just postmortems
+Before committing to a path, ask: *"How could this go wrong?"*
 Simulate failure, then design around it.
 
 ---
 
-### 3. **Reversible vs irreversible framing**
+### 3. Reversible vs irreversible framing
 Clarify:
 - Can this decision be rolled back cheaply?
 - If not, allocate more discovery time upfront.
 
 ---
 
-### 4. **Slow the first step, not the whole journey**
+### 4. Slow the first step, not the whole journey
 Take 20% longer to start.  
 Save 80% time and risk downstream.
 
@@ -68,7 +62,7 @@ First decisions (e.g., data models, boundary assumptions) are usually the sticki
 
 ---
 
-### 5. **Document decision criteria, not just outcomes**
+### 5. Document decision criteria, not just outcomes
 Capture:
 - Why this was chosen
 - What alternatives were rejected

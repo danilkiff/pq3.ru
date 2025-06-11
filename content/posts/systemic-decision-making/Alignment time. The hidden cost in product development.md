@@ -1,16 +1,13 @@
 ---
-date: '2018-04-01'
-title: 'Alignment Time: The Hidden Cost in Product Development'
+date: 2018-04-01
+title: "Alignment time: the hidden cost in product development"
 ---
 
-When we measure product development speed, we usually obsess over **time-to-market** and **lead time**.
-
-But there’s a hidden variable — often more costly than either:  
-> **Alignment time.**
+When we measure product development speed, we usually obsess over **time-to-market** and **lead time**. But there’s a hidden variable — often more costly than either: **alignment time.**
 
 ---
 
-## What Is Alignment Time?
+## What Is alignment time?
 
 **Alignment time** = The elapsed time between *the moment an idea is introduced* and *the moment all critical stakeholders have a shared understanding* of:
 
@@ -41,7 +38,7 @@ Alignment isn't "product stuff" or "soft work."  It is architecture.
 
 ---
 
-### **Formalize alignment milestones**
+### Formalize alignment milestones
 Before estimation, coding, or prioritization:
 - Document assumptions
 - Define success criteria
@@ -51,7 +48,7 @@ Before estimation, coding, or prioritization:
 
 ---
 
-### 3. **Build lightweight alignment artifacts**
+### 3. Build lightweight alignment artifacts
 Instead of heavy specs, use:
 - Short capability briefs
 - Pre-mortem outlines
@@ -61,12 +58,8 @@ Focus on framing decisions, not listing every pixel.
 
 ---
 
-### 4. **Optimize for alignment pathways**
-If it takes 20 meetings to reach clarity,  
-the system isn't broken because of "slow engineers" —  
-it’s broken because alignment infrastructure is missing.
-
-Invest in:
+### 4. Optimize for alignment pathways
+If it takes 20 meetings to reach clarity, the system isn't broken because of "slow engineers" —  it’s broken because alignment infrastructure is missing. Invest in:
 - Visual aids (maps, diagrams)
 - Single-page narratives
 - Cross-functional workshops
