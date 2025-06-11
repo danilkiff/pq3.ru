@@ -1,4 +1,4 @@
-name: Deploy Hugo Blog via SSH
+name: Build and Deploy Quartz 4
 
 on:
   push:
@@ -12,34 +12,40 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          hugo-version: '0.147.7'
-          extended: true
+          node-version: 22
 
-      - name: Build Hugo site
-        run: hugo
+      - name: Install dependencies
+        run: npm install
 
-      - name: Archive public folder
-        run: tar czf public.tar.gz -C public .
+      - name: Build static site
+        run: npx quartz build
 
-      - name: Deploy via SSH
+      - name: Archive build output
+        run: tar czf out.tar.gz -C public .
+
+      - name: Copy build to server (atomic release)
         uses: appleboy/scp-action@v0.1.7
         with:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USER }}
           key: ${{ secrets.SSH_KEY }}
-          source: "public.tar.gz"
-          target: "/var/www/pq3.ru/html"
-          strip_components: 0
+          source: "out.tar.gz"
+          target: "/var/www/pikachuoverflow.ru/releases/${{ github.sha }}"
 
-      - name: Unpack on server (via SSH)
+      - name: Atomic switch & cleanup
         uses: appleboy/ssh-action@v1.0.3
         with:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USER }}
           key: ${{ secrets.SSH_KEY }}
           script: |
-            tar xzf /var/www/pq3.ru/html/public.tar.gz -C /var/www/pq3.ru/html
-            rm /var/www/pq3.ru/html/public.tar.gz
+            set -e
+            cd /var/www/pq3.ru/releases/${{ github.sha }}
+            tar xzf out.tar.gz -C .
+            rm out.tar.gz
+            ln -sfn /var/www/pq3.ru/releases/${{ github.sha }} /var/www/pq3.ru/html
+            cd /var/www/pq3.ru/releases
+            ls -1dt */ | tail -n +3 | xargs -r rm -rf

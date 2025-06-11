@@ -1,11 +1,13 @@
-
 services:
-  hugo:
+  quartz:
     build: .
     ports:
-      - "1313:1313"
+      - "8080:8080"
     volumes:
-      - ./:/src
+      - ./content:/app/content
+      - ./data:/app/data
+      - ./quartz.config.ts:/app/quartz.config.ts
+      - ./quartz.layout.ts:/app/quartz.layout.ts
     environment:
-      - HUGO_ENV=development
-    user: "${UID:-1000}:${GID:-1000}"
+      - NODE_ENV=development
+    command: npx quartz build --serve
