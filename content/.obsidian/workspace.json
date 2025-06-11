@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "About me.md",
+                "file": "posts/agi/Comparative report on reflective AGI architectures.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "About me"
+              "title": "Comparative report on reflective AGI architectures"
             }
           }
         ]
@@ -170,6 +170,8 @@
   },
   "active": "60e42fe05261a1d4",
   "lastOpenFiles": [
+    "About me.md",
+    "posts/agi/Comparative report on reflective AGI architectures.md",
     "posts/Two ways to solve a problem - speed vs. incubation.md",
     "posts/The human error budget - designing for fallibility.md",
     "posts/Relay role patterns for incident handoffs.md",
@@ -194,8 +196,6 @@
     "posts/systemic-decision-making/Building resilience through decision feedback loops.md",
     "posts/systemic-decision-making/Architectural compromise ledger.md",
     "posts/systemic-decision-making/Alignment time. The hidden cost in product development.md",
-    "posts/resilient-evolution/Trustworthy systems are slow to rot, not slow to change.md",
-    "posts/resilient-evolution/Versioning the organization.md",
     "posts/collective-intelligence",
     "posts/capability-driven-leadership",
     "posts/systems-thinking",
