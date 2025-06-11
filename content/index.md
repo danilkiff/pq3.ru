@@ -28,7 +28,7 @@ This blog is a map of how thinking changes over time — and a place to trace th
 
 ## Built to stay close to the work
 
-This site is built with [Hugo](https://gohugo.io), using Markdown and Git.
+This site is built with [Quartz4](https://quartz.jzhao.xyz), using Markdown and Git.
 It integrates directly with my Obsidian vault, which powers my daily design and reflection cycles.
 Everything here is:
 
@@ -36,8 +36,6 @@ Everything here is:
 - Cross-linked
 - Structured as low-friction text
 - Written to stay close to real systems, not polished for show
-
-There’s no public graph view (yet). No WYSIWYG builder. No growth hacks. Just text that thinks.
 
 ---
 
