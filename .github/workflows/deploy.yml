@@ -20,7 +20,12 @@ jobs:
             docker run --name artifacts quartz4-build npx quartz build
             docker cp artifacts:/app/public ./public
             docker rm artifacts
-
+      
+      - name: Add robots.txt
+        run: |
+          echo "User-agent: *" > public/robots.txt
+          echo "Disallow:" >> public/robots.txt
+          echo "Sitemap: https://pq3.ru/sitemap.xml" >> public/robots.txt
 
       - name: Archive build output
         run: tar czf out.tar.gz -C public .
