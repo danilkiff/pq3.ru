@@ -3,7 +3,7 @@ date: 2016-04-01
 title: "Organizational trustworthiness: beyond SLA and uptime"
 ---
 
-Trust in systems doesn't start with servers. It starts with people — and the **promises they keep**.
+Trust in systems doesn't start with servers. It starts with people -- and the **promises they keep**.
 A technically stable system built inside a culturally unstable organization is not trustworthy.
 Engineering trustworthy systems means also engineering trustworthy **organizations**.
 
@@ -27,7 +27,7 @@ High SLA targets and low downtime numbers can **mask** organizational brittlenes
 - **Unacknowledged assumption drift** erodes predictability.
 - **Delayed retrospection** amplifies small risks into large failures.
 
-A trustworthy organization **prevents and repairs trust decay** — not just system outages.
+A trustworthy organization **prevents and repairs trust decay** -- not just system outages.
 
 ---
 
@@ -110,5 +110,5 @@ Combines insights from organizational resilience theory, psychological safety re
 ---
 
 You can’t automate your way to trustworthiness.  
-You can only **build it, reflect it, and maintain it** — human to human.
+You can only **build it, reflect it, and maintain it** -- human to human.
 

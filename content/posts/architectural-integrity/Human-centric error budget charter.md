@@ -1,7 +1,7 @@
 ---
 date: 2017-05-01
 title: Human-centric error budget charter
-summary: Treat system reliability and human resilience as coupled constraints - budget for both machine failures and human recovery to prevent burnout and hidden operational debt
+description: Treat system reliability and human resilience as coupled constraints - budget for both machine failures and human recovery to prevent burnout and hidden operational debt
 categories:
     - Reliability
 tags:
@@ -19,7 +19,7 @@ Systems fail. People make mistakes. Organizations burn out trying to prevent bot
 The goal of a human-centric error budget is simple: treat system reliability and human resilience as **coupled constraints**.
 
 You don’t just budget failure for machines.
-You budget recovery — and dignity — for people.
+You budget recovery -- and dignity -- for people.
 
 ---
 
@@ -51,7 +51,7 @@ Because technical failures almost always intersect with human factors:
 - Incomplete handoffs
 - Psychological safety erosion
 
-Ignoring the human surface area of system reliability guarantees builds invisible debt — until you pay it all at once.
+Ignoring the human surface area of system reliability guarantees builds invisible debt -- until you pay it all at once.
 
 ---
 
@@ -63,7 +63,7 @@ If your system can tolerate N failures per month, your people should be allowed 
 
 **Error budgets allocate recovery time.**
 
-Not just for services — for humans, too.
+Not just for services -- for humans, too.
 
 - Learning cycles
 - Retrospective deep-dives
@@ -79,7 +79,7 @@ Anyone involved in an incident has the right to:
 
 **Error signals trigger team support, not just system escalation.**
 
-If error rates spike, look at human workload, cognitive pressure, and safety cues — not just logs and traces.
+If error rates spike, look at human workload, cognitive pressure, and safety cues -- not just logs and traces.
 
 ---
 
@@ -95,7 +95,7 @@ If error rates spike, look at human workload, cognitive pressure, and safety cue
 ## Tactical moves
 
 - Introduce **soft landings** for critical failures (e.g., relay engineers, post-mortem buddies)
-- Schedule **resilience calibration weeks** — slow features, sharpen fundamentals
+- Schedule **resilience calibration weeks** -- slow features, sharpen fundamentals
 - Embed **human failure modes** into incident simulations and tabletop exercises
 
 ---

@@ -17,7 +17,7 @@ Systemic decision debt = the accumulation of misaligned, rushed, or unconscious 
 - Team structures
 - Governance processes
 
-Unlike code debt, it’s **invisible** until high-stress moments — when you realize the system can't adapt without breaking itself.
+Unlike code debt, it’s **invisible** until high-stress moments -- when you realize the system can't adapt without breaking itself.
 
 ---
 

@@ -3,7 +3,7 @@ date: '2023-01-02'
 title: 'Designing trustworthy change: versioning, evolution, and guardrails'
 ---
 
-Change is inevitable. Trustworthy systems don’t prevent change — they **engineer it safely**.
+Change is inevitable. Trustworthy systems don’t prevent change -- they **engineer it safely**.
 
 ---
 

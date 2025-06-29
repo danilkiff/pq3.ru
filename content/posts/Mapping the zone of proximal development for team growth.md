@@ -5,14 +5,14 @@ title: 'Mapping the zone of proximal development for team growth'
 
 ## **Why it matters**
 Engineering teams don't grow sustainably just by assigning harder tasks.  
-They grow when they operate **in the right stretch zone** — not too easy to breed boredom, not too hard to trigger burnout.  
+They grow when they operate **in the right stretch zone** -- not too easy to breed boredom, not too hard to trigger burnout.  
 Mapping each member's *Zone of Proximal Development (ZPD)* enables leaders to design learning loops that are challenging **and** achievable.
 
 ---
 
 ## **Core idea**
 The *Zone of Proximal Development (ZPD)* represents the space where an engineer cannot yet solve problems fully independently, but can succeed **with appropriate scaffolding** (guidance, mentoring, feedback).  
-Mapping ZPD is not a static process — it must be **dynamic and adaptive** to the team's evolution and changing system complexity.
+Mapping ZPD is not a static process -- it must be **dynamic and adaptive** to the team's evolution and changing system complexity.
 
 ---
 
@@ -20,7 +20,7 @@ Mapping ZPD is not a static process — it must be **dynamic and adaptive** to t
 - **For Individual Engineers:**
   - Identify tasks that are *just slightly beyond* current autonomous capacity.
   - Assign a mentor or peer reviewer specifically tuned to the skill gap.
-  - Set clear "outcomes" rather than prescribing exact "methods" — allowing exploration within safe bounds.
+  - Set clear "outcomes" rather than prescribing exact "methods" -- allowing exploration within safe bounds.
 
 - **At the Team Level:**
   - Regularly survey technical comfort zones during retrospectives.

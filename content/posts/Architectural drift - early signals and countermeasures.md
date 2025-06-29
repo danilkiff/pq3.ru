@@ -5,7 +5,7 @@ title: 'Architectural drift: early signals and countermeasures'
 
 ## Why it matters
 
-Architecture doesn’t collapse overnight.  It drifts — slowly, silently, dangerously — until systems become brittle, unscalable, and nearly impossible to evolve.  By the time collapse is obvious, recovery is expensive or infeasible.  Detecting and addressing **architectural drift early** is one of the highest-leverage acts of technical leadership.
+Architecture doesn’t collapse overnight.  It drifts -- slowly, silently, dangerously -- until systems become brittle, unscalable, and nearly impossible to evolve.  By the time collapse is obvious, recovery is expensive or infeasible.  Detecting and addressing **architectural drift early** is one of the highest-leverage acts of technical leadership.
 
 ---
 
@@ -25,7 +25,7 @@ It emerges naturally due to scaling, team evolution, deadline pressure, and misu
   - Cross-check service and data boundaries quarterly against capability maps.
 
 **Countermeasure strategies:**
-  - Evolve architectural fitness functions — automated tests for compliance with core architectural constraints.
+  - Evolve architectural fitness functions -- automated tests for compliance with core architectural constraints.
   - Design guardrails, not fences: guide teams without hard-blocking creativity.
   - Allocate time for “architectural gardening” in every major initiative.
 

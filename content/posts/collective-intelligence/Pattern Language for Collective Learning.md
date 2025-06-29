@@ -38,7 +38,7 @@ Simulate failure before it happens; extract assumptions early.
 Separate "what broke" from "who touched it."
 
 **Trade-off journaling**  
-Document why one solution was chosen over another — visible, lightweight, searchable.
+Document why one solution was chosen over another -- visible, lightweight, searchable.
 
 **Micro-retrospectives**  
 Frequent, lightweight reviews focusing on *reasoning quality*, not just outcomes.
@@ -74,9 +74,9 @@ Design for *living*, not *ossified* pattern languages.
 
 ## Closing reflection
 
-> In resilient teams, patterns are not rules — they are **living seeds of better reasoning**.
+> In resilient teams, patterns are not rules -- they are **living seeds of better reasoning**.
 
-A **pattern language for collective learning** gives teams the superpower to **outgrow themselves** — consciously, continuously, collaboratively.
+A **pattern language for collective learning** gives teams the superpower to **outgrow themselves** -- consciously, continuously, collaboratively.
 
 ---
 

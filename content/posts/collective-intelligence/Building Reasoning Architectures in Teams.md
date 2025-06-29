@@ -26,7 +26,7 @@ A **reasoning architecture** is the *meta-structure* by which:
 - Assumptions are challenged.
 - Context is preserved.
 
-> **Core insight**: If you don't design how your team thinks, the environment will design it for you — usually poorly.
+> **Core insight**: If you don't design how your team thinks, the environment will design it for you -- usually poorly.
 
 ---
 
@@ -55,7 +55,7 @@ Context is not static; it must be versioned, just like code.
 - **Explicit meta-decisions**  
 Periodically decide *how* you want to reason as a team, not just *what* to decide.
 
-> **Core insight**: in healthy teams, reasoning becomes a shared infrastructure — not a hidden cost.
+> **Core insight**: in healthy teams, reasoning becomes a shared infrastructure -- not a hidden cost.
 
 ---
 
@@ -74,9 +74,9 @@ Design against these from day one.
 ## Closing reflection
 
 > A scalable team doesn't just ship code faster.  
-> It scales its ability to reason — even under pressure, turnover, and change.
+> It scales its ability to reason -- even under pressure, turnover, and change.
 
-Building reasoning architectures isn’t overhead — it’s the **only way** to make smart engineering sustainable.
+Building reasoning architectures isn’t overhead -- it’s the **only way** to make smart engineering sustainable.
 
 ---
 

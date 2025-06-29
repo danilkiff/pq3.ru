@@ -8,8 +8,8 @@ tags: ['collective-intelligence', 'reasoning-capability', 'engineering-strategy'
 Most teams think of **communication** as an operational necessity.  
 Few recognize **reasoning** as a *strategic capability*.
 
-When collective reasoning becomes a deliberate, evolving skill —  
-teams don't just adapt to change — they *design their own evolution*.
+When collective reasoning becomes a deliberate, evolving skill --  
+teams don't just adapt to change -- they *design their own evolution*.
 
 ---
 
@@ -19,7 +19,7 @@ teams don't just adapt to change — they *design their own evolution*.
 Reasoning systems are *intentionally structured*, not accidental byproducts of meetings.
 
 **Traceable Evolution**:  
-Teams understand *how* and *why* their thinking improved — not just what they decided.
+Teams understand *how* and *why* their thinking improved -- not just what they decided.
 
 **Cognitive Resilience**:  
 Teams survive ambiguity, external shocks, and unexpected failures without cognitive collapse.
@@ -67,7 +67,7 @@ They **create options** faster than they consume them.
 > Collective reasoning isn't a nice-to-have.  
 > It's the **operating system** for organizations that want to evolve, not just survive.
 
-Scaling reasoning consciously is how engineering teams grow into **systems of systemic intelligence** —  
+Scaling reasoning consciously is how engineering teams grow into **systems of systemic intelligence** --  
 organizations that *think better* as they grow bigger.
 
 ---

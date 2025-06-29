@@ -1,7 +1,7 @@
 ---
 title: Mental models are infrastructure
 date: 2025-05-30
-summary: On modeling, versioning, and aligning the cognitive layer of technical systems
+description: On modeling, versioning, and aligning the cognitive layer of technical systems
 ---
 
 > "[The map is not the territory](https://en.wikipedia.org/wiki/Map%E2%80%93territory_relation)
@@ -14,13 +14,13 @@ summary: On modeling, versioning, and aligning the cognitive layer of technical 
 
 > Context: This is a higher-order reflection article designed to reframe how mental models work as infrastructure for engineers, architects, and strategic leaders.
 
-As engineers and technical leaders, we often treat infrastructure as code, hardware, networks, and pipelines. But some of the most critical infrastructure isn't material at all — it's **mental**. Mental models shape how we think, what we notice, and how we act. They define *defaults*, *constraints*, and *routes* — exactly like physical infrastructure.
+As engineers and technical leaders, we often treat infrastructure as code, hardware, networks, and pipelines. But some of the most critical infrastructure isn't material at all -- it's **mental**. Mental models shape how we think, what we notice, and how we act. They define *defaults*, *constraints*, and *routes* -- exactly like physical infrastructure.
 
 If we ignore this, we become blind to the most fragile and powerful layer of our system: the one inside our heads.
 
 ## Mental models: the true control plane
 
-Your team’s mental models — about latency, risk, architecture, user needs — are **the real control plane**. They drive:
+Your team’s mental models -- about latency, risk, architecture, user needs -- are **the real control plane**. They drive:
 
 * How incidents are diagnosed
 * What designs are considered "simple"
@@ -49,7 +49,7 @@ These are not alignment issues. These are **infrastructure mismatches**.
 
 ---
 
-## The infrastructure stack — now cognitive
+## The infrastructure stack -- now cognitive
 
 We already model infrastructure in layers:
 
@@ -102,5 +102,5 @@ Just like physical infrastructure, cognitive infrastructure needs:
 
 Infrastructure isn’t just code and cables.
 It’s the way we *think* about code and cables.
-If your systems are failing, check your servers — but also check your models.
+If your systems are failing, check your servers -- but also check your models.
 

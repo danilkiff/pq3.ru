@@ -3,7 +3,7 @@ date: 2016-04-01
 title: Architectural compromise ledger
 ---
 
-No real system is built without compromise.  But when compromises are undocumented, they become **landmines** for the future. A healthy architecture doesn’t avoid compromise — it **manages it transparently**.
+No real system is built without compromise.  But when compromises are undocumented, they become **landmines** for the future. A healthy architecture doesn’t avoid compromise -- it **manages it transparently**.
 
 ---
 

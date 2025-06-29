@@ -4,7 +4,7 @@ title: 'Safe-to-fail experiments at scale'
 ---
 
 Resilient systems don't avoid failure.  
-They **design for failure** — safely, deliberately, and recoverably.
+They **design for failure** -- safely, deliberately, and recoverably.
 
 ---
 
@@ -15,7 +15,7 @@ They **design for failure** — safely, deliberately, and recoverably.
 - **Reversible**: Rollback paths prepared before launch.
 - **Hypothesis-driven**: Clear success and failure criteria.
 
-> **Safe-to-fail** means failure isn’t catastrophic — it’s informative.
+> **Safe-to-fail** means failure isn’t catastrophic -- it’s informative.
 
 ---
 
@@ -81,7 +81,7 @@ Drawn from chaos engineering, safety engineering, and incident response best pra
 - Teams discouraged from testing limits, leading to hidden fragility.
 - Confusing "fast deployments" with "safe deployments."
 
-> **Core insight:** safe-to-fail is not about fearing failure — it’s about engineering failure as a source of trust.
+> **Core insight:** safe-to-fail is not about fearing failure -- it’s about engineering failure as a source of trust.
 
 **Related artifacts:**  
 - `Chaos Engineering Playbooks`  
@@ -94,4 +94,4 @@ Drawn from chaos engineering, safety engineering, and incident response best pra
 
 ---
 
-Failure is inevitable. Trustworthy systems fail well — and evolve stronger.
+Failure is inevitable. Trustworthy systems fail well -- and evolve stronger.

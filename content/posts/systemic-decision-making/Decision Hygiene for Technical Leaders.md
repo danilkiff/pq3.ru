@@ -3,7 +3,7 @@ date: '2016-04-01'
 title: 'Decision hygiene for technical leaders'
 ---
 
-In complex engineering environments, good decision-making isn't just a nice-to-have — it's the invisible architecture that holds everything together. Yet most technical failures don't stem from bad intentions or lack of skill.  They stem from **poor decision hygiene**.
+In complex engineering environments, good decision-making isn't just a nice-to-have -- it's the invisible architecture that holds everything together. Yet most technical failures don't stem from bad intentions or lack of skill.  They stem from **poor decision hygiene**.
 
 ---
 
@@ -87,7 +87,7 @@ Capture:
 
 **Origin:**  
 
-Triggered by real-world cases where "small bad calls" cascaded into "big architectural regrets" — often invisible at the decision moment (see: *Systemic Decision Debt*).
+Triggered by real-world cases where "small bad calls" cascaded into "big architectural regrets" -- often invisible at the decision moment (see: *Systemic Decision Debt*).
 
 **Trigger context:**  
 

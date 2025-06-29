@@ -1,7 +1,7 @@
 ---
 date: 2016-12-01
 title: Architectural risk drift & role safety protocol
-summary: Architectural risk drift occurs when changes shift risk boundaries without updating models or roles; role safety protocols ensure traceability, ownership, and proactive risk governance.
+description: Architectural risk drift occurs when changes shift risk boundaries without updating models or roles; role safety protocols ensure traceability, ownership, and proactive risk governance.
 categories:
     - Architecture
 tags:
@@ -16,9 +16,9 @@ tags:
 
 In theory, everyone respects system boundaries.  
 
-In practice, decisions made under pressure gradually reshape the architecture — without updating the risk model or the responsibility map.
+In practice, decisions made under pressure gradually reshape the architecture -- without updating the risk model or the responsibility map.
 
-This is architectural risk drift. It happens invisibly — until it doesn’t.
+This is architectural risk drift. It happens invisibly -- until it doesn’t.
 
 ---
 
@@ -37,7 +37,7 @@ Architectural risk drift occurs when:
 
 1. Product pushes a quick fix or extension
 2. Analyst logs a change request but omits architectural implications
-3. Engineer implements as scoped — perhaps even cleanly
+3. Engineer implements as scoped -- perhaps even cleanly
 4. Architect is asked to "fix the risk” post-hoc
 
 This leads to a breakdown of role safety:  
@@ -82,7 +82,7 @@ A system-level safeguard for preserving clarity and agency.
 
 ## Governance vs flexibility
 
-This protocol isn’t bureaucracy. It’s a safety harness for autonomous teams. If your system is fast to evolve but slow to reflect those evolutions — risk becomes latent debt.
+This protocol isn’t bureaucracy. It’s a safety harness for autonomous teams. If your system is fast to evolve but slow to reflect those evolutions -- risk becomes latent debt.
 
 ---
 
@@ -98,7 +98,7 @@ Formulated in response to repeated architectural compromises without consultatio
 - New responsibilities informally assigned through CRs  
 - Risk mitigation retrofitted after incident instead of designed preemptively
 
-> **Core insight:** Architectural clarity isn’t a one-time deliverable — it’s an active contract between roles.
+> **Core insight:** Architectural clarity isn’t a one-time deliverable -- it’s an active contract between roles.
 
 **Related artifacts:**
 

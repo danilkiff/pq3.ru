@@ -1,7 +1,7 @@
 ---
 date: 2025-06-03
 title: "Engineering capability maps: structure, maturity, and risk"
-summary: How to design and evaluate engineering capability maps, including maturity levels and compound risk overlays
+description: How to design and evaluate engineering capability maps, including maturity levels and compound risk overlays
 ---
 
 **Capability maps** are often misunderstood as static snapshots of what an organization has. In reality, they are living representations of what an engineering organization is capable of becoming. This article explores how to build capability maps that are structurally sound, maturity-aware, and risk-conscious.
@@ -52,7 +52,7 @@ Each capability has a maturity trajectory:
 | Level 4  | Strategic   | Ties into org-wide resilience metrics           |
 
 
-Rather than assessing capabilities uniformly, assess them **per capability**, and per context. Not every capability needs to reach Level 4 — only those critical to your current mission.
+Rather than assessing capabilities uniformly, assess them **per capability**, and per context. Not every capability needs to reach Level 4 -- only those critical to your current mission.
 
 ---
 
@@ -85,7 +85,7 @@ Compute a compound risk score:
 
 `Risk Score = Value × Exposure × Maintenance × (4 – Maturity) × Ownership Clarity`
 
-Build a heatmap. Prioritize what has high value, high exposure, and high maintenance — especially if ownership is unclear and maturity is low.  
+Build a heatmap. Prioritize what has high value, high exposure, and high maintenance -- especially if ownership is unclear and maturity is low.  
 
 This surfaces not just technical debt, but unmanaged systemic risk.  Review your map each quarter: capability risks shift as the org evolves.
 
@@ -109,7 +109,7 @@ Use the risk overlay to identify not just “enablers” but “blockers with hi
 
 ### From capability to thinking zone
 
-Every capability implicitly belongs to a **reasoning domain**. This makes the map more than a technical artifact — it becomes an interface to **systemic thinking**.
+Every capability implicitly belongs to a **reasoning domain**. This makes the map more than a technical artifact -- it becomes an interface to **systemic thinking**.
 
 Examples:
 
@@ -149,10 +149,10 @@ It extends ideas discussed in:
 - Build your current capability map on paper, even if incomplete.
 - Overlay maturity and risk levels.
 - Trace which capabilities are enablers, blockers, or orphans.
-- Then choose one to evolve — deliberately.
+- Then choose one to evolve -- deliberately.
 - Visualize your capability risk heatmap.
 - Revisit scores quarterly: risk is not static.
 
 
 > Capabilities aren't just what we do.
-> They're who we become — as engineers, teams, and systems.
+> They're who we become -- as engineers, teams, and systems.

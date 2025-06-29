@@ -6,9 +6,9 @@ tags: [reasoning-systems, anti-patterns, cognitive-bias, collective-intelligence
 
 ## Context
 
-Distributed reasoning sounds like a dream — until it turns into distributed confusion.
+Distributed reasoning sounds like a dream -- until it turns into distributed confusion.
 
-**Scaling thinking** requires not just enabling reasoning — but *guarding it* against the failure modes that collective systems naturally fall into.
+**Scaling thinking** requires not just enabling reasoning -- but *guarding it* against the failure modes that collective systems naturally fall into.
 
 ---
 
@@ -34,7 +34,7 @@ Distributed reasoning sounds like a dream — until it turns into distributed co
 - Documentation exists, but thinking has become performative.
 - Symptoms: documents filled out mechanically, learning hollowed out.
 
-> **Core insight**: Distributed reasoning *amplifies* both learning **and** dysfunction — whichever your culture supports better.
+> **Core insight**: Distributed reasoning *amplifies* both learning **and** dysfunction -- whichever your culture supports better.
 
 ---
 
@@ -52,7 +52,7 @@ Distributed reasoning sounds like a dream — until it turns into distributed co
 
 ## Special focus: the danger of "silent drift"
 
-Sometimes the team looks aligned — and **still drifts**.
+Sometimes the team looks aligned -- and **still drifts**.
 
 - Context shifts quietly.
 - Mental models diverge invisibly.
@@ -69,7 +69,7 @@ Sometimes the team looks aligned — and **still drifts**.
 > Distributed systems fail when feedback loops weaken.  
 > Distributed reasoning fails when *reflection loops* weaken.
 
-Building collective intelligence isn’t just about scaling —  
+Building collective intelligence isn’t just about scaling --  
 It’s about **guarding reasoning itself** against entropy, bias, and drift.
 
 ---

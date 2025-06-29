@@ -1,7 +1,7 @@
 ---
 title: "Reflection protocol: when delegation is not abdication"
 date: 2024-11-01
-summary: Strategic delegation means retaining understanding and accountability when using AI or expert input; abdication occurs when decisions are outsourced without comprehension.
+description: Strategic delegation means retaining understanding and accountability when using AI or expert input; abdication occurs when decisions are outsourced without comprehension.
 categories:
   - Leadership
 tags:
@@ -17,7 +17,7 @@ tags:
 
 ## Purpose
 
-To help engineering leaders, architects, and R&D leads distinguish between **strategic delegation** and **cognitive abdication** — especially when using AI or expert systems as thinking partners.
+To help engineering leaders, architects, and R&D leads distinguish between **strategic delegation** and **cognitive abdication** -- especially when using AI or expert systems as thinking partners.
 
 ---
 
@@ -54,7 +54,7 @@ To help engineering leaders, architects, and R&D leads distinguish between **str
 
 - What decision am I trying to make?
 - What constraints or risks have I already identified?
-- Am I delegating because I'm overloaded — or avoiding responsibility?
+- Am I delegating because I'm overloaded -- or avoiding responsibility?
 - Do I understand the logic behind the recommendation?
 - If this goes wrong, **can I explain why I went this way?**
 
@@ -68,7 +68,7 @@ To help engineering leaders, architects, and R&D leads distinguish between **str
 **Is abdication:**  
 -- "Write the architecture for me. I don't have time to think about it."
 
-The goal is not to avoid thinking — it's to **unload memory** so you can work on **system-level cognition.**
+The goal is not to avoid thinking -- it's to **unload memory** so you can work on **system-level cognition.**
 This is delegation **as augmentation**, not escape.
 
 

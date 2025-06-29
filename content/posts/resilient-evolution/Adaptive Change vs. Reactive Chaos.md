@@ -39,7 +39,7 @@ Trustworthy systems evolve **deliberately**, not reactively.
 
 ---
 
-## Why chaos feels productive — but isn’t
+## Why chaos feels productive -- but isn’t
 
 - Activity ≠ Progress.
 - Short-term fixes often hide long-term system erosion.

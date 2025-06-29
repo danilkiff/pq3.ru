@@ -1,7 +1,7 @@
 ---
 title: Prompt AGI properly
 date: 2025-06-01
-summary: "Defines ethical use of AGI: state objectives, set roles, provide structure, demand reasoning, and never offload judgment—power requires understanding and responsibility."
+description: "Defines ethical use of AGI: state objectives, set roles, provide structure, demand reasoning, and never offload judgment--power requires understanding and responsibility."
 categories:
   - AGI
 ---
@@ -12,7 +12,7 @@ This document defines the ethical and cognitive principles for interacting with 
 
 ## Why
 
-Using an AGI is not a trivial interface operation. It is a form of **augmented cognition**, and — when done without reflection — becomes:
+Using an AGI is not a trivial interface operation. It is a form of **augmented cognition**, and -- when done without reflection -- becomes:
 
 - dishonest (acting beyond one’s actual knowledge),
 - ethically irresponsible (offloading judgment without understanding),
@@ -56,13 +56,13 @@ Truth lives in tensions. Ask for failure modes, risks, and design alternatives.
 
 Never accept a claim without reasoning. 
 
-If a suggestion is made — ask why. 
+If a suggestion is made -- ask why. 
 
-If a technique is proposed — ask when not to use it.
+If a technique is proposed -- ask when not to use it.
 
 ### Respect your limits
 
-Do not use AGI to simulate expertise you don't understand. If you're a pilot, don't impersonate a doctor. Use AGI to learn — not to deceive.
+Do not use AGI to simulate expertise you don't understand. If you're a pilot, don't impersonate a doctor. Use AGI to learn -- not to deceive.
 
 ## Conclusion
 
@@ -70,6 +70,6 @@ By interacting with AGI systems at advanced levels, you implicitly agree to this
 
 - Do not use prompts you don't understand.
 - Do not publish outputs you cannot defend.
-- Do not copy authority — build it.
+- Do not copy authority -- build it.
 
  You do not pilot a starship by copying checklists. You must **understand** the forces you unleash.

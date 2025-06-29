@@ -1,20 +1,20 @@
 ---
 date: 2025-06-01
 title: Why capabilities, not roles, drive engineering maturity
-summary: How capability-based thinking reframes growth, leadership, and stress response
+description: How capability-based thinking reframes growth, leadership, and stress response
 ---
 
-Engineering teams often organize themselves around roles — developer, architect, tester, ops. But roles are static abstractions. They simplify coordination, yes, but they also mask the real engine behind organizational growth: capabilities.
+Engineering teams often organize themselves around roles -- developer, architect, tester, ops. But roles are static abstractions. They simplify coordination, yes, but they also mask the real engine behind organizational growth: capabilities.
 
 ###  Roles are containers, not engines
 
-A role is a label. It implies responsibility, but not necessarily capacity. Two people in the same role may operate at vastly different levels of effectiveness — or even maturity. This discrepancy is not due to the title itself, but to the **capabilities the individual or team has developed**.
+A role is a label. It implies responsibility, but not necessarily capacity. Two people in the same role may operate at vastly different levels of effectiveness -- or even maturity. This discrepancy is not due to the title itself, but to the **capabilities the individual or team has developed**.
 
 > Capability is the ability to produce outcomes predictably and responsibly under uncertainty. 
 
 > Role is the context in which that capability is (supposedly) applied.
 
-This distinction becomes painfully visible during system stress: outages, scale events, architecture decisions. At such moments, roles often dissolve and what remains is **who can actually do what** — and at what level of reliability.
+This distinction becomes painfully visible during system stress: outages, scale events, architecture decisions. At such moments, roles often dissolve and what remains is **who can actually do what** -- and at what level of reliability.
 
 ---
 
@@ -34,7 +34,7 @@ Instead of promoting people based on time-in-role or hierarchy, engineering orgs
 * Can we reason about architectural tradeoffs under pressure?
 * Is our team capable of absorbing product-side complexity without fragile workarounds?
 
-This enables organic evolution of team structure: capabilities cluster and recombine as needed. Roles follow — not lead — this process.
+This enables organic evolution of team structure: capabilities cluster and recombine as needed. Roles follow -- not lead -- this process.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Organizational blind spot: no hypothesis culture"
 date: 2023-06-01
-summary: Organizations without hypothesis validation ship untested features, prioritize speed over value, and accumulate cognitive debt, undermining product quality and team motivation.
+description: Organizations without hypothesis validation ship untested features, prioritize speed over value, and accumulate cognitive debt, undermining product quality and team motivation.
 categories:
   - Process
 tags:
@@ -27,9 +27,9 @@ This is a tool for internal reflection and a starting point for cultural transfo
 ## Signals of a no-hypothesis culture
 
 - Features appear on the roadmap without a clear problem statement.
-- Nobody asks “why?” — only “when?”
+- Nobody asks “why?” -- only “when?”
 - The goal is to “ship” rather than to “test an idea.”
-- Feature failures are ignored—teams simply move on to the next item.
+- Feature failures are ignored--teams simply move on to the next item.
 - Analytics are used as a retrospective justification, never up front.
 
 ---
@@ -41,7 +41,7 @@ This is a tool for internal reflection and a starting point for cultural transfo
 | Speed             | Teams overloaded with irrelevant or low-value work         |
 | Decision quality  | Opinions dominate; data is ignored                         |
 | Value delivery    | Time to *market* != Time to *value*                        |
-| Architecture      | Systems grow more complex—features add noise, not value    |
+| Architecture      | Systems grow more complex--features add noise, not value    |
 | Team engagement   | Lower sense of meaning and motivation                      |
 
 ---

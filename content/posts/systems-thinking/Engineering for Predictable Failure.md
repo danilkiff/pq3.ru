@@ -7,7 +7,7 @@ In complex systems, **failure is inevitable**. But unpredictability is optional.
 
 Resilient systems don't avoid failure. They fail predictably, safely, and recoverably.
 
-The goal is not to eliminate all risks — it's to make sure that when things go wrong, they do so **within known, controlled boundaries**.
+The goal is not to eliminate all risks -- it's to make sure that when things go wrong, they do so **within known, controlled boundaries**.
 
 ---
 
@@ -24,10 +24,10 @@ The goal is not to eliminate all risks — it's to make sure that when things go
 
 ## The anatomy of a trustworthy failure
 
-1. **Visibility** — the system quickly shows that something is wrong.
-2. **Localization** — the problem is contained within a well-understood boundary.
-3. **Degradation** — the system continues operating in a reduced but safe mode.
-4. **Recoverability** — paths to restoration are pre-planned and exercised.
+1. **Visibility** -- the system quickly shows that something is wrong.
+2. **Localization** -- the problem is contained within a well-understood boundary.
+3. **Degradation** -- the system continues operating in a reduced but safe mode.
+4. **Recoverability** -- paths to restoration are pre-planned and exercised.
 
 ---
 

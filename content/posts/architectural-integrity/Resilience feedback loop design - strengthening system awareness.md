@@ -1,7 +1,7 @@
 ---
 date: 2017-07-01
 title: "Resilience feedback loop design: strengthening system awareness"
-summary: Resilient systems depend on strong feedback loops — timely, actionable, and cumulative — so learning outpaces failure and system awareness drives real adaptation.
+description: Resilient systems depend on strong feedback loops -- timely, actionable, and cumulative -- so learning outpaces failure and system awareness drives real adaptation.
 categories:
     - Reliability
 tags:
@@ -17,7 +17,7 @@ You can't build resilient systems without **feedback**. But not all feedback is 
 
 The strength of a feedback loop determines whether your system adapts, decays, or collapses.
 
-This post explores how to design **intentional, high-fidelity feedback loops** that feed not just metrics — but learning.
+This post explores how to design **intentional, high-fidelity feedback loops** that feed not just metrics -- but learning.
 
 ---
 
@@ -34,8 +34,8 @@ Feedback loops are what separate reactive systems from **adaptive systems**.
 |------------------|--------------------------------------------------------------------------|
 | Signal           | What triggers attention (e.g., error, performance dip, human escalation) |
 | Pathway          | How the signal travels (monitoring, alerts, debriefs)                    |
-| Receiver         | Who hears it — and whether they’re empowered to act                      |
-| Response         | What happens — fix, ignore, learn, or escalate                           |
+| Receiver         | Who hears it -- and whether they’re empowered to act                      |
+| Response         | What happens -- fix, ignore, learn, or escalate                           |
 | Learning storage | Where the lesson is captured (or lost)                                   |
 
 ---
@@ -57,7 +57,7 @@ A weak loop is noisy, delayed, disempowered, and forgotten. A strong loop is tim
 
 **Error budget reviews that include human factors.**
 
-Don’t just count SLO breaches — understand cognitive or organizational contributors.
+Don’t just count SLO breaches -- understand cognitive or organizational contributors.
 
 **Postmortems with clear learning pathways.**
 

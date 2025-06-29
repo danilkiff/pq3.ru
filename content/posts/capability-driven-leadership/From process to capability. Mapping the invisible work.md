@@ -1,18 +1,18 @@
 ---
 date: 2025-06-02
 title: "From process to capability: mapping the invisible work"
-summary: Most valuable work is invisible to process maps. Techniques for detecting, naming, and evolving latent capabilities
+description: Most valuable work is invisible to process maps. Techniques for detecting, naming, and evolving latent capabilities
 ---
 
-Most systems thinking ends at the process map. But what if the map is not the territory? This article explores how to transcend visible workflows and make hidden organizational capabilities visible — by reframing *process* as a *signal*, not a structure.
+Most systems thinking ends at the process map. But what if the map is not the territory? This article explores how to transcend visible workflows and make hidden organizational capabilities visible -- by reframing *process* as a *signal*, not a structure.
 
 ---
 
 ### The problem: you can’t optimize what you can’t see
 
-Processes are easy to visualize. Swimlanes, flowcharts, [SOPs](https://en.wikipedia.org/wiki/Standard_operating_procedure). They give teams structure — and leaders the illusion of control. But the real value of a system often emerges not from the steps it performs, but from the *capability it expresses*.
+Processes are easy to visualize. Swimlanes, flowcharts, [SOPs](https://en.wikipedia.org/wiki/Standard_operating_procedure). They give teams structure -- and leaders the illusion of control. But the real value of a system often emerges not from the steps it performs, but from the *capability it expresses*.
 
-**Invisible work** — coordination glue, trust dynamics, creative leaps, meta-decisions — rarely appears in a process diagram. Yet these shape delivery more than the visible steps. So:
+**Invisible work** -- coordination glue, trust dynamics, creative leaps, meta-decisions -- rarely appears in a process diagram. Yet these shape delivery more than the visible steps. So:
 
 - How can you detect and formalize the invisible?
 
@@ -25,12 +25,12 @@ Processes are easy to visualize. Swimlanes, flowcharts, [SOPs](https://en.wikipe
 Let’s define terms:
 
 * **Process:** A repeatable sequence of actions. Observable. Often documented.
-* **Capability:** A latent system trait — *what a system can do*, not just what it *usually* does. Often emergent. Often hidden.
+* **Capability:** A latent system trait -- *what a system can do*, not just what it *usually* does. Often emergent. Often hidden.
 
 > *A team that handles failure gracefully has a “resilience capability” even if no explicit “resilience process” exists.*
 
 A system may follow a flawless CI/CD pipeline and still have zero deploy resilience.
-Conversely, a team with chaotic tooling may still recover quickly and innovate under pressure — because capability lives **between** the lines.
+Conversely, a team with chaotic tooling may still recover quickly and innovate under pressure -- because capability lives **between** the lines.
 
 ---
 
@@ -65,7 +65,7 @@ e.g. “We shipped this feature in 3 days because the team trusts each other dee
 ### 3. **Capability drift detection**
 
 > Monitor how long processes still achieve their original purpose.
-> When time-to-resolution increases while the steps stay the same — capability is **eroding** silently.
+> When time-to-resolution increases while the steps stay the same -- capability is **eroding** silently.
 
 Add capability health as a first-class metric:
 

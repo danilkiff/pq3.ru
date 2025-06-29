@@ -3,7 +3,7 @@ date: '2023-01-05'
 title: 'Versioning the organization'
 ---
 
-Systems evolve through versioning.  Teams and organizations can — and must — evolve the same way.
+Systems evolve through versioning.  Teams and organizations can -- and must -- evolve the same way.
 
 ---
 
@@ -85,4 +85,4 @@ Inspired by patterns from resilient systems engineering, evolutionary organizati
 ---
 
 Versioning isn't just for codebases.  
-**It's how living systems — including organizations — remain trustworthy over time.**
+**It's how living systems -- including organizations -- remain trustworthy over time.**

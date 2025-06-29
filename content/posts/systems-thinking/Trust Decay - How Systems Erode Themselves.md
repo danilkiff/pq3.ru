@@ -4,7 +4,7 @@ title: 'Trust decay: how systems erode themselves'
 ---
 
 No system collapses from a single catastrophic failure. Collapse begins quietly, as **trust decay**.
-Trust isn't destroyed. It leaks, fragments, and evaporates — until one day, it’s gone.
+Trust isn't destroyed. It leaks, fragments, and evaporates -- until one day, it’s gone.
 Understanding how trust decays is critical for engineering systems that can resist invisible erosion.
 
 ---

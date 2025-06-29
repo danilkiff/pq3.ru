@@ -1,7 +1,7 @@
 ---
 date: 2017-01-05
 title: "The CTO thinking paradox: depth vs tempo"
-summary: CTOs must balance strategic depth with fast decision tempo; real impact comes from holding context and asking better questions, not just quick responses.
+description: CTOs must balance strategic depth with fast decision tempo; real impact comes from holding context and asking better questions, not just quick responses.
 categories:
     - Leadership
 tags:
@@ -15,7 +15,7 @@ tags:
     - management
 ---
 
-In modern tech organizations, the faster you answer — the smarter you look. But CTO-level leadership isn’t about having answers. It’s about asking better questions, holding the context, and **thinking beyond the cycle time of meetings**.
+In modern tech organizations, the faster you answer -- the smarter you look. But CTO-level leadership isn’t about having answers. It’s about asking better questions, holding the context, and **thinking beyond the cycle time of meetings**.
 
 This post breaks down the paradox many technical leaders face:
 
@@ -32,7 +32,7 @@ CTOs live between two incompatible schedules:
 
 The paradox?  
 
-As CTO, you’re in **manager mode by necessity**, but your impact depends on **maker-mode cognition** — the long arc of reasoning, not the fast twitch of reactions.
+As CTO, you’re in **manager mode by necessity**, but your impact depends on **maker-mode cognition** -- the long arc of reasoning, not the fast twitch of reactions.
 
 ---
 
@@ -67,7 +67,7 @@ Strategic depth isn’t about complexity or slowness. It’s about:
 
 ## Navigating the paradox
 
-**Name the tension out loud**. Let your org know when you’re intentionally holding a decision open — and why.
+**Name the tension out loud**. Let your org know when you’re intentionally holding a decision open -- and why.
 
 **Use async channels for thinking**. Create documents, not decks. Prefer draft RFCs over rushed calls.
 
@@ -108,5 +108,5 @@ Will connect to:
 
 ---
 
-If your thoughts move slower than the org — you’re not lagging. 
+If your thoughts move slower than the org -- you’re not lagging. 
 You’re buffering clarity. That’s leadership.

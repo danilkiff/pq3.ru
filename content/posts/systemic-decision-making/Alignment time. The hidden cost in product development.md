@@ -3,7 +3,7 @@ date: 2018-04-01
 title: "Alignment time: the hidden cost in product development"
 ---
 
-When we measure product development speed, we usually obsess over **time-to-market** and **lead time**. But there’s a hidden variable — often more costly than either: **alignment time.**
+When we measure product development speed, we usually obsess over **time-to-market** and **lead time**. But there’s a hidden variable -- often more costly than either: **alignment time.**
 
 ---
 
@@ -59,7 +59,7 @@ Focus on framing decisions, not listing every pixel.
 ---
 
 ### 4. Optimize for alignment pathways
-If it takes 20 meetings to reach clarity, the system isn't broken because of "slow engineers" —  it’s broken because alignment infrastructure is missing. Invest in:
+If it takes 20 meetings to reach clarity, the system isn't broken because of "slow engineers" --  it’s broken because alignment infrastructure is missing. Invest in:
 - Visual aids (maps, diagrams)
 - Single-page narratives
 - Cross-functional workshops

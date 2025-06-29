@@ -1,7 +1,7 @@
 ---
 date: 2017-10-01
 title: "Trustworthy systems thinking: building for inevitable drift"
-summary: "Trustworthy systems are designed for inevitable drift: explicit trust boundaries, layered safeguards, and adaptability enable resilience to changing contexts, interfaces, and dependencies."
+description: "Trustworthy systems are designed for inevitable drift: explicit trust boundaries, layered safeguards, and adaptability enable resilience to changing contexts, interfaces, and dependencies."
 categories:
     - Architecture
 tags:
@@ -16,7 +16,7 @@ tags:
 
 All systems drift.
 
-Through code rot, human error, changing contexts, or unexpected usage patterns —  
+Through code rot, human error, changing contexts, or unexpected usage patterns --  
 no system remains exactly as it was designed.
 
 If you want to build systems that last, you must **design not for stability, but for drift**.
@@ -123,7 +123,7 @@ Synthesized from patterns in incident handling, system degradation, and architec
 - Misalignment between system design assumptions and operational realities
 - Costs of retrofitting resilience much higher than proactive design
 
-> **Core insight:**  Systems are alive. Trustworthy systems are those that can heal, adapt, and learn from their drift — not deny it.
+> **Core insight:**  Systems are alive. Trustworthy systems are those that can heal, adapt, and learn from their drift -- not deny it.
 
 **Related artifacts:**
 

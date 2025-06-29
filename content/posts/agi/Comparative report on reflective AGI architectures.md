@@ -1,7 +1,7 @@
 ---
 title: Comparative report on reflective AGI architectures
 date: 2025-06-11
-summary: Compares symbolic, neural, hybrid, and emergent AGI architectures by resilience, interpretability, and safety. Hybrid approaches offer the best trade-offs for robust, transparent AGI.
+description: Compares symbolic, neural, hybrid, and emergent AGI architectures by resilience, interpretability, and safety. Hybrid approaches offer the best trade-offs for robust, transparent AGI.
 categories:
   - AGI
 ---
@@ -187,4 +187,4 @@ categories:
 
 **Plan ==for evolution==:** Architect systems for safe, staged self-improvement, and collective epistemic repair.
 
-AGI resilience is not a static property but an ongoing process—requiring transparent, auditable, and human-aligned reflection mechanisms at the heart of AGI design.
+AGI resilience is not a static property but an ongoing process--requiring transparent, auditable, and human-aligned reflection mechanisms at the heart of AGI design.

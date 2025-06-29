@@ -1,7 +1,7 @@
 ---
 title: 'NixOS - guide for experienced Linux users'
 date: 2025-05-30
-summary: 'A practical, advanced NixOS guide for power users and DevOps: covers reproducibility, declarative config, real workflows, pitfalls, flakes, and system management patterns.'
+description: 'A practical, advanced NixOS guide for power users and DevOps: covers reproducibility, declarative config, real workflows, pitfalls, flakes, and system management patterns.'
 showtoc: true
 ---
 
@@ -9,11 +9,11 @@ showtoc: true
 
 - Who is this guide for: distro-hoppers, power users, and DevOps professionals.
 - What makes NixOS unique: reproducibility, declarative configs, immutability.
-- Philosophy: Don't "set up" your system — declare it.
+- Philosophy: Don't "set up" your system -- declare it.
 
 ### Who is this guide for?
 
-This guide is tailored for experienced Linux users — those who’ve distro-hopped across Debian, Arch, Gentoo, Fedora, and maybe even LFS. If you’re fluent in the shell, confident with `systemd`, and comfortable breaking and fixing your system, this guide is for you. Whether you’re a DevOps engineer seeking reproducible infrastructure, or a power user looking for a truly declarative desktop, welcome to NixOS.
+This guide is tailored for experienced Linux users -- those who’ve distro-hopped across Debian, Arch, Gentoo, Fedora, and maybe even LFS. If you’re fluent in the shell, confident with `systemd`, and comfortable breaking and fixing your system, this guide is for you. Whether you’re a DevOps engineer seeking reproducible infrastructure, or a power user looking for a truly declarative desktop, welcome to NixOS.
 
 ### What This Guide Is *Not*
 
@@ -21,19 +21,19 @@ This guide is **not** a beginner-friendly walkthrough or a full documentation su
 
 It deliberately avoids duplicating the [NixOS Manual](https://nixos.org/manual) or `man configuration.nix`. Instead, it focuses on **real-world workflows**, **non-obvious pitfalls**, and **practical patterns** that matter most to experienced Linux users transitioning into the NixOS model.
 
-If you're looking for a step-by-step tutorial, exhaustive hardening checklists, or an academic exploration of the Nix language — this is not that. This guide is designed to help you hit the ground running as a **power user or DevOps engineer** building reproducible systems with confidence.
+If you're looking for a step-by-step tutorial, exhaustive hardening checklists, or an academic exploration of the Nix language -- this is not that. This guide is designed to help you hit the ground running as a **power user or DevOps engineer** building reproducible systems with confidence.
 
 ### What makes NixOS unique?
 
-NixOS isn’t just another distro — it’s a **paradigm shift**. Its core concepts include:
+NixOS isn’t just another distro -- it’s a **paradigm shift**. Its core concepts include:
 
-- **Reproducibility**: Your entire system — packages, config, and services — can be expressed in code, versioned, and rebuilt anywhere.
-- **Immutability**: Configs are compiled into immutable system generations. Manual drift is not just discouraged — it’s overwritten.
+- **Reproducibility**: Your entire system -- packages, config, and services -- can be expressed in code, versioned, and rebuilt anywhere.
+- **Immutability**: Configs are compiled into immutable system generations. Manual drift is not just discouraged -- it’s overwritten.
 - **Declarative Configuration**: Instead of “doing” things to your system, you *declare* how it should look, and NixOS makes it so.
 
-Forget `apt install`, `pacman -Sy`, or `emerge --sync`. NixOS flips the table: no more procedural state — just declarative truth.
+Forget `apt install`, `pacman -Sy`, or `emerge --sync`. NixOS flips the table: no more procedural state -- just declarative truth.
 
-### Philosophy: Don’t "set up" your system — declare it.
+### Philosophy: Don’t "set up" your system -- declare it.
 
 In traditional Linux, you configure your system through actions: install this, modify that, tweak here, patch there. With NixOS, you instead write down your *intent*. The system builds itself to match.
 
@@ -43,7 +43,7 @@ This has deep implications:
 - You can replicate a working system from scratch on new hardware with a single Git pull.
 - You can version-control your entire OS, not just your code.
 
-If you're tired of config drift, “it worked on my machine” bugs, or fragile deployment scripts — NixOS offers an escape hatch.
+If you're tired of config drift, “it worked on my machine” bugs, or fragile deployment scripts -- NixOS offers an escape hatch.
 
 > This guide focuses on **practical shortcuts, real-world use cases, and traps to avoid**, not rephrasing the manual. Think of it as a travel guide, not a textbook.
 
@@ -55,26 +55,26 @@ If you're tired of config drift, “it worked on my machine” bugs, or fragile 
 - UEFI caveats, encrypted disks, impermanence optional.
 ### Headless vs Desktop: choose installation goals early
 
-NixOS serves well as both a minimal headless server and a fully featured desktop. But the installation approach — and system layout — depends on your target.
+NixOS serves well as both a minimal headless server and a fully featured desktop. But the installation approach -- and system layout -- depends on your target.
 
 **Headless server?**
   - Minimal profile: no GUI, no `X11`, no `plasma5`.
   - Focus on SSH setup, disk layout, and remote access.
-  - Strong candidate for using **flakes** early — especially if planning Git-based deployments.
+  - Strong candidate for using **flakes** early -- especially if planning Git-based deployments.
 
 **Desktop?**
   - Choose your DE in `configuration.nix`: GNOME, KDE, sway, etc.
   - Pay attention to hardware support: audio, video, input devices.
   - May prefer `configuration.nix` to get started quickly, then migrate to flakes once stable.
 
-**Tip**: Decide on your system *topology* and *workflow* before installing — NixOS enforces consistency, so refactoring later is deeper than just “changing a package”.
+**Tip**: Decide on your system *topology* and *workflow* before installing -- NixOS enforces consistency, so refactoring later is deeper than just “changing a package”.
 
 ### Guided installer vs manual partitioning
 
 As of recent releases, NixOS offers a GUI **Calamares**-based installer. It’s ideal for newcomers, but:
 
 - It's only available on some ISOs (usually GNOME/KDE ones).
-- It skips many Nix-specific features — no flake integration, no custom `configuration.nix`.
+- It skips many Nix-specific features -- no flake integration, no custom `configuration.nix`.
 
 For experienced users, manual installation is usually better:
 
@@ -82,7 +82,7 @@ For experienced users, manual installation is usually better:
 2. Mount root to `/mnt`, generate the base config with `nixos-generate-config`.
 3. Start modifying `/mnt/etc/nixos/configuration.nix` or `/mnt/etc/nixos/flake.nix`.
 
-**Note**: With NixOS, your installation media is a live environment — treat it as a recovery shell or staging area for building your future system.
+**Note**: With NixOS, your installation media is a live environment -- treat it as a recovery shell or staging area for building your future system.
 
 ### UEFI caveats, encrypted disks, impermanence optional
 
@@ -91,10 +91,10 @@ For experienced users, manual installation is usually better:
 - **Impermanence** (optional): If you want a throwaway system where state is not preserved (like `/etc`, `/var`, or `/home`), plan it now. See the `impermanence` module or use tmpfs for volatile mounts.
 
 **Gotchas**:
-- If you install without a bootloader and forget to configure it in Nix, it won’t magically “just work” — declarative means nothing happens unless you declare it.
+- If you install without a bootloader and forget to configure it in Nix, it won’t magically “just work” -- declarative means nothing happens unless you declare it.
 - If `/boot` is not a separate partition and you're using full-disk LUKS, systemd-boot may fail silently.
 
-> Installing NixOS is like writing the prologue to your system's autobiography — the choices you make now define how reproducible, extensible, and robust the system will be later.
+> Installing NixOS is like writing the prologue to your system's autobiography -- the choices you make now define how reproducible, extensible, and robust the system will be later.
 
 ---
 ## 2. Choosing Between `configuration.nix` and Flakes
@@ -150,7 +150,7 @@ Flakes are particularly useful for devs working across multiple environments and
 
 ### Hybrid: how to migrate later from configuration.nix to flakes
 
-Many users start with `configuration.nix` and later migrate to flakes — this is totally valid.
+Many users start with `configuration.nix` and later migrate to flakes -- this is totally valid.
 
 Here's the gradual path:
 
@@ -184,14 +184,14 @@ sudo nixos-rebuild switch --flake .#my-host
 5. Add `nix.settings.experimental-features = [ "nix-command" "flakes" ];` to `/etc/nixos/configuration.nix` to unlock flake usage system-wide.
   
 
-> Flakes aren’t mandatory — but they unify config, enable better tooling (like `nix flake update`), and are increasingly the community default.
+> Flakes aren’t mandatory -- but they unify config, enable better tooling (like `nix flake update`), and are increasingly the community default.
 
 ---
 ## 3. The NixOS Way: What's Different (and What Will Surprise You)
 
 - No `apt install` or `pacman -S` – everything goes through declarative config.
-- /etc is not for manual edits — explain `/etc/nixos`, `/run/current-system`.
-- `systemctl` still works — but services are declared, not enabled manually.
+- /etc is not for manual edits -- explain `/etc/nixos`, `/run/current-system`.
+- `systemctl` still works -- but services are declared, not enabled manually.
 - Global vs user environment: `environment.systemPackages` vs `home-manager`.
 
 ### No `apt install` or `pacman -S`: Everything is declarative (and that's a feature)
@@ -206,7 +206,7 @@ environment.systemPackages = with pkgs; [
 ```
 
 Then apply the change: `sudo nixos-rebuild switch`.  Why?
-- You get a **reproducible state** — no drift from ad-hoc installs.
+- You get a **reproducible state** -- no drift from ad-hoc installs.
 - You can `git diff` system changes.
 - You can **roll back** to any previous state (GRUB keeps generations).
     
@@ -225,7 +225,7 @@ To inspect what your system is running, check:
 
 _Think of `/etc/nixos` as the source of truth. Everything else is a build artifact._
 
-### `systemctl` still works — but services are declared, not enabled manually
+### `systemctl` still works -- but services are declared, not enabled manually
 
 You can still do `sudo systemctl start nginx`. But to enable `nginx` permanently:
 
@@ -233,13 +233,13 @@ You can still do `sudo systemctl start nginx`. But to enable `nginx` permanently
 services.nginx.enable = true;
 ```
 
-Then: `sudo nixos-rebuild switch`.  Forget `systemctl enable` — it won’t persist across generations unless it’s part of your config.  Same applies to:
+Then: `sudo nixos-rebuild switch`.  Forget `systemctl enable` -- it won’t persist across generations unless it’s part of your config.  Same applies to:
 - Network interfaces
 - Firewall rules
 - User accounts
 - Locale, timezone, fonts
 
-If you want it to be reproducible — declare it.
+If you want it to be reproducible -- declare it.
 
 ### Global vs User Environment: `systemPackages` vs `home-manager`
 
@@ -265,9 +265,9 @@ Combine both:
 - Put OS-level tools in `systemPackages`
 - Put dotfiles, shells, and user tools in `home-manager`
 
-_This dual-layer setup is powerful once you grasp the separation — system for infra, home-manager for lifestyle._
+_This dual-layer setup is powerful once you grasp the separation -- system for infra, home-manager for lifestyle._
 
-> 🧭 NixOS is not hard — it’s just different. Treat your system as a codebase, not a machine. You’re not administering — you’re declaring intent.
+> 🧭 NixOS is not hard -- it’s just different. Treat your system as a codebase, not a machine. You’re not administering -- you’re declaring intent.
 
 ---
 ## 4. Cheat Sheet: Everyday System Management
@@ -279,14 +279,14 @@ _This dual-layer setup is powerful once you grasp the separation — system for 
 
 ### System Rebuilds
 
-- `nixos-rebuild switch` — apply configuration immediately and reload systemd.
-- `nixos-rebuild boot` — build config but activate it only on next boot.
-- `nixos-rebuild test` — apply temporarily without touching bootloader.
+- `nixos-rebuild switch` -- apply configuration immediately and reload systemd.
+- `nixos-rebuild boot` -- build config but activate it only on next boot.
+- `nixos-rebuild test` -- apply temporarily without touching bootloader.
 
 Use `--flake .#hostname` if using flakes.
 ### Rollbacks
 
-- `nixos-rebuild switch --rollback` — return to the previous configuration.
+- `nixos-rebuild switch --rollback` -- return to the previous configuration.
 - At boot, GRUB lets you select previous generations if system becomes unbootable.
 - Check active generation with `readlink /run/current-system`.
 ### Declaring Services
@@ -358,7 +358,7 @@ users.users.alice = {
 };
 ```
     
-NixOS is declarative at every level — once declared, your system builds itself. Nothing happens unless explicitly stated.
+NixOS is declarative at every level -- once declared, your system builds itself. Nothing happens unless explicitly stated.
 
 ---
 ## 5. Home Manager: User Space, Declarative Style
@@ -400,13 +400,13 @@ Then activate: `home-manager switch --flake .#user`.
 
 ### Common Traps and Solutions
 
-- **$HOME collisions**: Home Manager manages `~/.config`, `~/.bashrc`, `~/.zshrc`, etc. Avoid manual edits — they may be overwritten or ignored.
+- **$HOME collisions**: Home Manager manages `~/.config`, `~/.bashrc`, `~/.zshrc`, etc. Avoid manual edits -- they may be overwritten or ignored.
     
 - **home.file vs xdg.configFile**:
     - Use `home.file."filename".text` to place arbitrary files (e.g. dotfiles).
     - Use `xdg.configFile."foo/bar".source = ./bar.conf;` for `$XDG_CONFIG_HOME` layouts.
         
-- **System-wide vs user-level confusion**: Don’t mix `environment.systemPackages` and `home.packages` arbitrarily — they serve different scopes.
+- **System-wide vs user-level confusion**: Don’t mix `environment.systemPackages` and `home.packages` arbitrarily -- they serve different scopes.
     
 - **Missing dependencies**: Many user tools still require extra `fonts`, `xdg.portal`, or `gtk` settings declared at the system level.
     
@@ -477,7 +477,7 @@ devShells.default = pkgs.mkShell {
 };
 ```
 
-- Avoid using `venv` — just declare dependencies in `buildInputs`.
+- Avoid using `venv` -- just declare dependencies in `buildInputs`.
 - For native packages (e.g. `psycopg2`), include `postgresql`, `libffi`, etc.
 - If you need pip-only deps, use `pip2nix` or `poetry2nix`.
 
@@ -578,7 +578,7 @@ This generates `node-packages.nix` you can import in your flake.
 
 - Use `direnv` + `nix-direnv` to auto-enter dev shells.
 - Pin toolchains via flakes to avoid breakage across machines.
-- Avoid global installs — use ephemeral `nix run` or `devShells`.
+- Avoid global installs -- use ephemeral `nix run` or `devShells`.
 
 **Example `.envrc`:**
 
@@ -588,7 +588,7 @@ use flake
 
 Once enabled (`direnv allow`), this will auto-load your `devShell` on directory entry.
 
-Nix enables language-agnostic, reproducible, per-project environments — with zero global pollution.
+Nix enables language-agnostic, reproducible, per-project environments -- with zero global pollution.
 
 ---
 ## 7. Impermanence: Volatile Roots and Mutable Homes
@@ -598,7 +598,7 @@ Nix enables language-agnostic, reproducible, per-project environments — with z
 
 ### Making `/etc`, `/var`, or `/home` ephemeral
 
-NixOS makes it easy to treat parts of the system as **ephemeral** — wiped on reboot, rebuilt from configuration.  You can mount:
+NixOS makes it easy to treat parts of the system as **ephemeral** -- wiped on reboot, rebuilt from configuration.  You can mount:
 
 - `/etc` as a tmpfs → no manual changes, only declarative ones.
 - `/var` as volatile → logs and cache disappear at boot.
@@ -652,7 +652,7 @@ If `/home` is tmpfs, this directory will vanish on reboot. You can recreate a sk
 
 Persistent user configs (e.g. browser profile) can be bound to `/persist/home/kiosk` if needed.
 
-_Impermanence isn’t just about stateless systems — it’s a mindset: if everything can be declared, then nothing has to be trusted._
+_Impermanence isn’t just about stateless systems -- it’s a mindset: if everything can be declared, then nothing has to be trusted._
 
 ---
 ## 8. Multimedia & Browsing: NixOS as a Daily Driver
@@ -768,7 +768,7 @@ i18n.inputMethod = {
 
 Fcitx5 integrates better with Wayland, supports multiple languages.
 
-NixOS requires up-front setup for a polished desktop, but once declared, it’s reproducible and portable across machines — no more tweaking per-device quirks.
+NixOS requires up-front setup for a polished desktop, but once declared, it’s reproducible and portable across machines -- no more tweaking per-device quirks.
 
 ---
 ## 9. Gaming, Flatpak, and Emulators
@@ -868,7 +868,7 @@ To run `.exe` reliably:
 
 Use `winecfg` to test prefix setup, and `winetricks` to install common redistributables.
 
-Gaming on NixOS works well once dependencies are declared explicitly — no surprises, no drift, no "why did this break after an update".
+Gaming on NixOS works well once dependencies are declared explicitly -- no surprises, no drift, no "why did this break after an update".
 
 ---
 ## 10. Fast Deployments and Containers: DevOps on NixOS
@@ -992,7 +992,7 @@ Use `Cachix` for binary cache acceleration.
           authToken: ${{ secrets.CACHIX_AUTH_TOKEN }}
 ```
 
-_NixOS makes reproducible infrastructure and container workflows first-class — no more drift, no more snowflake servers, no more broken CI because “it worked locally”._
+_NixOS makes reproducible infrastructure and container workflows first-class -- no more drift, no more snowflake servers, no more broken CI because “it worked locally”._
 
 ---
 ## 11. Advanced Patterns and Idioms
@@ -1092,7 +1092,7 @@ To set up your own binary cache:
 
 ### Testing Changes with `nixos-rebuild test` and `nix develop`
 
-- `nixos-rebuild test`: applies config temporarily — no bootloader update, no persistence
+- `nixos-rebuild test`: applies config temporarily -- no bootloader update, no persistence
 - `nixos-rebuild dry-activate`: shows what would change
 - `nixos-rebuild build-vm`: spin up a test VM with your config
     
@@ -1109,7 +1109,7 @@ Run via `nix develop`.
 
 Switch environments instantly without polluting the global system.
 
-_Once you understand overlays, pinning, and caching, you gain full control over the build graph of your system — like a compiler for infrastructure._
+_Once you understand overlays, pinning, and caching, you gain full control over the build graph of your system -- like a compiler for infrastructure._
 
 ---
 ## 12. Appendix: Troubleshooting and Survival Mode
@@ -1184,7 +1184,7 @@ To upgrade specific input: `nix flake lock --update-input nixpkgs`.
 To inspect lockfile: `less flake.lock`
 After update, test with: `nixos-rebuild test --flake .#myhost`
 
-_NixOS can always be recovered — because your system is code, not state. A broken machine is just one `rebuild` away from being whole again._
+_NixOS can always be recovered -- because your system is code, not state. A broken machine is just one `rebuild` away from being whole again._
 
 ---
 ## 13. Final Notes and Learning Path
@@ -1222,8 +1222,8 @@ Good practices:
 - Keep generated `.drv` paths and outputs out of Git.
 - Avoid mutable installs (`nix-env`) unless for quick testing.
 
-> NixOS isn’t about knowing everything — it’s about knowing _what you’ve declared_.
+> NixOS isn’t about knowing everything -- it’s about knowing _what you’ve declared_.
 > 
-> It lets you write your system once, track it in Git, and reapply it anywhere — from a Raspberry Pi to a cloud instance. Whether for one laptop or a global fleet, the principles remain the same: clarity, reproducibility, trust in code over state.
+> It lets you write your system once, track it in Git, and reapply it anywhere -- from a Raspberry Pi to a cloud instance. Whether for one laptop or a global fleet, the principles remain the same: clarity, reproducibility, trust in code over state.
 
-The journey doesn’t end — it just gets more declarative.
+The journey doesn’t end -- it just gets more declarative.

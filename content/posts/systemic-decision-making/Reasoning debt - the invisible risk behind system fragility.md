@@ -3,7 +3,7 @@ date: 2025-04-01
 title: "Reasoning debt: the invisible risk behind system fragility"
 ---
 
-Systems don't just inherit **technical debt**. They inherit **reasoning debt** — the cumulative burden of poor, rushed, or unexamined thinking. Before architectures fail, reasoning fails.
+Systems don't just inherit **technical debt**. They inherit **reasoning debt** -- the cumulative burden of poor, rushed, or unexamined thinking. Before architectures fail, reasoning fails.
 
 Understanding and managing reasoning debt is essential for building systems that don't collapse under complexity.
 

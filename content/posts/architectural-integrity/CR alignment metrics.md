@@ -1,7 +1,7 @@
 ---
 title: CR alignment metrics
 date: 2017-01-04
-summary: Defines CR workflow statuses to enable TFA, TTS, TTM, LT metrics—clarifying bottlenecks, readiness, and delivery discipline in product engineering.
+description: Defines CR workflow statuses to enable TFA, TTS, TTM, LT metrics--clarifying bottlenecks, readiness, and delivery discipline in product engineering.
 categories:
     - Process
 tags:
@@ -101,9 +101,9 @@ _Metric: TTM (time to market) = Ready for Estimation → Done_
 
 ## Additional statuses
 
-* **Blocked:** (any stage) — Requires re-alignment or external input
-* **Cancelled:** (by analyst/architect) — Dropped from workflow
-* **Deferred:** (not prioritized) — Idea on hold, not moving forward
+* **Blocked:** (any stage) -- Requires re-alignment or external input
+* **Cancelled:** (by analyst/architect) -- Dropped from workflow
+* **Deferred:** (not prioritized) -- Idea on hold, not moving forward
 
 ---
 

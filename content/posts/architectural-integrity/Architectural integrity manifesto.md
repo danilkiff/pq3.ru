@@ -1,7 +1,7 @@
 ---
 date: 2016-11-01
 title: Architectural integrity manifesto
-summary: Architectural integrity means traceable decisions, visible trade-offs, and real responsibility—not just supporting pre-made choices or patching technical debt
+description: Architectural integrity means traceable decisions, visible trade-offs, and real responsibility--not just supporting pre-made choices or patching technical debt
 categories:
   - Architecture
 tags:
@@ -20,7 +20,7 @@ tags:
 ---
 
 In many engineering organizations, “architecture" has become a polite word for PowerPoint.  
-But systems don’t run on slides — they run on assumptions, decisions, and consequences.
+But systems don’t run on slides -- they run on assumptions, decisions, and consequences.
 
 This post outlines what architectural integrity really means when you are accountable for the system, but have limited influence over what goes into it.  
 
@@ -77,7 +77,7 @@ You cannot be accountable for something you had no say in shaping.
 - Don’t let roles be confused: **architect != ticket finisher**
 
 
-> Integrity is not perfection — it's the discipline of being honest about what you're building **and why**.
+> Integrity is not perfection -- it's the discipline of being honest about what you're building **and why**.
 
 ---
 
@@ -106,7 +106,7 @@ Developed through firsthand experience of system design in constrained organizat
 - Architect forced into reactive roles, patching design flaws post-hoc  
 - Lack of veto power despite high accountability
 
-> **Core insight:** Architectural integrity isn’t about authority — it’s about being structurally allowed to be responsible.
+> **Core insight:** Architectural integrity isn’t about authority -- it’s about being structurally allowed to be responsible.
 
 **Related artifacts:**  
 
@@ -125,4 +125,4 @@ This manifesto will connect to:
 
 ---
 
-If you hold the responsibility, you must hold the voice. If not — you’re not designing. You’re ghostwriting entropy.
+If you hold the responsibility, you must hold the voice. If not -- you’re not designing. You’re ghostwriting entropy.

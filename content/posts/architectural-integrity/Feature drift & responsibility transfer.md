@@ -1,7 +1,7 @@
 ---
 date: 2017-02-01
 title: Feature drift & responsibility transfer
-summary: Feature drift occurs when implementation diverges from intent and responsibility is retroactively reassigned; alignment and traceability are required to prevent blame cycles.
+description: Feature drift occurs when implementation diverges from intent and responsibility is retroactively reassigned; alignment and traceability are required to prevent blame cycles.
 categories:
     - Culture
 tags:
@@ -14,9 +14,9 @@ tags:
     - technical debt
 ---
 
-You planned a feature. You scoped it. You reviewed it. Two months later, the feature is still shipping — but what’s being built no longer resembles the original intent.
+You planned a feature. You scoped it. You reviewed it. Two months later, the feature is still shipping -- but what’s being built no longer resembles the original intent.
 
-You’re facing **feature drift**. Worse, you’re blamed for the outcome — even though you never owned the decision.
+You’re facing **feature drift**. Worse, you’re blamed for the outcome -- even though you never owned the decision.
 
 ---
 
@@ -34,12 +34,12 @@ This is not just a process flaw. It’s a **cultural indicator** that strategic 
 
 ## Typical pattern
 
-- Backlog item added by product or leadership — often under-specified
+- Backlog item added by product or leadership -- often under-specified
 - Analyst fills in the blanks, sometimes missing deeper context
 - Engineering implements "as specified", even when signals suggest misalignment
 - Result disappoints, root cause is **traced backward**, often unfairly
 
-> This creates the illusion of continuous delivery — while actual product value regresses.
+> This creates the illusion of continuous delivery -- while actual product value regresses.
 
 ---
 

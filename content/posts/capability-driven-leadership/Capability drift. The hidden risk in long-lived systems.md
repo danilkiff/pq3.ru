@@ -1,7 +1,7 @@
 ---
 date: 2025-06-04
 title: "Capability drift: the hidden risk in long-lived systems"
-summary: On systemic erosion, detection signals, and stewardship mindsets
+description: On systemic erosion, detection signals, and stewardship mindsets
 ---
 
 Long-lived systems don’t fail abruptly.

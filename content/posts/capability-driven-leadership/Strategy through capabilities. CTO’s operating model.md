@@ -1,7 +1,7 @@
 ---
 date: 2025-06-03
 title: "Strategy through capabilities: CTO’s operating model"
-summary: A framework for reasoning from system potential to strategic execution
+description: A framework for reasoning from system potential to strategic execution
 ---
 
 
@@ -9,7 +9,7 @@ summary: A framework for reasoning from system potential to strategic execution
 
 ## Why capabilities first?
 
-Most CTOs are taught to begin with strategy — market fit, technical advantage, product vision. But in high-responsibility roles, strategy is rarely a blank canvas. Legacy systems, team maturity, and organizational inertia constrain what can be achieved.
+Most CTOs are taught to begin with strategy -- market fit, technical advantage, product vision. But in high-responsibility roles, strategy is rarely a blank canvas. Legacy systems, team maturity, and organizational inertia constrain what can be achieved.
 
 **Capabilities** are the true substrate of strategic action. They define not what is imagined, but what is doable.
 
@@ -70,9 +70,9 @@ This is capability-based leadership, not wishful roadmapping.
 
 ## Alignment guardrails
 
-- Don't delegate capability mapping to consultants — it’s the CTO’s job to perceive what's possible and what’s at risk.
+- Don't delegate capability mapping to consultants -- it’s the CTO’s job to perceive what's possible and what’s at risk.
 - Never commit to a strategy before validating the necessary capabilities exist or can be developed within constraints.
-* Avoid performance theater — not all capability increases are visible in metrics, especially in the short term.
+* Avoid performance theater -- not all capability increases are visible in metrics, especially in the short term.
 
 ---
 
@@ -92,4 +92,4 @@ Each article contributed to framing CTO strategy as an emergent pattern grounded
 
 ## Closing note
 
-You don’t "choose" a strategy. You **discover** what’s strategically viable based on your **capability map**. Every effective CTO eventually learns this — or burns out trying to deliver the impossible.
+You don’t "choose" a strategy. You **discover** what’s strategically viable based on your **capability map**. Every effective CTO eventually learns this -- or burns out trying to deliver the impossible.

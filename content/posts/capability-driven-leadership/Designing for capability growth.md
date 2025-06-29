@@ -1,7 +1,7 @@
 ---
 date: 2025-06-05
 title: Designing for capability growth
-summary: How to embed growth loops, feedback, and leverage points into system architecture
+description: How to embed growth loops, feedback, and leverage points into system architecture
 ---
 
 **Capability growth** doesn’t happen by chance. It’s not the result of hiring smarter people or buying better tools.

@@ -4,7 +4,7 @@ title: 'Cognitive resilience in incident response'
 ---
 
 ## Why it matters
-During incidents, systems degrade — but so do human minds.  
+During incidents, systems degrade -- but so do human minds.  
 Stress, fatigue, context loss, and cognitive overload can turn a minor failure into a catastrophe.  
 Building **cognitive resilience** into incident response practices is as vital as technical resilience.
 
@@ -12,7 +12,7 @@ Building **cognitive resilience** into incident response practices is as vital a
 
 ## Core idea
 Cognitive resilience is the system’s and team's ability to maintain **clarity, adaptability, and decision quality** under escalating stress and uncertainty.  
-It is not about being perfect — it's about structuring incident response to *support human limitations*, not fight them.
+It is not about being perfect -- it's about structuring incident response to *support human limitations*, not fight them.
 
 ---
 
@@ -23,7 +23,7 @@ It is not about being perfect — it's about structuring incident response to *s
   - Build **cognitive load maps** during large incidents to track stress points.
 
 - **Cultural Supports:**
-  - Normalize "declare overload" signals — anyone can call a cognitive reset without stigma.
+  - Normalize "declare overload" signals -- anyone can call a cognitive reset without stigma.
   - Designate *shadow observers* whose sole job is to detect cognitive degradation.
   - Encourage post-incident reflections focused not just on system failures, but also on cognitive strain points.
 
@@ -45,7 +45,7 @@ It is not about being perfect — it's about structuring incident response to *s
 
 ## Reasoning trail
 - Informed by **Human Factors Engineering** and **Resilience Engineering**.
-- Connected to **Meta-Resilience Models** — adapting not just system state, but also mental states.
+- Connected to **Meta-Resilience Models** -- adapting not just system state, but also mental states.
 - Influenced by **Chaos Engineering** insights into controlled degradation.
 
 **Connections:**

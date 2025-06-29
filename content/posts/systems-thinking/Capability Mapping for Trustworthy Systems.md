@@ -4,7 +4,7 @@ title: 'Capability mapping for trustworthy systems'
 ---
 
 You can’t engineer trust with wishful thinking.  
-You need **capabilities** — real, observable, improvable abilities.
+You need **capabilities** -- real, observable, improvable abilities.
 
 Trustworthiness emerges when system capabilities are intentional, mapped, and grown.
 

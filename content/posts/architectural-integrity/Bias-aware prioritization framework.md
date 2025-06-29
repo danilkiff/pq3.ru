@@ -1,7 +1,7 @@
 ---
 date: 2017-06-01
 title: Bias-aware prioritization framework
-summary: Prioritization is often biased. Use bias checks, data integrity scoring, and time-delay to avoid noisy inputs and false signals in product decision-making.
+description: Prioritization is often biased. Use bias checks, data integrity scoring, and time-delay to avoid noisy inputs and false signals in product decision-making.
 categories:
   - Prioritization
 tags:
@@ -19,20 +19,20 @@ tags:
 
 Product teams often believe they’re making data-driven decisions. But most prioritization is shaped more by **bias** than by logic.
 
-This article explores how to design a prioritization model that accounts for distortions in feedback, perception, **and evidence** — particularly in R&D or high-uncertainty environments.
+This article explores how to design a prioritization model that accounts for distortions in feedback, perception, **and evidence** -- particularly in R&D or high-uncertainty environments.
 
 ---
 
 ## Why bias matters
 
-You can have the best frameworks — RICE, MoSCoW, Kano — but if the inputs are polluted, the output is still garbage.
+You can have the best frameworks -- RICE, MoSCoW, Kano -- but if the inputs are polluted, the output is still garbage.
 
 Classic case:
 
 > --“Many users complain about this”  
 > -- But who’s “many”? How representative is the sample? How often do silent users struggle?
 
-When we treat noisy inputs as reliable signals, we optimize the wrong things — and often build the wrong systems.
+When we treat noisy inputs as reliable signals, we optimize the wrong things -- and often build the wrong systems.
 
 ---
 
@@ -42,7 +42,7 @@ When we treat noisy inputs as reliable signals, we optimize the wrong things —
 Overweighting recent complaints or loud voices.
 
 **Social desirability.**
-Users (or stakeholders) give answers they think are acceptable — not what they really need.
+Users (or stakeholders) give answers they think are acceptable -- not what they really need.
 
 **Confirmation bias.**
 Teams selectively highlight data that supports the roadmap already in flight.
@@ -124,4 +124,4 @@ Grew out of frustration with request-driven prioritization lacking validation (s
 
 ---
 
-Don’t just prioritize what’s visible. Prioritize what’s **real** — even if it’s quiet.
+Don’t just prioritize what’s visible. Prioritize what’s **real** -- even if it’s quiet.

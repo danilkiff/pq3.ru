@@ -9,7 +9,7 @@ tags: [collective-intelligence, reasoning, systems-thinking, CTO-growth]
 ## Context
 
 In the early stages of engineering growth, most reasoning happens inside a few heads.  
-This works — until it doesn’t.
+This works -- until it doesn’t.
 
 As systems become more complex, **solo reasoning** becomes a bottleneck.  
 Scaling code without scaling reasoning **builds technical debt not just in software, but in thought itself**.
@@ -38,7 +38,7 @@ Scaling engineering maturity means transitioning from individual reasoning to **
 | Implicit decision criteria              | Explicit decision criteria               |
 | Heroic ownership                        | Structured, distributed ownership        |
 
-This transition is **non-trivial** — it must be consciously engineered.
+This transition is **non-trivial** -- it must be consciously engineered.
 
 ---
 
@@ -51,7 +51,7 @@ Develop a consistent vocabulary for decisions, risks, assumptions, and trade-off
 Create visible structures (architecture records, trade-off documents, learning notes) where reasoning can be traced.
 
 **Meta-Reasoning Processes**:  
-Regular retrospectives not just on delivery — but on *thinking patterns themselves*.
+Regular retrospectives not just on delivery -- but on *thinking patterns themselves*.
 
 > **Core insight**: if you can't inspect and iterate your thinking, you're scaling noise, not knowledge.
 
@@ -72,9 +72,9 @@ Ignoring these signs = slow collapse of engineering scalability.
 
 ## Closing reflection
 
-> Engineering isn't just building systems — it's building the minds that build systems.
+> Engineering isn't just building systems -- it's building the minds that build systems.
 
-To evolve from solo reasoning to collective intelligence is to accept that **systems outgrow individuals** — and that scaling thought is the first real act of scaling engineering.
+To evolve from solo reasoning to collective intelligence is to accept that **systems outgrow individuals** -- and that scaling thought is the first real act of scaling engineering.
 
 ---
 

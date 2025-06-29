@@ -1,7 +1,7 @@
 ---
 date: 2017-03-01
 title: "Decision record: when master system is no longer trustworthy"
-summary: When a master system becomes unreliable, treat its data as semi-trusted, enforce validation, and shift to explicit contract and risk management for all integrations.
+description: When a master system becomes unreliable, treat its data as semi-trusted, enforce validation, and shift to explicit contract and risk management for all integrations.
 categories:
     - Architecture
 tags:
@@ -39,7 +39,7 @@ Systems depending on master data operate under **trust axioms**:
 
 Once these axioms break, **all integrations** relying on them inherit invisible faults.
 
-This isn’t just an operational issue — it’s a strategic one.
+This isn’t just an operational issue -- it’s a strategic one.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 date: 2017-04-01
 title: R&D prioritization stack
-summary: R&D prioritization must weigh risk, learning, irreversibility, bias, and alignment—not just value—to avoid costly mistakes and guide high-stakes architectural decisions.
+description: R&D prioritization must weigh risk, learning, irreversibility, bias, and alignment--not just value--to avoid costly mistakes and guide high-stakes architectural decisions.
 categories:
   - Prioritization
 tags:
@@ -14,7 +14,7 @@ tags:
   - learning
 ---
 
-In R&D environments, prioritization is not just about value and effort — it’s about **risk**, **learning**, and **strategic irreversibility**.
+In R&D environments, prioritization is not just about value and effort -- it’s about **risk**, **learning**, and **strategic irreversibility**.
 
 This post outlines a multi-layered stack for evaluating what to build next when product certainty is low and architectural decisions are high-stakes.
 
@@ -65,7 +65,7 @@ This includes:
 - Stakeholder dependency loops
 - Feedback silos
 
-Track **non-obvious costs** — not just engineering effort.
+Track **non-obvious costs** -- not just engineering effort.
 
 **Bias-aware evaluation**
 
@@ -88,7 +88,7 @@ Draws from Capability Mapping and Portfolio Thinking. Every prioritized item sho
 - How would we know it's wrong?  
 - What architecture does it force us into?  
 - What do we have to give up?  
-- Who benefits — and who doesn’t?  
+- Who benefits -- and who doesn’t?  
 - What’s the opportunity cost?  
 - What **complexity debt** are we likely to incur?
 

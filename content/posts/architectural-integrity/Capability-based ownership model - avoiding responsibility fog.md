@@ -1,7 +1,7 @@
 ---
 date: 2017-08-01
 title: "Capability-based ownership model: avoiding responsibility fog"
-summary: Defining ownership by capabilities—not components—prevents responsibility fog, clarifies accountability, and ensures resilience and clear escalation in complex systems.
+description: Defining ownership by capabilities--not components--prevents responsibility fog, clarifies accountability, and ensures resilience and clear escalation in complex systems.
 categories:
     - Ownership
 tags:
@@ -15,10 +15,10 @@ tags:
 ---
 
 In complex systems, technical ownership cannot be defined purely by components.  
-It must be aligned with **capabilities** — the fundamental promises the system makes.
+It must be aligned with **capabilities** -- the fundamental promises the system makes.
 
 Otherwise, you don't just lose technical clarity.  
-You generate **responsibility fog** — the silent killer of scale.
+You generate **responsibility fog** -- the silent killer of scale.
 
 ---
 

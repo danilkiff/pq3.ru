@@ -19,7 +19,7 @@ title: 'Trustworthy systems are slow to rot, not slow to change'
 
 ## Why decay slowness is dangerous
 
-Decay often happens without visible symptoms — until it’s too late:
+Decay often happens without visible symptoms -- until it’s too late:
 
 - Minor exceptions accumulate.
 - Local optimizations misalign with global goals.
@@ -83,7 +83,7 @@ Born from analyzing failure patterns in legacy systems and postmortem studies ac
 - Systems with increasing "fix velocity" hiding trust erosion
 - Organizations blaming engineers for "slowness" instead of analyzing drift
 
-> **Core insight:** Trustworthy systems do not resist change — they respect the consequences of change.
+> **Core insight:** Trustworthy systems do not resist change -- they respect the consequences of change.
 
 **Related artifacts:**  
 - `Change Control Playbooks`  

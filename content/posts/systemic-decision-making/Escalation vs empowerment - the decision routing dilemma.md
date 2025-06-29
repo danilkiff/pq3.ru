@@ -5,8 +5,8 @@ title: 'Escalation vs empowerment: the decision routing dilemma'
 
 When a decision needs to be made, there are two basic routes:
 
-- **Escalate it upward** — send it to managers, leads, or committees
-- **Empower it downward** — let the team closest to the context decide
+- **Escalate it upward** -- send it to managers, leads, or committees
+- **Empower it downward** -- let the team closest to the context decide
 
 Both routes carry risks. Both routes carry costs.
 

@@ -5,7 +5,7 @@ title: 'Designing resilient organizational memory'
 
 ## **Why it matters**
 
-Most organizations do not fail because people forget —  
+Most organizations do not fail because people forget --  
 they fail because **systems** forget.  
 Critical knowledge is often trapped in personal memory, lost during transitions, or eroded by chaos.  
 Building **resilient organizational memory** ensures that expertise, reasoning, and lessons learned survive beyond individuals and incidents.
@@ -15,7 +15,7 @@ Building **resilient organizational memory** ensures that expertise, reasoning, 
 ## **Core idea**
 Organizational memory is not just documentation.  
 It is a **living, structured knowledge system** that persists through turnover, crises, and scaling.  
-Resilient memory connects facts, decisions, and reasoning trails — making learning cumulative instead of fragile.
+Resilient memory connects facts, decisions, and reasoning trails -- making learning cumulative instead of fragile.
 
 ---
 
@@ -23,10 +23,10 @@ Resilient memory connects facts, decisions, and reasoning trails — making lear
 - **During Normal Operations:**
   - Treat architecture decision records (ADR) as first-class citizens.
   - Embed *reasoning trails* into incident reports, feature development logs, and architectural changes.
-  - Use “narrative history” documents for major initiatives — why things were done, not just what.
+  - Use “narrative history” documents for major initiatives -- why things were done, not just what.
 
 - **During Crises or High Turnover:**
-  - Initiate *knowledge relay roles* — assign responsibility for capturing critical context in real-time.
+  - Initiate *knowledge relay roles* -- assign responsibility for capturing critical context in real-time.
   - Protect "tribal knowledge" through lightweight mentorship programs.
 
 - **When Scaling Systems:**
