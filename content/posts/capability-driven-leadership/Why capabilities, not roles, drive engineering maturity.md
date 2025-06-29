@@ -1,6 +1,7 @@
 ---
 date: 2025-06-01
-title: 'Why capabilities, not roles, drive engineering maturity'
+title: Why capabilities, not roles, drive engineering maturity
+summary: How capability-based thinking reframes growth, leadership, and stress response
 ---
 
 Engineering teams often organize themselves around roles — developer, architect, tester, ops. But roles are static abstractions. They simplify coordination, yes, but they also mask the real engine behind organizational growth: capabilities.

@@ -1,6 +1,7 @@
 ---
 date: 2025-06-03
-title: 'Engineering capability maps: structure, maturity, and risk'
+title: "Engineering capability maps: structure, maturity, and risk"
+summary: How to design and evaluate engineering capability maps, including maturity levels and compound risk overlays
 ---
 
 **Capability maps** are often misunderstood as static snapshots of what an organization has. In reality, they are living representations of what an engineering organization is capable of becoming. This article explores how to build capability maps that are structurally sound, maturity-aware, and risk-conscious.

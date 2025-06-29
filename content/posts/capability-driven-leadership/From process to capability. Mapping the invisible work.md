@@ -1,6 +1,7 @@
 ---
 date: 2025-06-02
-title: 'From process to capability: mapping the invisible work'
+title: "From process to capability: mapping the invisible work"
+summary: Most valuable work is invisible to process maps. Techniques for detecting, naming, and evolving latent capabilities
 ---
 
 Most systems thinking ends at the process map. But what if the map is not the territory? This article explores how to transcend visible workflows and make hidden organizational capabilities visible — by reframing *process* as a *signal*, not a structure.

@@ -13,15 +13,114 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/agi/Comparative report on reflective AGI architectures.md",
+                "file": "posts/capability-driven-leadership/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Comparative report on reflective AGI architectures"
+              "title": "index"
+            }
+          },
+          {
+            "id": "e197dadd7567430c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/capability-driven-leadership/index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          },
+          {
+            "id": "89e4cf1e443c2b2e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/capability-driven-leadership/index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          },
+          {
+            "id": "cf08935d8220534f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/capability-driven-leadership/index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          },
+          {
+            "id": "d4f47b907b042c30",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/capability-driven-leadership/index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          },
+          {
+            "id": "a2ddd7cbc6f0ef36",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/capability-driven-leadership/index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          },
+          {
+            "id": "5441530ed17ac17c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/capability-driven-leadership/index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          },
+          {
+            "id": "940ccf7fd6760e43",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/capability-driven-leadership/Capability drift. The hidden risk in long-lived systems.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Capability drift. The hidden risk in long-lived systems"
             }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -168,34 +267,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "60e42fe05261a1d4",
+  "active": "940ccf7fd6760e43",
   "lastOpenFiles": [
-    "About me.md",
-    "posts/agi/Comparative report on reflective AGI architectures.md",
+    "posts/index.md",
+    "posts/systems-thinking/index.md",
+    "posts/resilient-evolution/index.md",
+    "posts/collective-intelligence/index.md",
+    "posts/capability-driven-leadership/Designing for capability growth.md",
+    "posts/capability-driven-leadership/Engineering capability maps. Structure, maturity, and risk.md",
+    "posts/capability-driven-leadership/From process to capability. Mapping the invisible work.md",
+    "posts/capability-driven-leadership/Mental models are infrastructure.md",
+    "posts/capability-driven-leadership/Strategy through capabilities. CTO’s operating model.md",
+    "posts/capability-driven-leadership/Why capabilities, not roles, drive engineering maturity.md",
+    "posts/capability-driven-leadership/index.md",
+    "posts/capability-driven-leadership/Capability drift. The hidden risk in long-lived systems.md",
     "posts/Two ways to solve a problem - speed vs. incubation.md",
+    "index.md",
+    "posts/Cognitive Resilience in Incident Response.md",
+    "posts/Architectural drift - early signals and countermeasures.md",
+    "posts/systemic-decision-making/index.md",
+    "posts/architectural-integrity/index.md",
+    "posts/agi/index.md",
+    "posts/agi/Comparative report on reflective AGI architectures.md",
+    "books/index.md",
+    "About me.md",
     "posts/The human error budget - designing for fallibility.md",
     "posts/Relay role patterns for incident handoffs.md",
     "posts/Mapping the zone of proximal development for team growth.md",
     "posts/Designing resilient organizational memory.md",
-    "posts/Cognitive resilience in incident response.md",
-    "posts/Architectural drift - early signals and countermeasures.md",
-    "posts/capability-driven-leadership/From process to capability. Mapping the invisible work.md",
-    "posts/capability-driven-leadership/Engineering capability maps. Structure, maturity, and risk.md",
-    "posts/capability-driven-leadership/Designing for capability growth.md",
-    "posts/capability-driven-leadership/Capability drift. The hidden risk in long-lived systems.md",
-    "posts/systems-thinking/What makes a system trustworthy.md",
-    "posts/systems-thinking/Trust decay - how systems erode themselves.md",
-    "posts/systems-thinking/Organizational trustworthiness - beyond SLA and uptime.md",
-    "posts/systems-thinking/Engineering for predictable failure.md",
-    "posts/systems-thinking/Capability mapping for trustworthy systems.md",
-    "posts/systemic-decision-making/index.md",
-    "posts/systemic-decision-making/The fragile triangle - urgency, clarity, and consensus.md",
-    "posts/systemic-decision-making/Reasoning debt - the invisible risk behind system fragility.md",
-    "posts/systemic-decision-making/Escalation vs empowerment - the decision routing dilemma.md",
-    "posts/systemic-decision-making/Decision hygiene for technical leaders.md",
-    "posts/systemic-decision-making/Building resilience through decision feedback loops.md",
-    "posts/systemic-decision-making/Architectural compromise ledger.md",
-    "posts/systemic-decision-making/Alignment time. The hidden cost in product development.md",
     "posts/collective-intelligence",
     "posts/capability-driven-leadership",
     "posts/systems-thinking",

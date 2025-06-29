@@ -1,19 +1,20 @@
 ---
 date: 2025-06-04
-title: 'Capability drift: the hidden risk in long-lived systems'
+title: "Capability drift: the hidden risk in long-lived systems"
+summary: On systemic erosion, detection signals, and stewardship mindsets
 ---
 
 Long-lived systems don’t fail abruptly.
-They fail subtly — by **forgetting what they’re good at**.
+They fail subtly -- by **forgetting what they’re good at**.
 
-This post explores a concept I call **capability drift**: the silent erosion of systemic abilities over time, often unnoticed until the system can no longer do what it once could — or worse, what it still claims to.
+This post explores a concept I call **capability drift**: the silent erosion of systemic abilities over time, often unnoticed until the system can no longer do what it once could -- or worse, what it still claims to.
 
 ---
 
 ## What is capability drift?
 
 Capability drift is **not** a degradation of performance or a failure of code.
-It’s something deeper — a **loss of purpose-aligned fitness**. It happens when:
+It’s something deeper -- a **loss of purpose-aligned fitness**. It happens when:
 
 * A system becomes overfitted to past patterns of use
 * Internal interfaces evolve faster than external guarantees
@@ -28,7 +29,7 @@ The form remains, but the function fades.
 
 There’s no single trigger. Drift is **emergent**.
 
-* A core team leaves — replaced by maintenance hands unfamiliar with the design intent.
+* A core team leaves -- replaced by maintenance hands unfamiliar with the design intent.
 * A config flag disables a capability "temporarily", but no one turns it back on.
 * Integration points grow brittle, but get patched instead of restructured.
 * Budget is cut for parts of the system that "just work", so they quietly rot.
@@ -42,11 +43,11 @@ But over time, the **gap between expected capability and actual ability** widens
 
 Why?
 
-Because the system often still functions — **but not as it should**.
+Because the system often still functions -- **but not as it should**.
 
-* The API still responds — but with growing latency.
-* The dashboard loads — but the metrics are skewed.
-* The job runs — but edge cases are silently dropped.
+* The API still responds -- but with growing latency.
+* The dashboard loads -- but the metrics are skewed.
+* The job runs -- but edge cases are silently dropped.
 
 These aren’t bugs. They’re symptoms of **capability rot**:
 The system works, but **it can no longer be trusted**.
@@ -55,9 +56,9 @@ The system works, but **it can no longer be trusted**.
 
 ## Organizational signals of drift
 
-Capability drift doesn’t just affect systems — it affects **teams** and **mindsets**:
+Capability drift doesn’t just affect systems -- it affects **teams** and **mindsets**:
 
-* "We used to be able to deploy daily — what happened?"
+* "We used to be able to deploy daily -- what happened?"
 * "I think the logging pipeline still works… but no one touches it."
 * "This used to be our competitive edge, now we avoid touching it."
 
@@ -90,7 +91,7 @@ Create automated checks that evaluate **desired behaviors**, not just technical 
 
 **Ownership-as-Stewardship**
 
-Teams don’t "own" systems — they **steward** their integrity.
+Teams don’t "own" systems -- they **steward** their integrity.
 Ownership without memory is drift on a schedule.
 
 ---
@@ -103,17 +104,15 @@ The concept scales. Organizations can drift too:
 * A team that pioneered observability starts reacting to alerts manually.
 * A leadership group once focused on enabling excellence now runs reports.
 
-What happens to long-lived systems also happens to long-lived orgs —
-**if they stop checking what they’re still capable of**.
+What happens to long-lived systems also happens to long-lived orgs -- **if they stop checking what they’re still capable of**.
 
 ---
 
 ## Final thought
 
-Capability drift is slow, silent, and survivable — until it’s not.
-That’s what makes it dangerous. To prevent it, you need **awareness** not of code health, but of **systemic integrity**.
+Capability drift is slow, silent, and survivable -- until it’s not. That’s what makes it dangerous. To prevent it, you need **awareness** not of code health, but of **systemic integrity**.
 
-If your system’s purpose has stayed the same, but its abilities have silently eroded —
+If your system’s purpose has stayed the same, but its abilities have silently eroded --
 you haven’t just lost capabilities. You’ve lost **alignment**.
 
 And alignment, once broken, doesn’t fix itself.
@@ -122,9 +121,7 @@ And alignment, once broken, doesn’t fix itself.
 
 ## Reasoning trail
 
-* *Resilience ≠ Availability*
-* *Architectural Integrity Manifesto*
-* *Trustworthy Systems Are Slow to Rot, Not Slow to Change*
-* *R\&D Depth Paradox*
-* *Organizational Blind Spot: No Hypothesis Culture*
+* [[Architectural integrity manifesto]]
+* [[Trustworthy systems are slow to rot, not slow to change]]
+* [[Organizational blind spot - no hypothesis culture]]
 

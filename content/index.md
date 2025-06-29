@@ -41,12 +41,12 @@ Everything here is:
 
 ## What’s here — and what’s not
 
-| You’ll find                                   |  You won’t find                         | 
-|-----------------------------------------------|-----------------------------------------|
-| Architectural trade-offs                      |  Personal updates                       |
-| Cultural anti-patterns                        |  Productivity porn                      |
-| R&D process diagnostics                       |  "Top 10" lists                         |
-| Meta-practices for thinking, scaling, leading |  Career advice tweets turned into blogs |
+| You’ll find                                   | **You won’t find**                     |
+| --------------------------------------------- | -------------------------------------- |
+| Architectural trade-offs                      | Personal updates                       |
+| Cultural anti-patterns                        | Productivity porn                      |
+| R&D process diagnostics                       | "Top 10" lists                         |
+| Meta-practices for thinking, scaling, leading | Career advice tweets turned into blogs |
 
 ---
 

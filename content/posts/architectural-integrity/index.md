@@ -1,5 +1,5 @@
 ---
-title: 'Architectural integrity'
+title: "Architectural integrity"
 ---
 
 **Architectural Integrity** is not a slogan or compliance checklist. It’s a system-level discipline: maintaining clarity, traceability, and agency as organizations and technology scale, fragment, and evolve.

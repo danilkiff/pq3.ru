@@ -1,6 +1,7 @@
 ---
-title: 'Mental models are infrastructure'
+title: Mental models are infrastructure
 date: 2025-05-30
+summary: On modeling, versioning, and aligning the cognitive layer of technical systems
 ---
 
 > "[The map is not the territory](https://en.wikipedia.org/wiki/Map%E2%80%93territory_relation)

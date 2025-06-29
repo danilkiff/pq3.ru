@@ -1,6 +1,7 @@
 ---
 date: 2025-06-03
-title: 'Strategy through capabilities: CTO’s operating model'
+title: "Strategy through capabilities: CTO’s operating model"
+summary: A framework for reasoning from system potential to strategic execution
 ---
 
 
