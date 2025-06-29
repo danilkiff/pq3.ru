@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://pq3.ru/sitemap.xml
