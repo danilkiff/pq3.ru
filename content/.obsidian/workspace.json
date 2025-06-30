@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "essays/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -185,6 +185,7 @@
   },
   "active": "ce0f1c877c7c5390",
   "lastOpenFiles": [
+    "index.md",
     "essays/architectural-integrity/index.md",
     "essays/organizational-memory/index.md",
     "essays/architectural-integrity/Trustworthy systems thinking - building for inevitable drift.md",
@@ -218,7 +219,6 @@
     "essays/cross-domain/index.md",
     "essays/agi/index.md",
     "notes/index.md",
-    "essays/index.md",
     "longreads",
     "tldr/attachments/Pasted image 20250630185809.png",
     "tldr/attachments",
