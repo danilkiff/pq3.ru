@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "essays/index.md",
+                "file": "tldr/Mind in Society.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Mind in Society"
             }
           }
         ],
@@ -93,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 325.5
+    "width": 481.5
   },
   "right": {
     "id": "0f75354f8908f50a",
@@ -185,6 +185,14 @@
   },
   "active": "ce0f1c877c7c5390",
   "lastOpenFiles": [
+    "tldr/attachments/Pasted image 20250630232339.png",
+    "tldr/Range.md",
+    "tldr/On Organizational Learning.md",
+    "tldr/attachments/Pasted image 20250630230947.png",
+    "tldr/Team of Teams.md",
+    "essays/index.md",
+    "tldr/attachments/copy.png",
+    "tldr/attachments/Pasted image 20250630194005 copy.png",
     "index.md",
     "essays/architectural-integrity/index.md",
     "essays/organizational-memory/index.md",
@@ -202,10 +210,7 @@
     "tldr/The Fifth Discipline.md",
     "tldr/The Field Guide to Understanding Human Error.md",
     "tldr/attachments/Pasted image 20250630194109.png",
-    "tldr/Team of Teams.md",
     "tldr/attachments/Pasted image 20250630194005.png",
-    "tldr/Range.md",
-    "tldr/On Organizational Learning.md",
     "tldr/Mind in Society.md",
     "tldr/attachments/Pasted image 20250630193923.png",
     "tldr/attachments/Pasted image 20250630193548.png",
@@ -213,16 +218,11 @@
     "tldr/attachments/Pasted image 20250630193238.png",
     "tldr/How Organizations Learn.md",
     "tldr/attachments/Pasted image 20250630192502.png",
-    "tldr/attachments/Pasted image 20250630192208.png",
     "essays/resilient-evolution/index.md",
     "notes/Two ways to solve a problem - speed vs. incubation.md",
     "essays/cross-domain/index.md",
-    "essays/agi/index.md",
-    "notes/index.md",
     "longreads",
-    "tldr/attachments/Pasted image 20250630185809.png",
     "tldr/attachments",
-    "Pasted image 20250630185718.png",
     "essays/systems-under-drift",
     "essays/resilient-evolution",
     "essays/organizational-memory",
