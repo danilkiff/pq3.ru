@@ -91,10 +91,10 @@ Teams use these metrics for regular audits and reviews. Trends and anomalies hig
 
 # Cross-links: how ownership interacts with other risks
 
-- Alignment Drift (размытое владение  --  основа для дрейфа фич и ответственности).
-- Trustworthy Evolution (ownership обязан эволюционировать вместе с системой).
-- Resilience Loops (без владения capability невозможно построить замкнутую обратную связь).
-- Biased Prioritization (без ownership приоритеты навязываются внешне, а не исходя из системных нужд).
+- Alignment Drift.
+- Trustworthy Evolution.
+- Resilience Loops.
+- Biased Prioritization.
 
 Ownership connects directly to other critical risks in engineering and operations.
 

@@ -123,10 +123,3 @@ A system is only as resilient as its feedback loops are fast and accurate. Quick
 Engineering for resilience means building, testing, and improving feedback loops as part of the system -- not just reacting to issues after they happen. Strong loops turn every problem into a chance to adapt and get better.
 
 Without well-managed feedback loops, both teams and systems lose the ability to renew themselves and grow. True resilience is an engineered property, created by making feedback a first-class part of every process.
-
-    
-
----
-
-NB:  
-Стиль  --  конкретные протоколы, инженерные практики, операционные метрики и примеры внедрения. Главный акцент: устойчивость  --  это не “состояние”, а свойство системы с правильно спроектированными, видимыми и действующими петлями обратной связи.
